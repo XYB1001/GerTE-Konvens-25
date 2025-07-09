@@ -1,7 +1,7 @@
 essay_id	sent_id	sent_text	sent_label	essay_topic_id
-0	0	Wie der Autor feststellt, könnte die Nutzung des Internets im Unterricht der Weg in die Zukunft sein, aber sind wir im Moment wirklich bereit für einen solchen Weg?	intro_topic	1
-0	1	Haben die Lehrer genug Wissen über dieses Werkzeug und seine Macht?	intro_topic	1
-0	2	Und kann man den Schülern ein derart mächtiges Werkzeug anvertrauen, ohne dass sie abgelenkt werden?	intro_topic	1
+0	0	Wie der Autor feststellt, könnte die Nutzung des Internets im Unterricht der Weg in die Zukunft sein, aber sind wir im Moment wirklich bereit für einen solchen Weg?	info_intro	1
+0	1	Haben die Lehrer genug Wissen über dieses Werkzeug und seine Macht?	info_intro	1
+0	2	Und kann man den Schülern ein derart mächtiges Werkzeug anvertrauen, ohne dass sie abgelenkt werden?	info_intro	1
 0	3	Der Autor gibt an, dass das Internet in Fächern wie Geschichte und Philosophie hilfreich sein können.	article_pro	1
 0	4	Doch kann es auch in naturwissenschaftlichen Fächern wie Mathematik, Chemie und Physik verwendet werden?	own	1
 0	5	Und Welche Vorteile hätte man dadurch?	own	1
@@ -15,10 +15,10 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 0	13	<PB> Schlussendlich kann ich jedeoch auch sagen, dass wir uns langfristig nicht davor drücken können, ein so mächtiges Tool wie das Internet in unsere Schulen zu integrieren.	own	1
 0	14	Nur müssen wir Zeit für den Übergang aufbringen, um die Nutzung des Internets im Unterricht zu regulieren.	own	1
 0	15	Sie muss so gestaltet werden, dass sie Lehrern und Schülern hilft und zu besseren Lernergebnissen führt, anders als der negative Trend, den wir ansonsten in unseren heutigen Schulen und Universitäten sehen.	own	1
-1	0	Der Artikel “Twitter-Unterricht”, geschrieben von Tomasz Kurianowicz und am 22.06.2011 erstmals in der Zeit erschienen ist, beschäftigt sich mit der Frage ob soziale Medien im Unterrichtsalltag integriert werden sollen.	info_article_topic	1
-1	1	Dabei werden einige positive Erfahrungen von Lehrern als auch bedenken gegenüber der Einführung vorgestellt.	intro_topic	1
-1	2	Früher waren Handys strikt verboten und wurden oftmals auch eingesammelt.	intro_topic	1
-1	3	Allerdings zeigt sich langsam ein Umdenken im Umgang mit Technologie im Klassenzimmer.	intro_topic	1
+1	0	Der Artikel “Twitter-Unterricht”, geschrieben von Tomasz Kurianowicz und am 22.06.2011 erstmals in der Zeit erschienen ist, beschäftigt sich mit der Frage ob soziale Medien im Unterrichtsalltag integriert werden sollen.	info_intro	1
+1	1	Dabei werden einige positive Erfahrungen von Lehrern als auch bedenken gegenüber der Einführung vorgestellt.	info_intro	1
+1	2	Früher waren Handys strikt verboten und wurden oftmals auch eingesammelt.	info_intro	1
+1	3	Allerdings zeigt sich langsam ein Umdenken im Umgang mit Technologie im Klassenzimmer.	info_intro	1
 1	4	So setzt Daniel Eisenmenger soziale Medien, wie zum Beispiel Twitter, Google etc., aktiv im Unterricht ein.	article_pro	1
 1	5	Speziell Twitter wird im Artikel hervorgehoben, welches durch sein Zeichenlimit von 140 Zeichen, besonders unter den Sozialen Medien ist.	article_pro	1
 1	6	Mithilfe von Sozialen Medien sollen primär stillere Schüler abgeholt werden, um aktiv am Unterricht teilzunehmen.	article_pro	1
@@ -30,10 +30,10 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 1	12	Ich stimme der Aussage, dass die Einbindung von Moderner Technologie stattfinden muss.	own	1
 1	13	Es ist nur eine Frage der Zeit bis man dahinterkommt, dass die Vorteile des Internets die Gefahren einer Ablenkung bei weitem übersteigen.	own	1
 1	14	Wie und in welcher Form das Stattfinden wird, ist jedoch meiner Meinung nach noch nicht geklärt.	own	1
-2	0	"Der Zeitungsartikel ""Twitter-Unterricht"" von Tomasz Kurianowicz erschien am 22."	info_article	1
-2	1	"Juni 2011 in der ""Zeit"" online."	info_article	1
-2	2	Der Autor behandelt die Nutzung der Sozialen Medien während der Unterrichtstunden.	intro_topic	1
-2	3	Er denkt, dass es eine gute Idee ist.	intro_topic	1
+2	0	"Der Zeitungsartikel ""Twitter-Unterricht"" von Tomasz Kurianowicz erschien am 22."	info_intro	1
+2	1	"Juni 2011 in der ""Zeit"" online."	info_intro	1
+2	2	Der Autor behandelt die Nutzung der Sozialen Medien während der Unterrichtstunden.	info_intro	1
+2	3	Er denkt, dass es eine gute Idee ist.	info_intro	1
 2	4	<PB> Der Autor weist, dass viele Lehrer Soziale Medien nutzen (zum Beispiel GoogleMaps, YouTube und Twitter).	article_pro	1
 2	5	Wenn der Lehrer über das Gedicht referiert, können die Schüler kommentieren und über das Thema diskutieren.	article_pro	1
 2	6	Der Autor denkt, dass es ist ein wichtig Trend und sollen die Lehrer mit Soziale Medien arbeiten.	article_pro	1
@@ -53,9 +53,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 2	20	Sie machen die Unterricht mehr interresant und interaktiv, was macht lernen einfacher.	own	1
 2	21	Sie ermöglichen es auch vielen schüchternen Schülern, sich an der Diskussion zu beteiligen.	article_pro	1
 2	22	Es gibt viele Hindernisse in dass Prozes, aber die geeignet Lehrer könnten es helfen.	own	1
-3	0	"""Twitter-Unterricht"" von Tomasz Kurianowicz erschien in der online-Ausgeibe der Zeitschrift Zeit am 22."	info_article	1
-3	1	Juni 2011 und.	info_article	1
-3	2	Der Artikel behandelt das Thema der Nutzung von digitalen Medien wie Twitter und Co. im Unterricht, was auch Erziehungswissenschaftler vordern.	intro_topic	1
+3	0	"""Twitter-Unterricht"" von Tomasz Kurianowicz erschien in der online-Ausgeibe der Zeitschrift Zeit am 22."	info_intro	1
+3	1	Juni 2011 und.	info_intro	1
+3	2	Der Artikel behandelt das Thema der Nutzung von digitalen Medien wie Twitter und Co. im Unterricht, was auch Erziehungswissenschaftler vordern.	info_intro	1
 3	3	<PB> Der Autor weist darauf hin, dass  Soziale Medien im Unterricht durchaus ein Trend sind, was daraus folgt, dass immer mehr jüngere Menschen als Lehrer anfangen zu arbeiten und für sie ist das Internet ein Teil ihres Lebens.	article_pro	1
 3	4	Medien im Unterricht wird mit der Erfindung des Buchdrucks gleichgestellt: auch letzteres wurde mit Laufe der Zeit akzeptiert.	article_pro	1
 3	5	<PB> Aus der Sicht des Autors können so auch zurückhaltende Schüler animiert werden, sie können im Schatten eine Alias am Unterricht teilnehmen, ohne sich schämen zu müssen, falls sie etwas falsches sagen.	article_pro	1
@@ -66,19 +66,19 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 3	10	Für alles geht, man sollte einen Mittelweg finden.	own	1
 3	11	Ein gezieltes Einsetzen von YouTube-Videos, interaktieve Landkarten oder Modelle sind sehr wichtig, denn wenn man etwas sieht, kann man den Mechanismus besser verstehen und sich aneignen.	own	1
 3	12	Problematisch wird es, wenn der Unterricht nur aus Spaß-Acts besteht, und das tatsächliche Wissen nicht vermittelt wird.	own	1
-4	0	"In dem Zeitungsartikel ""Twitter-Unterricht"" vom 22."	info_article	1
-4	1	Juni 2011 schreibt der Autor Tomasz Kurianowicz über die Einbindung von digitalen Medien in den Schulunterricht.	info_article_topic	1
-4	2	"<PB> Der Autor beschreibt am Beispiel der Social Media Plattform ""Twitter"", welche neuen Möglichkeiten für Lehrer und Schüler entstehen können, wenn man es schafft diese neuen Technologien erfolgreich in den Unterricht zu integrieren."	intro_topic	1
+4	0	"In dem Zeitungsartikel ""Twitter-Unterricht"" vom 22."	info_intro	1
+4	1	Juni 2011 schreibt der Autor Tomasz Kurianowicz über die Einbindung von digitalen Medien in den Schulunterricht.	info_intro	1
+4	2	"<PB> Der Autor beschreibt am Beispiel der Social Media Plattform ""Twitter"", welche neuen Möglichkeiten für Lehrer und Schüler entstehen können, wenn man es schafft diese neuen Technologien erfolgreich in den Unterricht zu integrieren."	info_intro	1
 4	3	<PB> So haben normalerweise schüchterne Schüler eine einfachere Möglichkeit sich einzubringen und Diskussionen zu führen, da sich diese ohne sich zu melden und vor der ganzen Klasse antworten zu müssen einfach eine Textnachricht verfassen können.	article_pro	1
 4	4	Auch wird der Unterricht für die Schüler interessanter und abwechslungsreicher, da sich durch die Einbindung der von ihnen bekannten Medien komplett neue Möglichkeiten ergeben den Unterricht zu gestalten.	article_pro	1
 4	5	Der Autor nennt hier ein Beispiel, bei dem Schüler verschiedene Parteien im Kuba Konflikt einnahmen und so eine lebhafte Diskussion führten.	article_pro	1
 4	6	Der Autor weisst zudem Kritik zurück, dass Schüler durch den vermehrten Einsatz von technischen Geräten abgelenkt werden könnten, indem er feststellt das Ablenkungen auch durch klassische Möglichkeiten wie Bücher oder Banknachbarn entstehen können.	article_pro	1
 4	7	<PB>  Ich teile die Sicht des Autors, dass digitale Medien eine große Möglichkeit für Schulen bieten, den Unttericht besser zu gestalten.	own	1
 4	8	Allerdings denke ich das viele Lehrer momentan noch nicht über die Kompetenzen verfügen diese so effektiv einzubinden wie es im Text beschrieben wird, daher wird es meiner Meinung nach noch dauern bis der digital unterstützte Unterricht wirklich flächendeckend umgesetzt werden kann.	own	1
-5	0	"Der Zeitungsartikel ""Twitter-Unterricht"" von  Tomasz Kurianowicz erschien am 22.06.2011 in ZEITONLINE."	info_article	1
-5	1	Der Autor befasst sich mit neuen Methoden zum Lernen und Durchführen von Klassen durch Lehrer.	intro_topic	1
-5	2	Diese Methoden stehen im Zusammenhang mit der aktuellen rasanten technologischen Entwicklung.	intro_topic	1
-5	3	Außerdem werden die Rolle der sozialen Medien im Unterrichtsprozess und zukünftige Herausforderungen für den Lehrplan in den Schulen sowie die Änderung des Ansatzes der Lehrer für neue Technologien erörtert.	intro_topic	1
+5	0	"Der Zeitungsartikel ""Twitter-Unterricht"" von  Tomasz Kurianowicz erschien am 22.06.2011 in ZEITONLINE."	info_intro	1
+5	1	Der Autor befasst sich mit neuen Methoden zum Lernen und Durchführen von Klassen durch Lehrer.	info_intro	1
+5	2	Diese Methoden stehen im Zusammenhang mit der aktuellen rasanten technologischen Entwicklung.	info_intro	1
+5	3	Außerdem werden die Rolle der sozialen Medien im Unterrichtsprozess und zukünftige Herausforderungen für den Lehrplan in den Schulen sowie die Änderung des Ansatzes der Lehrer für neue Technologien erörtert.	info_intro	1
 5	4	Der Autor zitiert auch neue Daten und Forschungsergebnisse, die zeigen, dass die Nutzung neuer Medien und sozialer Medien die Qualität des Unterrichts und des Unterrichts positiv beeinflussen kann.	article_pro	1
 5	5	Er führt auch Beispiele von Lehrern an, die bereits ähnliche Methoden in ihren Klassen anwenden.	article_pro	1
 5	6	Es scheint, dass der Autor nicht gegen die beschriebenen Methoden zur Verwendung neuer Technologien ist.	other	1
@@ -90,10 +90,10 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 5	12	Die Welt entwickelt sich und verändert sich, daher müssen Schule und Lehrplan nachziehen.	own	1
 5	13	Die Diversifizierung des Unterrichts durch den Einsatz neuer, interessanter und häufig verwendeter Technologien ist eine wichtige und notwendige Phase in der Entwicklung und Entwicklung einer modernen Schule.	own	1
 5	14	Interessante Kurse, die von Lehrern mit Leidenschaft und Wissen auf dem Gebiet der neuen Technologien durchgeführt werden, werden sich sicherlich verteidigen, und die Schüler werden ihre Telefone und Computer während des Unterrichts nicht anders als zuvor geplant verwenden.	own	1
-6	0	"Mir liegt der Artikel ""Twitter Unterricht"" von  Tomasz Kurianowicz vom 22.06.2011 vor."	info_article	1
-6	1	In diesem Artikel diskutiert der Autor, ob eine regelmäßige Nutzung von Medien, wie beispielsweise Twitter, in den alltäglichen Unterricht in der Schule eingeführt werden sollte.	intro_topic	1
-6	2	<PB> Der Autor beschreibt, dass die Einführung von Medien in den Schulalltag einige Herausforderungen mit sich bringen kann, aber auch viele Chancen.	intro_topic	1
-6	3	Er vertritt die Position eines Befürworteters, der viel Potential in dieser neuen Form des Lehrens sieht.	intro_topic	1
+6	0	"Mir liegt der Artikel ""Twitter Unterricht"" von  Tomasz Kurianowicz vom 22.06.2011 vor."	info_intro	1
+6	1	In diesem Artikel diskutiert der Autor, ob eine regelmäßige Nutzung von Medien, wie beispielsweise Twitter, in den alltäglichen Unterricht in der Schule eingeführt werden sollte.	info_intro	1
+6	2	<PB> Der Autor beschreibt, dass die Einführung von Medien in den Schulalltag einige Herausforderungen mit sich bringen kann, aber auch viele Chancen.	info_intro	1
+6	3	Er vertritt die Position eines Befürworteters, der viel Potential in dieser neuen Form des Lehrens sieht.	info_intro	1
 6	4	<PB> In dem Artikel erläutert der Autor wie der Einsatz von z.B.	article_pro	1
 6	5	Twitter schüchterne Schüler dazu motivieren kann sich aktiv am Unterricht zu beteiligen.	article_pro	1
 6	6	Für Schüler die sich nicht gerne melden und vor der Klasse sprechen ist dies eine Chance trotzdem ihr Wissen unter Beweis zu stellen.	article_pro	1
@@ -120,10 +120,10 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 7	8	Digitale Klassen tragen nur dann zur Diskussion bei, wenn der Lehrer die auf dem Bildschirm angezeigten Kommentare in seine Klassen integriert.	other	1
 7	9	<PB> Es gibt immer große Skepsis in Bezug auf die Einführung neuer und anderer Methoden,	article_con	1
 7	10	insbesondere wenn es darum geht, etwas, das hauptsächlich für die Freizeit verwendet wird, in etwas zu verwandeln, das für die Arbeitsbedingungen und die schulischen Leistungen verwendet werden kann.	own	1
-8	0	Soziale Medien eröffnen eine Welt voller Möglichkeiten  für Lehrer und Schüler.	intro_topic	1
-8	1	Junge Generationen nutzen	intro_topic	1
-8	2	Social Media bereits, um zu lernen und zu interagieren.	intro_topic	1
-8	3	Deswegen könnte es ein sehr interessantes Werkzeug für Lehrer sein.	intro_topic	1
+8	0	Soziale Medien eröffnen eine Welt voller Möglichkeiten  für Lehrer und Schüler.	info_intro	1
+8	1	Junge Generationen nutzen	info_intro	1
+8	2	Social Media bereits, um zu lernen und zu interagieren.	info_intro	1
+8	3	Deswegen könnte es ein sehr interessantes Werkzeug für Lehrer sein.	info_intro	1
 8	4	Man kann sich leicht vorstellen, wie ein Geschichtslehrer soziale Medien im Unterricht nutzen könnte.	article_pro	1
 8	5	Zumal neue Lehrer auch wissen, diese soziale Medien zu benutzen, und die meisten von ihnen haben Ideen, wie sie in der Klasse implementiert werden können.	article_pro	1
 8	6	Die meisten Englischlehrer nutzen bereits Youtube für ihre Unterrichte.	own	1
@@ -140,8 +140,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 8	17	Es ist wichtig für Lehrer, neue Technologien im Unterricht zu benutzen.	own	1
 8	18	Es ist jedoch ein Werkzeug wie anderen.	own	1
 8	19	Man sollte immer darüber nachdenken, welches Werkzeug zu benutzen und warum.	own	1
-9	0	"Der Artikel "" Twitter-Unterricht"" von Tomasz Kurianowicz erschien in der ""Zeit"" (online) am 22. 06. 2011."	info_article	1
-9	1	Darin diskutiert der Autor eine neue Form des Unterrichts in Schulen unter Verwendung von sozialen Medien, einschließlich Twitter, und beweist, dass dies ein vielversprechendes neues Werkzeug für den Unterricht ist.	intro_topic	1
+9	0	"Der Artikel "" Twitter-Unterricht"" von Tomasz Kurianowicz erschien in der ""Zeit"" (online) am 22. 06. 2011."	info_intro	1
+9	1	Darin diskutiert der Autor eine neue Form des Unterrichts in Schulen unter Verwendung von sozialen Medien, einschließlich Twitter, und beweist, dass dies ein vielversprechendes neues Werkzeug für den Unterricht ist.	info_intro	1
 9	2	<PB> Anhand mehrerer Beispiele zeigt der Autor, dass diese Art des Unterrichts schüchterne Schüler in Diskussionen aktiviert und großartige Möglichkeiten bietet, z.B.	article_pro	1
 9	3	Geschichtsunterricht durchzuführen, der den Jugendlichen großen Spaß macht und dank dem das Lernen effektiver ist.	article_pro	1
 9	4	Es ist jedoch entscheidend, jede Meinung, die ein Schüler schreibt, als wichtig zu behandeln, um ihn zu ermutigen, seine eigenen Gedanken in nachfolgenden Aufgaben zu schreiben.	own	1
@@ -168,8 +168,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 10	14	In Zukunft wird die Wissenschaft völlig anders sein.	own	1
 10	15	Die Lehrer zeichnen den Unterricht in Form von Videos und Spielen auf, die Kommunikation erfolgt über soziale Medien und möglicherweise ist sogar das Gebäude der physischen Schule selbst überflüssig.	own	1
 10	16	Insgesamt bin ich positiv und offen für neue Lehrmethoden über das Internet und soziale Medien.	own	1
-11	0	"Der Zeitungsartikel ""Twitter-Unterricht"" von Tomasz Kurianowicz vom 22."	info_article	1
-11	1	"Juni 2011 in der ""Zeit-Online"" handelt von dem umstrittenen Einsatz von Twitter und anderen sozialen Medien  im Unterricht mit dem Zweck des Wissenserwerb."	info_article_topic	1
+11	0	"Der Zeitungsartikel ""Twitter-Unterricht"" von Tomasz Kurianowicz vom 22."	info_intro	1
+11	1	"Juni 2011 in der ""Zeit-Online"" handelt von dem umstrittenen Einsatz von Twitter und anderen sozialen Medien  im Unterricht mit dem Zweck des Wissenserwerb."	info_intro	1
 11	2	<PB> Der Autor greift die Tatsache auf, dass bereits in vielen Schulen dieses Experiment durchgeführt wurde und sich bewehrt hat.	article_pro	1
 11	3	Außerdem reift eine neue Generation an jungen Lehrern heran, die die sozialen Netzwerke als ganz natürlichen Teil ihres Lebens und Lernens ansehen und diese deshalb auch konstruktiv im Unterricht einsetzen werden.	article_pro	1
 11	4	<PB> Aus Sicht des Autors ist der Grund für eine positive Einstufung ist vor allem jener:	article_pro	1
@@ -184,10 +184,10 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 11	13	Durch den Einsatz diese Medien im Unterricht lernen sie andere Verwendungszwecke dieser kennen und können auf moderne Art und Weise lernen.	own	1
 11	14	Vor allem die Tatsache, dass die Welt zunehmend digitaler wird, gibt mir Anlass zur Vermutung dass die Kompetenz, in sozialen Netzwerken zu argumentieren und zu lernen, in Zukunft eine Schlüsselkompetenz sein wird.	own	1
 11	15	Die Angst vor der Ablenkung halte ich für unbegründet, da Ablenkung meiner Meinung nach nur stattfindet, wenn etwas verboten wird.	own	1
-12	0	"Der Autor des Zeitungsartikels ""Twitter-Unterricht"" ist Tomasz Kurianowicz."	info_article	1
-12	1	Er wurde am 22.	info_article	1
-12	2	"Juli 2011 in der ""Zeit Online"" veröffentlicht."	info_article	1
-12	3	Darin präsentiert der Autor die Hauptvorteile des Online-Unterrichts.	intro_topic	1
+12	0	"Der Autor des Zeitungsartikels ""Twitter-Unterricht"" ist Tomasz Kurianowicz."	info_intro	1
+12	1	Er wurde am 22.	info_intro	1
+12	2	"Juli 2011 in der ""Zeit Online"" veröffentlicht."	info_intro	1
+12	3	Darin präsentiert der Autor die Hauptvorteile des Online-Unterrichts.	info_intro	1
 12	4	<PB> Laut dem Autor begünstigt der Einsatz von Multimedia-Mitteln während des Unterrichts die Teilnahme der Schüler und macht sie vielfältiger und interessanter.	article_pro	1
 12	5	Mit Twitter können beispielsweise neue Diskussionsformen erstellt werden.	article_pro	1
 12	6	Oder auf andere Weise wie YouTube und Google Maps können die Lektionen interaktiver gestaltet werden.	article_pro	1
@@ -200,8 +200,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 12	13	Dennoch ist die Verwendung von Online-Tools für Lektionen eine Ressource, die genutzt werden muss, um den Unterricht ansprechender zu gestalten.	own	1
 12	14	Es ist noch ein langer Weg, um die Online-Tools in den Unterricht der meisten Schulen zu integrieren, aber ich bin zuversichtlich, dass wir diese Tools in den kommenden Jahren in allen Schulen verstärkt einsetzen können.	own	1
 12	15	Dank dieser Tools wird es möglich sein, den Unterricht interessanter zu gestalten, indem die Beteiligung der Schüler erhöht und das Lernen erleichtert wird.	own	1
-13	0	"Artikel ""Twitter-Unterricht"" von Tomasz Kurianowicz."	info_article	1
-13	1	Er befasst sich mit dem Thema Unterricht, der mit Hilfe des Internets durchgeführt wird und dieses zusammen mit sozialen Medien wie Twitter als Lernwerkzeug einsetzt.	intro_topic	1
+13	0	"Artikel ""Twitter-Unterricht"" von Tomasz Kurianowicz."	info_intro	1
+13	1	Er befasst sich mit dem Thema Unterricht, der mit Hilfe des Internets durchgeführt wird und dieses zusammen mit sozialen Medien wie Twitter als Lernwerkzeug einsetzt.	info_intro	1
 13	2	Er stellt die positiven Aspekte eines solchen Unterrichts vor, wie z.B. die Tatsache, dass dadurch auch Personen, die während des Unterrichts nicht sehr aktiv waren, in Diskussionen und Themen, die im Unterricht angesprochen wurden, eingebunden werden.	article_pro	1
 13	3	Schüchterne Menschen können ihre Schüchternheit auf eine angenehmere Art und Weise überwinden und in zwischenmenschlichen Beziehungen Fortschritte machen.	article_pro	1
 13	4	Durch die Diskussion können sich die Schüler die im Unterricht behandelten Themen besser merken, so dass das erworbene Wissen länger im Gedächtnis bleibt und nicht am Ende der Stunde verschwindet.	article_pro	1
@@ -209,10 +209,10 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 13	6	Meiner Meinung nach wäre das Konzept des Online-Unterrichts eine großartige Ergänzung zum regulären Unterricht, in dem die Schüler lernen, Wissen zu verschiedenen Themen erwerben und es dann in den Diskussionen, die zum Thema der Stunde geführt werden, überprüfen, dank derer sie mit dem Thema der Diskussion vertrauter werden, denn niemand möchte ein wertloses Argument vortragen.	own	1
 13	7	Dank der Diskussion werden die Informationen, die sie gelernt haben, einprägsamer sein.	own	1
 13	8	Infolgedessen werden sie in der Lage sein, bei verschiedenen Arten von Tests oder Arbeiten viel besser abzuschneiden	own	1
-14	0	Der Zeitungsartikel “Twitter-Unterricht” von Tomasz Kurianowicz erschien am 22.	info_article	1
-14	1	Juni 2011, in der Zeit online.	info_article	1
-14	2	Der Autor behandelt darin, dass Thema, ob soziale Netzwerke im Unterricht benutzt werden sollen.	intro_topic	1
-14	3	Er vertritt das Soziale Netzwerke werden in Zukunft immer öfter und effektiver im Unterricht genutzt werden und dass dies vor allem positive ist.	intro_topic	1
+14	0	Der Zeitungsartikel “Twitter-Unterricht” von Tomasz Kurianowicz erschien am 22.	info_intro	1
+14	1	Juni 2011, in der Zeit online.	info_intro	1
+14	2	Der Autor behandelt darin, dass Thema, ob soziale Netzwerke im Unterricht benutzt werden sollen.	info_intro	1
+14	3	Er vertritt das Soziale Netzwerke werden in Zukunft immer öfter und effektiver im Unterricht genutzt werden und dass dies vor allem positive ist.	info_intro	1
 14	4	Er nennt, um sein Argument zu bestätigen, dass es schon einige Beispiele dafür gibt, wie soziale Netzwerke für einen interessanten und abwechslungsreichen beitragen können, da diese ja so gemacht sind, um Kommunikation so einfach wie möglich zu machen.	article_pro	1
 14	5	<PB> Dies und dass die Schwelle zum Teilnehmen bei textbasierten Diskussionen niedriger ist, erlaubt es zurückhaltende Schüler, stärker in den Unterricht einzuziehen und textbasierte Diskussionen führen dazu, dass sich Schüler Informationen stärker einprägen.	article_pro	1
 14	6	Die Angst, dass es soziale Netzwerke zu Zerstreuung führen, ist nicht gerechtfertigt, da auch andere Medien dieses Potenzial haben und es auch nicht dazu geführt hat, diese Medien nicht zu benutzen.	article_pro	1
@@ -220,9 +220,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 14	8	<PB> Auch wenn ich das Argument Teilweise als gültig empfinde, denke ich, dass es doch schwierig ist, in sozialen Netzwerken zu kontrollieren, ob die Schüler wirklich ihre Aufmerksamkeit den Stoffen, die gerade behandelt werden, schenken.	own	1
 14	9	Außerdem ist es auch wichtig, die Fähigkeit zur verbalen Kommunikation zu fördern.	own	1
 14	10	Die textbasierte Kommunikation wird eh von der jüngeren Generation Massiv genutzt.	own	1
-15	0	Der Zeitungsartikel “ Twittern im Unterricht?	info_article	1
-15	1	"Klar, sagen einige Pädagogen und setzen das Internet gezielt ein, um Wissen zu vermitteln und Diskussionen anzustoßen” von Tomasz Kurianowicz erschien am 22.06.2011 in ""Zeitonline"" (online)."	info_article	1
-15	2	Darin behandelt der Autor die heutzutage aus ihrer Sicht zu Technologie im Unterricht, was passiert mit Schülern und Lehrern, wenn sie das Handy oder Twitter benutzen möchten.	intro_topic	1
+15	0	Der Zeitungsartikel “ Twittern im Unterricht?	info_intro	1
+15	1	"Klar, sagen einige Pädagogen und setzen das Internet gezielt ein, um Wissen zu vermitteln und Diskussionen anzustoßen” von Tomasz Kurianowicz erschien am 22.06.2011 in ""Zeitonline"" (online)."	info_intro	1
+15	2	Darin behandelt der Autor die heutzutage aus ihrer Sicht zu Technologie im Unterricht, was passiert mit Schülern und Lehrern, wenn sie das Handy oder Twitter benutzen möchten.	info_intro	1
 15	3	<PB> Es gibt viele Fälle, in denen die Verwendung von Mobiltelefonen und Anwendungen wie Twitter für Lehrer etwas seltsam ist.	article_con	1
 15	4	Dies wird jedoch immer veralteter und Lehrer nutzen das Telefon nicht nur für den Unterricht, sondern auch für Anwendungen wie Twitter.	article_pro	1
 15	5	<PB> Der Autor erwähnte auch, dass Ablenkung für Schüler sehr groß ist, da jede Benachrichtigung sie ablenken kann und daher nicht darauf achtet, was der Lehrer erklärt, da dies Übung erfordert.	article_con	1
@@ -232,8 +232,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 15	9	Ich stimme vollkommen zu, dass das Handy und die Technologie - einschließlich Anwendungen - im Leben aller Menschen zunehmend notwendig werden, und warum könnte dies nicht auch für Schüler und Lehrer notwendig sein?	own	1
 15	10	<PB>  Jedoch; Ich halte es für eine Randwaffe, und Sie müssen sich darüber im Klaren sein, was die Schüler im Unterricht sehen und wie sie diese Werkzeuge verwenden, um ihr akademisches Leben und ihr Berufsleben negativ oder positiv zu beeinflussen.	own	1
 15	11	Die Lehrer müssen sehr verantwortlich sein.	own	1
-16	0	Die Coronavirus-Pandemie und die Auswirkungen haben dazu geführt, dass andere Bildungsmethoden unter den aufkommenden Trends bei der Nutzung von Twitter als Bildungsforum immer beliebter wurden.	intro_topic	1
-16	1	In diesem Artikel wird eine Reihe von evidenzbasierten Lehr- und Schülerbeteiligungen verschiedener Autoren demonstriert.	intro_topic	1
+16	0	Die Coronavirus-Pandemie und die Auswirkungen haben dazu geführt, dass andere Bildungsmethoden unter den aufkommenden Trends bei der Nutzung von Twitter als Bildungsforum immer beliebter wurden.	info_intro	1
+16	1	In diesem Artikel wird eine Reihe von evidenzbasierten Lehr- und Schülerbeteiligungen verschiedener Autoren demonstriert.	info_intro	1
 16	2	Dies hat offensichtlich zahlreiche Vorteile.	meta	1
 16	3	Die Skepsis gegenüber der Nutzung von Twitter aufgrund der Möglichkeit von Twitter ist eine relevante Gefahr, die sorgfältig abgewogen werden muss, bevor dieser Ansatz gewählt wird.	own	1
 16	4	Zu den in dieser Studie gezeigten Vorteilen gehört eine verbesserte Beteiligung der Schüler, die letztendlich die Einheit verbessert und eine gute Lernumgebung schafft, die das Lernen verbessert.	article_pro	1
@@ -243,8 +243,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 16	8	Wir sollten offen sein, diesen Ansatz bei weiterer Validierung zu übernehmen.	own	1
 16	9	Angesichts der Tatsache, dass zahlreiche Autoren Interesse an der Nutzung einer Online-Plattform wie Twitter wecken, besteht große Hoffnung, dass die allgemeine Akzeptanz in Sicht ist Es bleibt abzuwarten, was später passiert, wenn Twitter dem Anlass gerecht wird.	own	1
 16	10	In Wahrheit sehen die Aussichten gut aus, aber die Online-Zeit wird es zeigen.	own	1
-17	0	Das Thema befasst sich mit den Vorteilen der Nutzung von Social Media für Unterrichtszwecke.	intro_topic	1
-17	1	Der Autor selbst steht dem Thema ausdrücklich positiv gegenüber und äußert seine Meinung.	intro_topic	1
+17	0	Das Thema befasst sich mit den Vorteilen der Nutzung von Social Media für Unterrichtszwecke.	info_intro	1
+17	1	Der Autor selbst steht dem Thema ausdrücklich positiv gegenüber und äußert seine Meinung.	info_intro	1
 17	2	Die Integration von Social Media in den Unterricht bietet viele Vorteile.	article_pro	1
 17	3	Ein solcher Vorteil ist, dass Schüler beispielsweise ohne Angst leicht Kommentare zu Lektionen abgeben können, die sonst schweigen würden.	article_pro	1
 17	4	Ich denke schon, dass eine Lektion viel interessanter ist, wenn der Lehrer etwas projiziert.	own	1
@@ -260,8 +260,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 17	14	Ich stimme voll und ganz zu, dass diejenigen, die gegen soziale Medien sind, entweder nicht ausreichend informiert oder zu engstirnig sind.	own	1
 17	15	<PB> Wir müssen uns mit dem Alter bewegen und akzeptieren, dass es immer mehr spezielle Arten des Lehrens / Lernens geben wird.	own	1
 17	16	Dies kann nur zu unserem Vorteil sein.	own	1
-18	0	"Der Zeitungsartikel ""Twitter-Unterricht"", geschrieben von Tomasz Kurianowicsz, erschien am 22 Juni 2011 in der Zeit (online)"	info_article	1
-18	1	Der Autor weist auf die positiven Effekte, die die Nutzung von Internetdiensten,  vor allem von Twitter, als Ergänzung des Unterrichts darstellen, hin.	intro_topic	1
+18	0	"Der Zeitungsartikel ""Twitter-Unterricht"", geschrieben von Tomasz Kurianowicsz, erschien am 22 Juni 2011 in der Zeit (online)"	info_intro	1
+18	1	Der Autor weist auf die positiven Effekte, die die Nutzung von Internetdiensten,  vor allem von Twitter, als Ergänzung des Unterrichts darstellen, hin.	info_intro	1
 18	2	<PB> Aus der Sicht des Autors werden sich durch den Einsatz von digitalen Medien zurückhaltende und ansonsten schweigsame Schüler,  wieder aktiv am Unterricht beteiligen und zu dessen Gestaltung beitragen.	article_pro	1
 18	3	Der Autor beleuchtet,  dass bei kompetentem und angemessenem Einsatz von Social-Media-Diensten der alltägliche Unterricht ergänzt und aufgelockert werden kann.	article_pro	1
 18	4	Ergänzend unterstreicht der Autor, dass die digitale Kompetenz des Lehrpersonals ausgebaut werden muss beziehungsweise der Generationenwechsel beim Lehrpersonal zu einer vermehrten Nutzung des Internets im Unterricht führen wird.	article_pro	1
@@ -269,8 +269,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 18	6	Das Argument, dass der Einsatz digitaler Medien zu Ablenkung führt, ist substanzlos, da durch sporadische Kontrolle und kompetentem Einsatz einer Falschverwendung entgegengesteuert werden kann.	own	1
 18	7	Twitter und andere digitale Medien sollten sogar zwingend im Unterricht eingesetzt werden, da der richtige Umgang mit diesen in unserer digitalen Welt von fundamentaler Bedeutung sind.	own	1
 18	8	Weiters lernen Schüler durch den Einsatz dieser, wie man Beiträge in Social Media Plattformen kritisch hinterfragt und diese für seine persönliche Weiterbildung nutzt.	own	1
-19	0	"Der Zeitungsartikel ""Twitter-Unterricht"" von Tomasz Kurianowicz aus Zeit Online wurde am 22.06.2011 veröffentlicht."	info_article	1
-19	1	Dort diskutiert der Autor die Auswirkungen des Einsatzes von sozialen Medien wie Twitter und YouTube im Schulunterricht.	intro_topic	1
+19	0	"Der Zeitungsartikel ""Twitter-Unterricht"" von Tomasz Kurianowicz aus Zeit Online wurde am 22.06.2011 veröffentlicht."	info_intro	1
+19	1	Dort diskutiert der Autor die Auswirkungen des Einsatzes von sozialen Medien wie Twitter und YouTube im Schulunterricht.	info_intro	1
 19	2	<PB> Nach Meinung der Experten ermöglicht Twitter neue Formen der Diskussion und involviert viele zurückhaltende Schüler in die Diskussionen, die sonst ihre Meinung nicht äußern würden.	article_pro	1
 19	3	Diese Unterrichtsformen eignen sich besonders für geisteswissenschaftliche Fächer wie Geschichte oder Literatur.	article_pro	1
 19	4	So wurde zum Beispiel die Kubakrise in Twitter nachgespielt, wodurch das Thema viel interaktiver und einprägsamer wurde.	article_pro	1
@@ -297,9 +297,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 20	10	Ablenkung ist ein sehr geringer negativer Effekt im Vergleich zu den Vorteilen, die sie mit sich bringt.	article_pro	1
 20	11	Auf diese Weise können die Schüler von einer Klasse profitieren, die sich von den traditionellen unterscheidet, und somit dynamischer und unterhaltsamer sein.	article_pro	1
 20	12	"wie einer der Experten sagt: ""Die Einführung des Social Web ist wie die Erfindung des Buchdrucks."	article_pro	1
-21	0	"Der Zeitungsartikel ""Twitter-Unterricht"" von Tomasz Kurianowicz erschien am 22."	info_article	1
-21	1	Juni 2011 in der Zeit.de.	info_article	1
-21	2	Darin betrachtet der Autor über eine neue Möglichkeit zum Lernen - Twitter.	intro_topic	1
+21	0	"Der Zeitungsartikel ""Twitter-Unterricht"" von Tomasz Kurianowicz erschien am 22."	info_intro	1
+21	1	Juni 2011 in der Zeit.de.	info_intro	1
+21	2	Darin betrachtet der Autor über eine neue Möglichkeit zum Lernen - Twitter.	info_intro	1
 21	3	Die einige Pädagogen meinen, dass sozialen Medien eine gute Methode zu lernen sind.	article_pro	1
 21	4	Anderseits die Lehrer sind dagegen.	article_con	1
 21	5	<PB> Der Autor meint, dass sozial Medien beim Lernen helfen und das Internet bietet viele Lernmöglichkeiten.	article_pro	1
@@ -317,9 +317,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 21	17	Ich bin der Meinung, dass das Internet gute Lernmethode ist.	own	1
 21	18	Heutzutage ist es schwierig, Schüler zum Lernen zu bewegen, weil Sie sehr allgemeine Dinge lernen  und sind schwer zu merken.	own	1
 21	19	Deswegen Twitter ist gut zum Lernen.	own	1
-22	0	"Der Zeitungsartikel ""Twitter-Untericht"" von Tomasz Kurianowicz erschien am 22."	info_article	1
-22	1	"Juni 2011 in der ""Zeit Online""."	info_article	1
-22	2	Dahin behandler der Autor eine neue Lehrmethode - nutzung der sozial Netzwerken im Unterrichten.	intro_topic	1
+22	0	"Der Zeitungsartikel ""Twitter-Untericht"" von Tomasz Kurianowicz erschien am 22."	info_intro	1
+22	1	"Juni 2011 in der ""Zeit Online""."	info_intro	1
+22	2	Dahin behandler der Autor eine neue Lehrmethode - nutzung der sozial Netzwerken im Unterrichten.	info_intro	1
 22	3	Es ist sehr wichtig, dass die Lehrer ihre Studenten zuzugehehen und heutzutage gibt es keine bessere Methode Schülern zu erreichen, als durch sozial Netzwerken.	article_pro	1
 22	4	Es ist auch ein guten Trick die Jugendliche in der Unterricht zu angarieren, weil Mehrheit der jungen Leute jeden Tag mehrere sozial Netzwerke nutzt und deswegen ist das spannend für ihnen.	article_pro	1
 22	5	Wie alles, hat diese Methode nicht nur Vorteile aber auch Nachteile.	meta	1
@@ -332,9 +332,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 22	12	Manche Leute interagieren mit anderen Persönen durch das Internet sogar mehr, als im Realität.	own	1
 22	13	Scheuen sich davon das Internet zu nutzen ist also sinnlos und kann sozial Fähigkeiten der Studenten schaden.	own	1
 22	14	Meine Meinung nach, wir sollen neue Lösungen verwenden und nicht nur verlassen sich auf die Tradizion.	own	1
-23	0	Der Zeitungsartikel “Twitter-Unterricht” von Tomasz Kurianowicz erschien am 22.	info_article	1
-23	1	Juni 2011 in der “Zeit” (online).	info_article	1
-23	2	Der Autor untersucht, wie soziale Medien wie Twitter von der Lehrergemeinschaft genutzt werden und welche positiven Auswirkungen dies hat.	intro_topic	1
+23	0	Der Zeitungsartikel “Twitter-Unterricht” von Tomasz Kurianowicz erschien am 22.	info_intro	1
+23	1	Juni 2011 in der “Zeit” (online).	info_intro	1
+23	2	Der Autor untersucht, wie soziale Medien wie Twitter von der Lehrergemeinschaft genutzt werden und welche positiven Auswirkungen dies hat.	info_intro	1
 23	3	<PB> Sie sagt, Lehrer fürchten	article_pro	1
 23	4	Social Media immer weniger.	article_pro	1
 23	5	Der Autor stellt mehrere Lehrer vor, die bereits begonnen haben, soziale Medien zu nutzen, um Unterrichtsmethoden zu entwickeln und die Schüler zum Diskutieren zu ermutigen.	article_pro	1
@@ -348,7 +348,7 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 23	13	"Ich glaube jedoch, dass diese Lehrer nur ""alte Leute"" sind, die unnötig Angst vor sozialen Medien haben, weil sie diese nicht selbst nutzen können."	own	1
 23	14	Lehrer, die soziale Medien innerhalb und außerhalb des Unterrichts nutzen, können besser mit den Schülern verbunden werden, was sie dazu ermutigen kann, sich mit einem bestimmten Thema auseinanderzusetzen und es zu erkunden.	own	1
 23	15	Ich glaube, dass Social Media Teil unseres neuen Alltags ist und wir es nicht aufgeben sollten.	own	1
-24	0	Der Autor stellt vor, wie die Verwendung von sozialen Medien wie Twitter im Klassenzimmer die Diskussion fördern kann.	intro_topic	1
+24	0	Der Autor stellt vor, wie die Verwendung von sozialen Medien wie Twitter im Klassenzimmer die Diskussion fördern kann.	info_intro	1
 24	1	Früher sammelten die Lehrer vor dem Unterricht Handys, um Ablenkungen zu vermeiden, aber jetzt benutzen sie sie im Unterricht.	other	1
 24	2	Anstelle der traditionellen Diskussion können die Studenten während der Vorlesung kurze Kommentare hinterlassen.	article_pro	1
 24	3	Dies ermutigt mehr Schüler, sich mit dem Unterricht zu beschäftigen.	article_pro	1
@@ -362,8 +362,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 24	11	Dies bedeutet, dass sie darüber nachdenken müssen, wie sie ihre Gedanken am besten formulieren können.	own	1
 24	12	Dies ist eine großartige Ausbildung für die Arbeitswelt.	own	1
 24	13	Ich denke, es gibt so viel Raum für Kreativität und dass Lehrer die Möglichkeit haben, neue Unterrichtsmethoden anzuwenden.	own	1
-25	0	"Der Zeitungsartikel ""Twitter-Unterricht"" von Tomasz Kurianowicz erschien am 22.06.2011 in Der Zeit Online."	info_article	1
-25	1	Der Text behandelt die Nutzung sozialer Medien im Schulunterricht und wie diese den Unterricht bereichern könnten.	intro_topic	1
+25	0	"Der Zeitungsartikel ""Twitter-Unterricht"" von Tomasz Kurianowicz erschien am 22.06.2011 in Der Zeit Online."	info_intro	1
+25	1	Der Text behandelt die Nutzung sozialer Medien im Schulunterricht und wie diese den Unterricht bereichern könnten.	info_intro	1
 25	2	Der Autor erörtert dabei an Beispielen aus der Medienpädagogik und aus den Vereinigten Staaten.	article_pro	1
 25	3	<PB> Zum Beispiel könnte der Unterricht die Schüler dazu anregen, sich mehr zu beteiligen, wenn sie bei Klassendiskussionen ein Format wie bei Twitter benutzen könnten.	article_pro	1
 25	4	Das heißt unter anderem kurze Texte schreiben, die an den Lehrer gesendet werden anstatt sich mündlich zu melden.	article_pro	1
@@ -377,8 +377,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 25	12	Sie können den Präsenzunterricht und die Interaktionen miteinander nicht komplett ersetzen.	own	1
 25	13	Daher müssen Lehrer sich gut darüber im Klaren sein, wie genau sie diese Medien im Unterricht einsetzen wollen.	own	1
 25	14	Letztendlich kommt es auf die Balance an.	own	1
-26	0	"Der Zeitungsartikel ""Twitter-Unterricht"" von  Tomasz Kurianowicz erschien am 22."	info_article	1
-26	1	Juni 2011 in der Zeitonline und behandelt die Vorteile der Nutzung von sozialen Medien wie Twitter im Schulunterricht.	info_article_topic	1
+26	0	"Der Zeitungsartikel ""Twitter-Unterricht"" von  Tomasz Kurianowicz erschien am 22."	info_intro	1
+26	1	Juni 2011 in der Zeitonline und behandelt die Vorteile der Nutzung von sozialen Medien wie Twitter im Schulunterricht.	info_intro	1
 26	2	<PB> Der Autor weist auf neue Unterrichtsformen hin, wie die Nutzung von Twitter, mit denen sich Schüler an Diskussionen beteiligen können.	article_pro	1
 26	3	Sie erhalten so die Chance sich untereinander auszutauschen und neue Denkanstöße zu erhalten, indem sie die Tweets ihrer Mitschüler zu einem Thema lesen und kommentieren können.	article_pro	1
 26	4	Der Artikel weißt darauf hin, dass auf diese Weise vor allem schüchterne Schüler sich eher am Unterricht beteiligen würden.	article_pro	1
@@ -397,8 +397,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 27	6	Für diejenigen, die nicht einverstanden sind, könnten Bücher aufbewahrt werden und es gibt eine Kombination aus Büchern und sozialen Medien für eine bessere und umfassendere Ausbildung der Schüler.	own	1
 27	7	Es ist sehr wichtig, sich weiterzuentwickeln und nicht in alten und veralteten Praktiken zu stecken, da die Technologie vor uns liegt und es gut wäre, sie zuerst zu kennen.	own	1
 27	8	Für diejenigen Lehrer und Schulen, die nicht wissen, wie man Technologie oder Twitter einsetzt, könnte es auch Schulungen für sie geben.	own	1
-28	0	Der Artikel spricht über die Nutzung des Internets, sozialer Netzwerke usw. im Unterricht.	intro_topic	1
-28	1	Die Lehrer spielen dabei die Hauptrolle, da sie selbst entscheiden, ob sie das soziale Netzwerke nutzen oder nicht.	intro_topic	1
+28	0	Der Artikel spricht über die Nutzung des Internets, sozialer Netzwerke usw. im Unterricht.	info_intro	1
+28	1	Die Lehrer spielen dabei die Hauptrolle, da sie selbst entscheiden, ob sie das soziale Netzwerke nutzen oder nicht.	info_intro	1
 28	2	Der Artikel erwähnt den Geschichtslehrer Daniel Eisenmenger, der dieses System bereits erfolgreich einsetzt, Als Beispiel haben wir auch eine Studie, die die Nutzung des Internets und sozialer Netzwerke bestätigt.	article_pro	1
 28	3	<PB> Aber es gibt immer noch viele Lehrer, die dagegen sind und es nicht benutzen.	article_con	1
 28	4	Das bestätigt eine jüngst veröffentlichte Studie der Babson Survey Research Group.	article_con	1
@@ -412,7 +412,7 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 28	12	soziale Netzwerke.	own	1
 28	13	Die Welt entwickelt sich und wir Menschen auch.	own	1
 28	14	Deshalb ist es wichtig, dass wir uns an das anpassen, was wir wollen.	own	1
-29	0	Der Autor, Tomasz Kurianowicz, geht zuverlässig auf das Thema ein und versucht, uns mit dem Thema Social Media vertraut zu machen, um den Horizont des normalerweise langweiligen Unterrichts in der Schule zu erweitern.	intro_topic	1
+29	0	Der Autor, Tomasz Kurianowicz, geht zuverlässig auf das Thema ein und versucht, uns mit dem Thema Social Media vertraut zu machen, um den Horizont des normalerweise langweiligen Unterrichts in der Schule zu erweitern.	info_intro	1
 29	1	Er listet viele gute Punkte auf, darunter die Möglichkeit, mit der gesamten Gruppe zu kommunizieren, mit Menschen zu diskutieren, die sich zuvor nicht sinnvoll ausdrücken konnten, oder den Versuch, die Sichtweise auf soziale Medien selbst zu ändern, nicht als Zeitverschwendung, aber als eine Art Brücke zum Wissen, die sowohl Schülern als auch Lehrern dienen sollte.	own	1
 29	2	Aus meiner Sicht müssen die Inhalte, die wir täglich in sozialen Medien verwenden, nicht mit Zeitverschwendung und Internetabhängigkeit verbunden sein, sondern mit einer Art Wissensschatz, aus dem jeder schöpfen könnte, wenn wir erlaubte es.	own	1
 29	3	Der skeptische Standpunkt der Lehrer ist in dieser Hinsicht völlig verständlich, aber sollten wir diese Art von Experiment nicht auf die Probe stellen?	own	1
@@ -421,8 +421,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 29	6	Trotzdem ist es eine der Nischen-Lernmethoden, die viele Jahre braucht, um sich dauerhaft an Schulen und Universitäten niederzulassen.	own	1
 29	7	Es sollte jedoch daran erinnert werden, worauf Herr Tomasz Kurianowicz zu Recht hingewiesen hat, dass auch standardmäßiges und gemeinsames Lernen unter Verwendung von Büchern und Quellenmaterialien sehr wichtig ist und beide Lernmethoden angewendet werden sollten, da beide äußerst effektiv und die alten bewährten Methoden sind Methoden müssen überhaupt nicht schlecht sein.	own	1
 29	8	Es sollte auch daran erinnert werden, dass ein wichtiges Thema der Lehrer und seine Herangehensweise an den Unterricht ist und dass die unangemessene Nutzung sozialer Medien den Unterricht in dem von ihm gelehrten Fach negativ beeinflussen kann, da die einfachsten Methoden missbraucht werden, unter denen es vielen fehlt, die zu fördern Durchschnittlicher Schüler.	own	1
-30	0	"In der Zeitungsartikel ""Twitter-Unterricht"" von Tomasz Kurianowicz aus der Zeit Online (22.06.2011) ist geht es um die Integration von Social Media in den Lernprozess."	info_article_topic	1
-30	1	Der Autor verteidigt die Überzeugung, dass das ist eine gute Idee, indem er viele Argumente vorbringt.	intro_topic	1
+30	0	"In der Zeitungsartikel ""Twitter-Unterricht"" von Tomasz Kurianowicz aus der Zeit Online (22.06.2011) ist geht es um die Integration von Social Media in den Lernprozess."	info_intro	1
+30	1	Der Autor verteidigt die Überzeugung, dass das ist eine gute Idee, indem er viele Argumente vorbringt.	info_intro	1
 30	2	<PB> Aus der Sicht den Autor, dass Lehrer offener für Schüler sind.	other	1
 30	3	Darüber hinaus weist es auf die Lösung des Problems schüchterner Schüler hin, die eher bereit sind, an einer schriftlichen als an einer mündlichen Diskussion teilzunehmen.	article_pro	1
 30	4	Er gibt Beispiele für andere Lernende, die soziale Medien in ihren Unterricht integrieren, die Lernenden stärker in den Unterricht einbeziehen und sich mehr an sie erinnern.	article_pro	1
@@ -431,9 +431,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 30	7	Dennoch glaube ich, dass Ablenkung ist immer noch ein wichtiger Aspekt und eine solche Idee nur dann zutreffen würde, wenn die Schüler nicht auf andere Websites zugreifen könnten.	own	1
 30	8	Darüber hinweis die Lehrer müsste  die Teilnahme von die Schüler an der Diskussion überprüft werden, damit sich sie tatsächlich auf das Arbeiten konzentrieren und nicht auf das Surfen in sozialen Medien.	own	1
 30	9	Insgesamt das ist eine gute Idee für mich, erfordert jedoch einige Details zu verfeinern.	own	1
-31	0	Der Zeitungsartikel “Twitter-Unterricht” von Tomasz Kurianowicz erschien am 22.	info_article	1
-31	1	"Juni 2011, in der ""Zeit-Online"".Darin behandelt der Autor ob soziale Medien in der Schule während dem Unterricht zu pädagogischen Zwecke benutzt werden sollten."	info_article_topic	1
-31	2	<PB> Der Autor erklärt in seinem Bericht, dass die Benutzung von Sozialen Netzwerke sowohl positive als auch negative Konsequenzen haben können.	intro_topic	1
+31	0	Der Zeitungsartikel “Twitter-Unterricht” von Tomasz Kurianowicz erschien am 22.	info_intro	1
+31	1	"Juni 2011, in der ""Zeit-Online"".Darin behandelt der Autor ob soziale Medien in der Schule während dem Unterricht zu pädagogischen Zwecke benutzt werden sollten."	info_intro	1
+31	2	<PB> Der Autor erklärt in seinem Bericht, dass die Benutzung von Sozialen Netzwerke sowohl positive als auch negative Konsequenzen haben können.	info_intro	1
 31	3	In seinem Artikel beschreibt er die positive Wirkung die diese Benutzung auf Scheue und zurückhaltende Schüler, die so die Möglichkeit haben ihre Meinung während dem Unterricht ohne Bescheidenheit mitzuteilen.	article_pro	1
 31	4	Dieses Phänomen wurde auch von dem Medienpädagoge Björn Friedrich untersucht und bestätigt.	article_pro	1
 31	5	<PB> Obwohl schon einige Lehrer in verschiedenen Ländern diese Methode des Unterrichts benutzen, wird sie trotzdem von vielen noch skeptisch betrachtet.	article_con	1
@@ -443,8 +443,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 31	9	Ich unterstütze seine Meinung gegenüber der Benutzung von Sozialen Netzwerke.	own	1
 31	10	Ich finde, dass durch die Benutzung dieser Mittel Schüler den Inhalt besser verstehen und applizieren können.	own	1
 31	11	Ich verstehe die Zurückhaltung verschiedener Lehrer gegenüber der Benutzung solcher Mitteln, aber ich finde das könnte wirklich eine Bereicherung und eine Verbesserung des Schulsystem für die Schüler.	own	1
-32	0	"Tomasz Kurianowicz schreibt in seinem Artikel ""Twitter-Unterricht"" über eine Methode den Unterricht zu gestalten, nämlich die aktive Nutzung von sozialen Netzwerken."	info_article_topic	1
-32	1	In seinem Artikel nennt er einige Beispiele in denen dieses neue Phänomen ein wichtiger Teil des Klassenzimmers geworden ist und was dies mit sich gebracht hat.	intro_topic	1
+32	0	"Tomasz Kurianowicz schreibt in seinem Artikel ""Twitter-Unterricht"" über eine Methode den Unterricht zu gestalten, nämlich die aktive Nutzung von sozialen Netzwerken."	info_intro	1
+32	1	In seinem Artikel nennt er einige Beispiele in denen dieses neue Phänomen ein wichtiger Teil des Klassenzimmers geworden ist und was dies mit sich gebracht hat.	info_intro	1
 32	2	<PB> Der Autor beschreibt wie einige Lehrer sich soziale Netzwerke zu Nutzen gemacht haben und ihre Schüler mithilfe dieser Netzwerke dazu bringen, auf eine besondere, dennoch bisher noch sehr neue Art und Weise am Unterricht teilzunehmen.	article_pro	1
 32	3	Mehrere Lehrer nutzen soziale Netzwerke wie zum Beispiel Twitter während des Unterrichts um Schüler zum Beispiel dazu anzuspornen kurze Kommentare mit der Klasse zu teilen und aktiv mit zu diskutieren.	article_pro	1
 32	4	<PB> In der Sicht des Autors kann die Nutzung von sozialen Netzwerken im Unterricht dabei helfen Diskussionen anzustoßen, da sogar Schüler, die sonst eher schweigen, durch das Schreiben anstatt des Redens sich mehr dazu bereit fühlen, beim Diskussionen im Unterricht mitzumachen.	article_pro	1
@@ -452,15 +452,15 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 32	6	<PB> Ich finde dass der Autor seine Argumente gut präsentiert und ich kann seine Argumentation nachvollziehen.	own	1
 32	7	Ich persönlich glaube dass sich mehr Lehrer soziale Netzwerke zu Nutzen machen sollten da heutzutage viele Schüler an diese Art der Technologie gewohnt sind und sie im Alltag benutzen.	own	1
 32	8	Dadurch kann man die Schüler dazu motivieren, unbekannte Materie zu lernen aber auf einer bekannten Plattform und auf eine interaktive Art und Weise.	own	1
-33	0	Der Autor des Artikels schreibt über den Einsatz von sozialen Netzwerken wie Twitter als Lehrmittel im Unterricht.	intro_topic	1
-33	1	Dies wäre für viele eine willkommene Ergänzung zu den bereits bestehenden Lehrmaterialien und -methoden, auf Widerstand stoßt diese Idee allerdings auch.	intro_topic	1
+33	0	Der Autor des Artikels schreibt über den Einsatz von sozialen Netzwerken wie Twitter als Lehrmittel im Unterricht.	info_intro	1
+33	1	Dies wäre für viele eine willkommene Ergänzung zu den bereits bestehenden Lehrmaterialien und -methoden, auf Widerstand stoßt diese Idee allerdings auch.	info_intro	1
 33	2	<PB> Soziale Netzwerke sind eine Möglichkeit, den behandelten Inhalt mit der Gegenwart zu verbinden, da sie von der größten Mehrheit der Schüler gut bekannt sind, was das Lernen von Themen in Geschichte oder Deutsch besonders fördern kann.	article_pro	1
 33	3	Außerdem sind sie auch eine Alternative zur Teilnahme im Unterricht, wenn Schüler sich nicht trauen, aktiv teilzunehmen - dies ist der Fall, wenn man auf Twitter Kommentare schreiben oder Fragen stellen kann, um z.B. den Unterrichtsablauf oder den LehrerIn nicht zu unterbrechen.	article_pro	1
 33	4	<PB> Diese Umstrukturierung kann aber für viele Lehrkräfte einen Riesenaufwand darstellen, da viele mit solchen Werkzeugen nicht vertraut sind, und deren Verwendung im Klassenraum könnte möglicherweise zu einer großen Ablenkung führen - wovor viele Angst haben.	article_con	1
 33	5	<PB> Der Einsatz von sozialen Netzwerken im Unterricht bringt viele Möglichkeiten für eine bessere, moderne Schulerfahrung mit sich, die Umsetzung hängt aber stark von der Bereitschaft der Lehrkraft ab, sich mit solchen Werkzeugen auseinanderzusetzen.	own	1
 33	6	Fehlt die Bereitschaft, könnte dies zu einem ablenkenden Einsatz führen, was nicht erwünscht ist und Schüler benachteiligen kann - man sollte also diese Möglichkeit soweit fördern, wie sie umsetzbar ist, Lehrkräfte dürfen dabei allerdings auf keinen Fall überfordert werden.	own	1
-34	0	Der Zeitungsartikel „Twitter-Unterricht“ von Tomasz Kurianowicz erschien am 22.06.2011 in der “Zeit Online”.	info_article	1
-34	1	Der Autor befasst sich mit dem gebrauch des Internets und soziale Medien, insbesondere Twitter im Unterricht, um den Schülern besser Lehrinhalte zu vermitteln.	intro_topic	1
+34	0	Der Zeitungsartikel „Twitter-Unterricht“ von Tomasz Kurianowicz erschien am 22.06.2011 in der “Zeit Online”.	info_intro	1
+34	1	Der Autor befasst sich mit dem gebrauch des Internets und soziale Medien, insbesondere Twitter im Unterricht, um den Schülern besser Lehrinhalte zu vermitteln.	info_intro	1
 34	2	<PB> Der Autor beschreibt die verschiedenen Einsatzmöglichkeiten von sozialen Medien im Unterricht z.B. bei Diskussionen über Gedichte oder dem Schreiben von Kurzgeschichten.	article_pro	1
 34	3	Auch argumentiert er das die Sorge um das Ablenkungspotenzial von sozialen Medien unbegründet sei, da es genügend andere Möglichkeiten zur Ablenkung gäbe und Lehrer z.B. keine Sorge haben, wenn sich die Schüler mit einem Buch ablenken.	article_pro	1
 34	4	<PB> Der Autor stützt seine Ansicht mit Beispielen, indem Lehrer im Unterricht erfolgreich soziale Medien nutzen.	article_pro	1
@@ -470,8 +470,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 34	8	<PB> Abschließend kann ich den Standpunkt des Autors gut nachvollziehen, die meisten Schulen integrieren das Internet und soziale Medien zu wenig in ihren Lehrplan, dabei sind diese Dinge schon längst Alltag bei den Schülern.	own	1
 34	9	Auch ist es allgemein bekannt das Schüler aufmerksamer sind und sich Inhalte besser einprägen können, wenn sie sich interaktiv mit dem Lernstoff beschäftigen konnten und es nicht nur Frontal-Unterricht gab.	own	1
 34	10	Darum halte ich es für sinnvoll dies mehr im Unterricht zu nutzen.	own	1
-35	0	"In diesem Text geht es um der Artikel ""Twitter-Unterricht"" von Tomasz Kurianowicz vom 22.Juni 2011 auf Zeit Online."	info_article	1
-35	1	Darin wird beschrieben, wie sehr sich der Unterricht im Laufe der Zeit wandelt und ob Onlinemedien wie Twitter eher ein Vorteil oder Nachteil im Unterricht darstellen.	intro_topic	1
+35	0	"In diesem Text geht es um der Artikel ""Twitter-Unterricht"" von Tomasz Kurianowicz vom 22.Juni 2011 auf Zeit Online."	info_intro	1
+35	1	Darin wird beschrieben, wie sehr sich der Unterricht im Laufe der Zeit wandelt und ob Onlinemedien wie Twitter eher ein Vorteil oder Nachteil im Unterricht darstellen.	info_intro	1
 35	2	<PB> Der Autor ist ganz klar für die Integration von Medien, da diese eine sinvolle Rolle einnehmen können da es sehr viele positive Wirkungen durch einfachste Anwendungen im Netz gibt.	article_pro	1
 35	3	Etwaige negative Wirkungen dadurch können bei gelernten Lehrkräften schnell beseitigt werden, sodass der beste Lerneffekt besteht.	own	1
 35	4	<PB> Einige Vorteile dadurch wären, dass ansonsten eher stille Schüler sich durch die anonymisierten oder nicht persönlich vorgetragenen Antworten mehr trauen und auch mehr zum Unterricht beitragen als perönlich.	article_pro	1
@@ -499,9 +499,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 36	13	Und nicht jeder hat ständig Zugang zum Internet, geschweige denn zu einem Computer.	own	1
 36	14	Ich denke, dass mit Hilfe von Zuschüssen dieses Problem gelöst wurde.	own	1
 36	15	<PB> Alles in allem wäre es eine gute Option und ich würde sie verwenden	own	1
-37	0	"Der Online-Artikel "" Twitter-Unterricht von dem Autor Tomasz Kurianowicz erschienen am 22."	info_article	1
-37	1	"Juni 2011  auf ""zeit. de""."	info_article	1
-37	2	Darin argumentiert der Autor für eine neue Methode des Lernens über die Social-Mediaplattform Twitter.	intro_topic	1
+37	0	"Der Online-Artikel "" Twitter-Unterricht von dem Autor Tomasz Kurianowicz erschienen am 22."	info_intro	1
+37	1	"Juni 2011  auf ""zeit. de""."	info_intro	1
+37	2	Darin argumentiert der Autor für eine neue Methode des Lernens über die Social-Mediaplattform Twitter.	info_intro	1
 37	3	Am Anfang des Textes beschreibt er die aktuelle Situation, dass Lehrer sich nicht scheuen online auf Schüler/innen zuzukommen um mit Ihnen die Fragen durch zu gehen oder Ratschläge zu geben.	article_pro	1
 37	4	<PB> Er erwähnt dann, dass die Social Media Plattform Twitter eine sehr gute alternative zum langweiligen Unterricht, den wir alle kennen.	article_pro	1
 37	5	Twitter ist dafür praktisch, da die Schüler und Schülerinnen vor dem Laptop sitzen können und Ihre Kommentare abgeben können und ihre persönliche Meinung artikulieren können.	article_pro	1
@@ -526,9 +526,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 38	9	Das Problem kann auch durch professionellen und praktischen Unterricht verursacht werden, da es schwieriger ist, solche Kurse über das Internet zu lernen, und sie Probleme haben werden.	off_topic	1
 38	10	Online-Kurse liegen in der Verantwortung des Schülers, da er möglicherweise Probleme hat, die entsprechenden Prüfungen zu bestehen, wenn er nicht zu den Kursen kommt.	off_topic	1
 38	11	Meiner Meinung nach sind die Aktivitäten in der Schule eine bessere Option für die Schüler, um den alten Unterricht beizubehalten, da dies für beide Seiten einfacher ist.	off_topic	1
-39	0	Ein am 22.	info_article	1
-39	1	Juni 2011 in der Onlineausgabe der Zeit erschienener Artikel aus der Feder von Tomasz Kurianowicz bringt neuen Schwung in die festgefahrene Debatte in Bildungskreisen darüber, wie der Schulunterricht im Gleichschritt mit den technologischen Fortschritten der Gegenwart aktualisiert und überarbeitet werden kann.	info_article_topic	1
-39	2	Der Autor führt darin eine zukunftsträchtige Alternative zum altbackenen Verbal- und Frontalunterricht ein, die neue Perspektiven und Herangehensweisen an das Thema der Unterrichtsgestaltung eröffnet.	intro_topic	1
+39	0	Ein am 22.	info_intro	1
+39	1	Juni 2011 in der Onlineausgabe der Zeit erschienener Artikel aus der Feder von Tomasz Kurianowicz bringt neuen Schwung in die festgefahrene Debatte in Bildungskreisen darüber, wie der Schulunterricht im Gleichschritt mit den technologischen Fortschritten der Gegenwart aktualisiert und überarbeitet werden kann.	info_intro	1
+39	2	Der Autor führt darin eine zukunftsträchtige Alternative zum altbackenen Verbal- und Frontalunterricht ein, die neue Perspektiven und Herangehensweisen an das Thema der Unterrichtsgestaltung eröffnet.	info_intro	1
 39	3	<PB> Aus seiner Sicht dürfen soziale Medien - und dabei insbesondere Twitter - nicht länger aus Unwissen oder Unwillen von den Bildungsverantwortlichen ignoriert werden, böten sie doch bisher kaum ergriffene Chancen zur Einbindung jener Schüler, die dem Unterricht bis dato rein passiv beigewohnt haben.	article_pro	1
 39	4	So ließe sich durch die Verlagerung auf textbasierte Mitarbeit die Hemmschwelle vor der aktiven Teilhabe am Klassengeschehen selbst für stille und schüchterne Schüler*innen nachweislich senken.	article_pro	1
 39	5	Überhaupt rege die vermehrte Förderung interaktiver Textgestaltung entlang des Unterrichtsstoffes zur regen Denkarbeit an und bringe damit den Vorteil mit sich, Behandeltes selbst bis nach dem Glockenläuten im Gedächtnis zu behalten und dadurch tatsächlich zu erlernen.	article_pro	1
@@ -539,8 +539,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 39	10	Die Notwendigkeit der Veränderung liegt offen auf der Hand, und auch diesmal wird ihr Widerstand nicht ewig bestehen können, zumal er überwiegend von betagten Schultern getragen wird.	own	1
 39	11	Vielen Lehrern jener Generation der Blockade wird Herbert Grönemeyer noch ein Begriff sein.	own	1
 39	12	In dessen Worten: Kinder an die Macht!	own	1
-40	0	"Der Artikel ""Twitter-Unterricht"" erscheint in 2011 in Zeit-Online."	info_article	1
-40	1	Der Autor Thomas Kurianowicz vertritt in diesem Artikel eine einseitige Meinung zur Verwendung der Smartphones während dem Unterricht.	intro_topic	1
+40	0	"Der Artikel ""Twitter-Unterricht"" erscheint in 2011 in Zeit-Online."	info_intro	1
+40	1	Der Autor Thomas Kurianowicz vertritt in diesem Artikel eine einseitige Meinung zur Verwendung der Smartphones während dem Unterricht.	info_intro	1
 40	2	Seine Argumente sind die abwechslungsreicher gestalteten Unterrichtsmodule, wie z.B.	article_pro	1
 40	3	Einsetzen von Google Maps und Youtube und Animierung aller Schüler und Schülerinnen zur Teilnahme an Unterricht.	article_pro	1
 40	4	Durch Schreiben der Kommentare direkt auf Twitter, werden auch die schüchternen Schüler beteiligt.	article_pro	1
@@ -551,8 +551,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 40	9	Da dieser Artikel 9 Jahre vor der Covid Pandemie publiziert wurde, zeigt dass der Autor vollkommen Recht gehabt hatte und nur die Zeit kann neue Medien zu Alltags-Medien ändern.	own	1
 40	10	<PB> Zusätzlich durch die schnelle Reaktion der Gesellschaft auch der Unterricht musste rasch angepasst werden und, was in 2011 als mögliche Ablenkung galt, wird heute als Unterrichtsmittel betrachtet - nämlich, das Internet.	own	1
 40	11	Was zu kritisieren ist, ist die Einseitigkeit des Autors, da er nur positive Studien zum Thema herangezogen hat und mit Sicherheit haben psychologische und soziologische Studien im Bereich des Unterrichts nicht immer das Internet als positive Entwicklung gesehen.	own	1
-41	0	"Der Artikel ""Twitter-Unterricht"" von Tomasz Kurianowicz erschien am 22.06.2011 in der Zeit Online."	info_article	1
-41	1	In diesem Artikel bespricht der Autor wie Soziale Netzwerke wie Twitter in den Unterricht eingebaut werden können und wie Twitter das perfekte Soziale Netzwerk dafür ist.	intro_topic	1
+41	0	"Der Artikel ""Twitter-Unterricht"" von Tomasz Kurianowicz erschien am 22.06.2011 in der Zeit Online."	info_intro	1
+41	1	In diesem Artikel bespricht der Autor wie Soziale Netzwerke wie Twitter in den Unterricht eingebaut werden können und wie Twitter das perfekte Soziale Netzwerk dafür ist.	info_intro	1
 41	2	<PB> Aus der Sicht des Autors sei Twitter dafür geeignet, im Unterricht Schüler für neue Diskussionsformen zu gewinnen.	article_pro	1
 41	3	Hierbei erwähnt er die Untersuchen von Medienpädagogen Björn Friedrich, welcher nach seinem Versuch feststellte, dass zurückhaltende Schüler sich mehr an der Diskussion beteiligten als im Normalfall.	article_pro	1
 41	4	Ein weiterer Beispiel, sei die Klasse von Nicholas Provenzano, Englisch-Lehrer an einer High-School in der Nähe von Detroit.	article_pro	1
@@ -566,8 +566,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 41	12	Jedoch finde ich, dass diese heutzutage nicht mehr so angewendet werden können wie in diesem Artikel.	own	1
 41	13	Zwischen 2011 und 2021 liegen 10 Jahre was eine Ewigkeit in Internetjahren ist.	own	1
 41	14	Soziale Netzwerke werden heutzutage anders angewendet wie vor 10 Jahren und Twitter kann heutzutage definitiv nicht mehr genutzt werden wie es vor 10 Jahren benutzt wurde.	own	1
-42	0	Das Thema meines Vortrags wird der Einfluss von sozialen Medien und digitaler Technologie auf das Schicksal des studentischen Lernens sein.	intro_topic	1
-42	1	<PB> In der heutigen Welt ist das Internet im Leben fast aller Menschen präsent - besonders bei Kindern.	intro_topic	1
+42	0	Das Thema meines Vortrags wird der Einfluss von sozialen Medien und digitaler Technologie auf das Schicksal des studentischen Lernens sein.	info_intro	1
+42	1	<PB> In der heutigen Welt ist das Internet im Leben fast aller Menschen präsent - besonders bei Kindern.	info_intro	1
 42	2	Durch die Pandemie haben die Kinder die Möglichkeit, die Welt des Wissens aus einem etwas anderen Blickwinkel als sonst kennenzulernen.	off_topic	1
 42	3	Es war eine ziemlich schwierige Situation für Lehrer - nicht jeder konnte damit umgehen, aber es ist sehr wichtig, wenn Lehrer sich in einer solchen Situation befinden.	off_topic	1
 42	4	<PB> Es ist extrem schwierig, bei den Schülern gut anzukommen und sie für das Thema zu begeistern.	own	1
@@ -597,8 +597,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 43	14	Wir wissen in einer Sekunde, was in einem anderen Land passiert.	off_topic	1
 43	15	Ein weiterer Vorteil der Nutzung von Social Media besteht darin, dass ein Schüler, der krank ist und nicht im Klassenzimmer sein kann, aktiv an Online-Kursen teilnehmen kann und nicht verliert, was im klassischen Unterricht unmöglich ist.	own	1
 43	16	Zusammenfassend lässt sich sagen, dass das Unterrichten mithilfe von sozialen Medien und dem Internet viele Vorteile mit sich bringt, z.B. den einfachen Zugang zu wissenschaftlichen Materialien und den Austausch Ihrer eigenen Meinung zu diesem Thema.	own	1
-44	0	Der Zeitungsartikel “Twitter Unterricht” von  Tomasz Kurianowicz erschien am 22.06.11 in der “Zeit” (online).	info_article	1
-44	1	Darin stellt der Autor die Integration von Social Media in den Unterricht und ihre Vorteile für die Schüler und die Informationsverarbeitung vor.	intro_topic	1
+44	0	Der Zeitungsartikel “Twitter Unterricht” von  Tomasz Kurianowicz erschien am 22.06.11 in der “Zeit” (online).	info_intro	1
+44	1	Darin stellt der Autor die Integration von Social Media in den Unterricht und ihre Vorteile für die Schüler und die Informationsverarbeitung vor.	info_intro	1
 44	2	<PB> Der Autor weist darauf hin, dass Lehrer immer weniger Angst haben, innovative Methoden in der Klasse anzuwenden.	article_pro	1
 44	3	Er bezieht sich auf Studien und Experten, die sich für die Nutzung sozialer Medien aussprechen, um den Lernprozess unter den Studenten zu fördern.	article_pro	1
 44	4	<PB> Der Autor behauptet, basierend auf psychologischen Studien, dass die Integration von Social Media in den Unterricht die Diskussion unter den Schülern fördert.	article_pro	1
@@ -610,8 +610,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 44	10	<PB>  Zusammenfassend kann ich die Ängste und die Skepsis einiger Lehrer für Ablenkung und soziale Medien vollständig verstehen.	own	1
 44	11	Ich muss jedoch zugeben, dass die Vorteile in diesem Fall die Nachteile überwiegen.	own	1
 44	12	Die Nutzung sozialer Medien kann für Schüler von größter Bedeutung sein, die normalerweise zu schüchtern sind, um im Unterricht zu sprechen, und aktive Diskussionen unter den Schülern können den Lernprozess tatsächlich verbessern.	own	1
-45	0	Der Text von Tomasz Kurianowicz geht es um Twitter im Unterricht und praesentiert die Meinung der Pedagogen, die denken, dass Internet sehr nuetzlich in der Schule sein kann.	intro_topic	1
-45	1	Trotzdem, sind noch viele Menschen skeptish!	intro_topic	1
+45	0	Der Text von Tomasz Kurianowicz geht es um Twitter im Unterricht und praesentiert die Meinung der Pedagogen, die denken, dass Internet sehr nuetzlich in der Schule sein kann.	info_intro	1
+45	1	Trotzdem, sind noch viele Menschen skeptish!	info_intro	1
 45	2	<PB> Die Position des Autors ist positiv: tatsaechlich glaubt er, dass Internet positive Effekte fuer die Studenten haben kann.	article_pro	1
 45	3	Seine Meinung ist von viele Pedagogen unterstuetzt.	article_pro	1
 45	4	Sie glauben, dass Internet Wissen zu vermitteln ermoeglicht und Diskussionen foerdert.	article_pro	1
@@ -628,9 +628,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 45	15	die Lehrer sollten versuchen, ihn zu benutzen, bevor sie Vorurteilen ausdruecken.	own	1
 45	16	Kinder sind  bereits daran gewoehnt, Handy zu benutzen und mit Internet zu arbeiten!	own	1
 45	17	So, warum er nicht auch in der Schule zu benutzen?	own	1
-46	0	Der Zeitungsartikel “Twitter-Unterricht!”	info_article	1
-46	1	von Tomasz Kurianowicz erschien am 22.06.2011 in der “Zeit Online” (online).	info_article	1
-46	2	Darin behandelt der Autor die heutzutage als seiner Sicht  positive Wirkungen von der Benutzung von Soziale Medien als Unterrichtshilfsmittel.	intro_topic	1
+46	0	Der Zeitungsartikel “Twitter-Unterricht!”	info_intro	1
+46	1	von Tomasz Kurianowicz erschien am 22.06.2011 in der “Zeit Online” (online).	info_intro	1
+46	2	Darin behandelt der Autor die heutzutage als seiner Sicht  positive Wirkungen von der Benutzung von Soziale Medien als Unterrichtshilfsmittel.	info_intro	1
 46	3	<PB> Der Autor weist auf die Benutzung von Twitter als Diskussionforum.	article_pro	1
 46	4	Schülern können sich leichter an dem Unterricht beteiligen, indem sie 140 Zeichen Kommentare zu einem Unterrichtsthema aufladen.	article_pro	1
 46	5	Die niedrige Schwelle, ermöglicht es den Schülern, die normalerweise schweigen würden, am Unterricht Teil zu nehmen.	article_pro	1
@@ -641,7 +641,7 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 46	10	<PB> Im Großen und Ganzen kann ich die Argumentation des Autors gut nachvollziehen und meiner Meinung nach können die Sozialen Medien die Unterrichtsqualität verbessern indem sie interaktiver das Unterrichtsthema darstellen aber durch die verschiedenen Pop-up Werbungen, die man mittlerweile auf allen großen Seiten finden kann	own	1
 46	11	, könnten die Schüler abgelenkt werden.	own	1
 46	12	Es gibt auch das Problem der immer sinkenden Aufmerksamkeitsspanne die durch Soziale Medien beeinträchtigt wird.	own	1
-47	0	Können soziale Netzwerke während der Schulaktivitäten nützlich sein?	intro_topic	1
+47	0	Können soziale Netzwerke während der Schulaktivitäten nützlich sein?	info_intro	1
 47	1	Meiner Meinung nach ja, weil immer mehr Schüler versucht sind, während des Unterrichts nach dem Telefon zu greifen und auf soziale Netzwerke zuzugreifen.	own	1
 47	2	Wenn ein Lehrer beispielsweise Unterricht auf Twitter leiten würde, könnte er Diskussionen mit Schülern führen, fragen Sie.	own	1
 47	3	<PB> Gib ihnen	own	1
@@ -654,9 +654,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 47	10	Es ist möglich, dass bei Verwendung solcher Arbeiten im Klassenzimmer, d. H.	own	1
 47	11	Auf Twitter, die Integration zwischen den Schülern verringert wird, was die Beziehungen im Klassenzimmer verschlechtert.	own	1
 47	12	Meiner Meinung nach sollte der Unterricht nach wie vor legal sein, aber als eine Vielzahl von Klassen sollten manchmal soziale Netzwerke zum Lernen verwendet werden, was den Schülern demütig viele Möglichkeiten zum Unterrichten, zur Nutzung des Internets und vielem mehr bietet.	own	1
-48	0	Heutzutage benutzen wir ständig soziale Netzwerke.	intro_topic	1
-48	1	Für die Jugendliche spielen sie eine große Rolle und LehrerInnen können das benutzt.	intro_topic	1
-48	2	Das Thema meiner Erörterung lautet: Twitter-Unterricht ist es hilfreich?	intro_topic	1
+48	0	Heutzutage benutzen wir ständig soziale Netzwerke.	info_intro	1
+48	1	Für die Jugendliche spielen sie eine große Rolle und LehrerInnen können das benutzt.	info_intro	1
+48	2	Das Thema meiner Erörterung lautet: Twitter-Unterricht ist es hilfreich?	info_intro	1
 48	3	Zuerst wollte ich Vor- und Nachteile nennen und dann meine Meinung ausdrücken.	meta	1
 48	4	<PB> Befürworter sagen, dass die Kinder ist sehr gute Möglichkeit für die Schüler.	article_pro	1
 48	5	Sie können Kommentare schreiben und nicht die eigene Meinung laut sagen.	article_pro	1
@@ -679,16 +679,16 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 48	22	Manchmal kann man sich nicht konzentrieren, wenn ein Lehrer eine Stunde lang spricht.	own	1
 48	23	Unsere Welt ändert sich ständig, deswegen sollen wir vielleicht ein Lehrweg auch verändern.	own	1
 48	24	Ich hoffe, dass Twitter während Unterricht in der Zukunft benutzt. wird.	own	1
-49	0	Der Autor spricht in dem Artikel  über ein sehr inovativs Thema im Klassen zimmer und die Meinung von Leherern über die Nutzung sozialer Netzwerk und Medien während des Unterrichts kann nach Meinung einiger im Artikel genannter Lehrer viele Vorteile birngen, aber auch schädlich sein und ablenkungen verursachen.	intro_topic	1
+49	0	Der Autor spricht in dem Artikel  über ein sehr inovativs Thema im Klassen zimmer und die Meinung von Leherern über die Nutzung sozialer Netzwerk und Medien während des Unterrichts kann nach Meinung einiger im Artikel genannter Lehrer viele Vorteile birngen, aber auch schädlich sein und ablenkungen verursachen.	info_intro	1
 49	1	Es gibt viele Meinungs verschiedenheiten über die Verwendung von Mobiltelefonen im Klassenzimmer, aber mit der weiter entwicklung der darin enthaltenen Technologien und Tools können sie dazu beitragen, dass schüchternere Schüler an Debatten  teilnehmen, die während des Unterrichts geführt werden, und den Unterricht automatisch dynamischer und partizipativer gestalten	article_pro	1
 49	2	Nach Meinung des Autors wäre eine ablenkung von sozialen Netzwerken kein Problem, Da Bücher die in laufe der Jahre im Unterricht verwendet wurden, auch ablenkung verursachen können, da es immer diejenigen gibt, die zählen und  an die sie nicht glauben, wenn etwas innovatives auftauscht die alten Musster endern.	article_pro	1
 49	3	Oft habe diese Fachkräfte Angst vor Veränderungen oder angst, sich nicht an neue Herausforderungen anpassen zu können.	own	1
 49	4	Die Zukunft sozialer Netzwerker kann jeddoch für Sculen von grossen nutzen sein und zuggänglichkeit, Modernität und Debatten fördern, die zuvor nicht sattgefunden hätten.	own	1
 49	5	Darüber hinaus wird all dies Automatisch auf sozialen Plattformen registriert, die in Zukunft geteilt und überprüft werden können.	own	1
 49	6	Ich glaube, dass dies eine sehr innovativ idee ist und funktionieren kann, neue herausforderungen für Lehrer und Scühler mit dem Einzats von Technologier zu ihren Gunsten und ugunsten der sozialen Eingliederung  durch Medien und sozialer Ntezwerk, eine gute strukturierierung durch den lehrer und die Einhaltung von  Schulregeln  und Regeln könnten viel dazu beitragen, dass introvertierte Schüler während des Unterrichts stärker teilnehmen.	own	1
-50	0	"Die Ärztezeitung veröffentlichte am 09.10.2019 online den Artikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_article	2
-50	1	von Cordula Dieckmann zur Frage ob ein späterer Schulbeginn nicht sinnvoller sei.	info_article_topic	2
-50	2	<PB> In dem Artikel werden einige Argument für und wider beleuchtet.	intro_topic	2
+50	0	"Die Ärztezeitung veröffentlichte am 09.10.2019 online den Artikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_intro	2
+50	1	von Cordula Dieckmann zur Frage ob ein späterer Schulbeginn nicht sinnvoller sei.	info_intro	2
+50	2	<PB> In dem Artikel werden einige Argument für und wider beleuchtet.	info_intro	2
 50	3	Für ein späteren Start sprechen die generelle Quälerei für Schüler*innen, die ein frühes Aufstehen bedeutet.	article_pro	2
 50	4	Besonders durch die Pubertät entwickeln sie viele zu Spätaufstehertypen.	article_pro	2
 50	5	"""Schlafmangel schränkt die Leistungsfähigkeit ein, führt zu Konzentrations- und Ausdauerstörungen und macht schlechte Laune"", so wird ein Arzt zitiert."	article_pro	2
@@ -701,7 +701,7 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 50	12	Auch aus eigener Erfahrung war der Stress eines frühen Schulstarts ziemlich belastend.	own	2
 50	13	Interessant ist das argumentative Zusammenspiel mit der jährlichen Zeitumstellung.	own	2
 50	14	Die bedeutet Stress für alle und sollte nicht nur aus Schulstartaspekten heraus abgeschafft werden	own	2
-51	0	Im Artikel von Cordula Dieckmann geht es darum, ob ein späterer Schulbeginn nicht sinnvoller wäre als die aktuelle Form.	info_article_topic	2
+51	0	Im Artikel von Cordula Dieckmann geht es darum, ob ein späterer Schulbeginn nicht sinnvoller wäre als die aktuelle Form.	info_intro	2
 51	1	<PB> Für eine Verschiebung des Beginns spricht, dass den Schülern dadurch mehr Schlafzeit zustehen würde, und somit können sie ausgeschlafen zum Unterricht erscheinen.	article_pro	2
 51	2	Da während der Pubertät viele Jugendliche eher dazu neigen, erst später ins Bett zu gehen und aufzustehen, wäre dies eine Möglichkeit, die fehlende Schlafzeit auszugleichen.	article_pro	2
 51	3	<PB> Dagegen spricht allerdings, dass die Umsetzung nicht reibungslos erfolgen würde.	article_con	2
@@ -710,7 +710,7 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 51	6	Kontakt zum Sonnenlicht regelt nämlich die innere Uhr und ist vor allem in der Entwicklungsphase unverzichtbar.	own	2
 51	7	<PB> Ein späterer Schulbeginn ist eine interessante Idee, dessen Umsetzung jedoch nur unter einem Kompromiss möglich ist - dass es unbedingt mit einem Riesenaufwand verbunden ist, was den Schulbusbetrieb oder auch Verpflegung von Schülern angeht, macht sie aber nicht attraktiver.	own	2
 51	8	Würde ein Teilverzicht auf sie allerdings eine Verbesserung der Lernbedingungen für Schüler bedeuten, wäre das Gesamtkonzept nicht unwägbar - wichtig ist dabei nur, dass die Schüler eine bessere Schulerfahrung genießen können.	own	2
-52	0	Der Artikel „Schulbeginn um 8 Uhr sinnvoll?“ verfasst durch Cordula Dieckmann, herausgegeben von der Ärzte Zeitung beschäftigt sich mit der Frage, ob Schüler besser dran wären, wenn die Schulen später anfangen würden.	info_article_topic	2
+52	0	Der Artikel „Schulbeginn um 8 Uhr sinnvoll?“ verfasst durch Cordula Dieckmann, herausgegeben von der Ärzte Zeitung beschäftigt sich mit der Frage, ob Schüler besser dran wären, wenn die Schulen später anfangen würden.	info_intro	2
 52	1	Folgend werde ich anhand des Schreibens und weitere Argumente betrachtend erörtern, inwiefern ein verschobener Unterrichtsbeginn sinnvoll wäre.	meta	2
 52	2	<PB> Einerseits, wie auch die Autorin des Textes erwähnt, würde die Einführung der oben genannten Innovation für bessere Konzentration, gefolgt von höherer Schulleistung sorgen.	article_pro	2
 52	3	<PB> Des Weiteren lässt sich sagen, dass dadurch die Gesundheit von Kindern gefördert sein würde, die erst später schlafen können.	article_pro	2
@@ -725,9 +725,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 52	12	<PB> Ein Kompromiss könnte sein, dass der Schulanfang nur wenig – maximal eine Stunde – verschoben wird.	own	2
 52	13	das müsste einheitlich geschehen.	own	2
 52	14	<PB> Meiner Meinung nach ist es besser, die Situation so zu behalten, wie sie derzeit ist.	own	2
-53	0	"Der Zeitungsartikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_article	2
-53	1	von Cordula Dieckmann wurde am 09.10.2019  in der Ärzte-Zeitung (online) veröffentlicht.	info_article	2
-53	2	Im Artikel wird darüber diskutiert, welche Vor- und Nachteil ein Unterrichtsbeginn erst um 8 Uhr bringen wurde.	intro_topic	2
+53	0	"Der Zeitungsartikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_intro	2
+53	1	von Cordula Dieckmann wurde am 09.10.2019  in der Ärzte-Zeitung (online) veröffentlicht.	info_intro	2
+53	2	Im Artikel wird darüber diskutiert, welche Vor- und Nachteil ein Unterrichtsbeginn erst um 8 Uhr bringen wurde.	info_intro	2
 53	3	<PB> Zuerst wird hervorgehoben, dass Schüler/innen oft müde im Unterricht säßen und es aufgrund des Schlafmangels zu geringer Leistungsfähigkeit und Konzentrations- und Ausdauerstörungen kommen kann.	article_pro	2
 53	4	Dabei wird auf den US-amerikanischen Staat Seattle verwiesen, die den Unterricht erst um 9.45 Uhr beginnen und dies zu einer Verbesserung der Leistung und weniger Fehlstunden geführt hat.	article_pro	2
 53	5	Auch bei einer Umfrage fand die Idee, die Schule später zu beginnen, viel Zustimmung.	article_pro	2
@@ -740,10 +740,10 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 53	12	<PB> Abschließend kann ich sagen, dass meines Erachtens die Nachteile überwiegen und es besser wäre, der Schulbeginn würde so bleiben wie er ist.	own	2
 53	13	Ich stehe zwar auch nicht gerne am Morgen auf und brauche viel Schlaf, aber es gibt mir trotzdem einen Rhythmus am Tag.	own	2
 53	14	Außerdem finde ich, dass der Nachmittag dann für einen gesunden Ausgleich zur Schule genutzt werden sollte und nicht wieder zum Lernen.	own	2
-54	0	"Der Zeitungsartikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_article	2
-54	1	"von Cordula Dieckmann erschien am 09.10.2019 in der ""Aerzte Zeitung"" (online)."	info_article	2
-54	2	Darinn diskutiert Cordula ob es sinnvoll waere die Schule spaeter zu beginnen.	intro_topic	2
-54	3	<PB> Die Entscheidung fuer einen spaeteren Schulbeginn hoert sich sehr gut an, doch es sei einfacher gesagt als getan.	intro_topic	2
+54	0	"Der Zeitungsartikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_intro	2
+54	1	"von Cordula Dieckmann erschien am 09.10.2019 in der ""Aerzte Zeitung"" (online)."	info_intro	2
+54	2	Darinn diskutiert Cordula ob es sinnvoll waere die Schule spaeter zu beginnen.	info_intro	2
+54	3	<PB> Die Entscheidung fuer einen spaeteren Schulbeginn hoert sich sehr gut an, doch es sei einfacher gesagt als getan.	info_intro	2
 54	4	<PB> Ein spaeterer Schulbeginn wuerde fuer viele Jugendliche einfacher sein, da das Fruehaufstehn fuer die meisten Judendliche eine Qual ist.	article_pro	2
 54	5	Zusaetzlich veraendern sich viele Menschen in der Pupertaet und stehen gern spaeter auf.	article_pro	2
 54	6	Der Koerper wird automatisch spaeter wach, deshalb faellt es den Schuelern schwer um sich im fruehen Unterricht zu knozentrieren.	article_pro	2
@@ -755,8 +755,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 54	12	Durch verspaetung der Schulzeit, wuerde gleichzeitig die Freizeit gekuertzt werden.	article_con	2
 54	13	<PB>  Abschliesend denke ich, dass die Schule frueher geginnen sollte, da es nicht sehr einfach waere sich mit verschiedenen Zeiten anzupassen.	own	2
 54	14	Schueler sollten genug Freizeit am Nachmittag haben und nicht mehr Zeit in der Schule verbringen.	own	2
-55	0	"Der Aufsatz ""Schulbeginn um 8 Uhr sinnvoll?"""	info_article	2
-55	1	von Cordula Dieckmann, erstmals am 09.10.2019 auf der Internetseite der Ärzte Zeitung veröffentlich, beschäftigt sich mit der Frage, welche Uhrzeit für den Beginn des Schulunterrichts am geeignetsten ist.	info_article_topic	2
+55	0	"Der Aufsatz ""Schulbeginn um 8 Uhr sinnvoll?"""	info_intro	2
+55	1	von Cordula Dieckmann, erstmals am 09.10.2019 auf der Internetseite der Ärzte Zeitung veröffentlich, beschäftigt sich mit der Frage, welche Uhrzeit für den Beginn des Schulunterrichts am geeignetsten ist.	info_intro	2
 55	2	Zunächst wird angeführt, dass Jugendlich im Laufe der Pubertät zu Spättypen werden und infolgedessen morgens länger schlafen müssen, um voll konzentrations- und leistungsfähig zu sein.	article_pro	2
 55	3	Trotz dieser Tatsache führe ein späterer Unterrichtsbeginn aber unweigerlich zu einem Nachmittagsunterricht, was bei den meisten Schüler*innen auf wenig Akzeptanz stößt, da ihnen ein freier Nachmittag wichtiger sei.	article_con	2
 55	4	<PB> Der Lehrerverband schlägt als Lösung vor, die Sommerzeit vollständig abzuschaffen, damit die Kinder weniger Dunkelheit während des Schultags erleben.	other	2
@@ -765,12 +765,12 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 55	7	<PB>  Abschließend möchte ich hinzufügen, dass ich persönlich gegen eine Verschiebung des Unterrichtsbeginn bin, da bereits so in den meisten Schulformen Nachmittagsunterricht nötig ist, der sich nur noch mehr in die länge ziehen würde.	own	2
 55	8	Denn man kann die Problematik meiner Meinung nach auch umdrehen und sagen, dass die Kinder im späten Nachtmittag genauso wenig konzentriert sind, wie morgens.	own	2
 55	9	Eine Abschaffung der Sommerzeit halte ich jedoch aus den bereits diskutierten Gründen fürs sehr konstruktiv und würde mir wünschen, dass dieser Vorschlag in die Tat umgesetzt wird.	off_topic	2
-56	0	Der Zeitungsartikel “ Schlafforschung.	info_article	2
-56	1	Schulbeginn um 8 Uhr sinnvoll?	info_article	2
-56	2	” von Cordula Dieckmann  erschien am 09.010.2019 in der “aerztezeitung.	info_article	2
-56	3	de” (online).	info_article	2
-56	4	Darin diskutiert die Autorin das Thema des Unterrichts, der am frühen Morgen um 8 Uhr beginnt.	intro_topic	2
-56	5	Sie fragt, ob ein solcher Unterricht überhaupt Sinn macht.	intro_topic	2
+56	0	Der Zeitungsartikel “ Schlafforschung.	info_intro	2
+56	1	Schulbeginn um 8 Uhr sinnvoll?	info_intro	2
+56	2	” von Cordula Dieckmann  erschien am 09.010.2019 in der “aerztezeitung.	info_intro	2
+56	3	de” (online).	info_intro	2
+56	4	Darin diskutiert die Autorin das Thema des Unterrichts, der am frühen Morgen um 8 Uhr beginnt.	info_intro	2
+56	5	Sie fragt, ob ein solcher Unterricht überhaupt Sinn macht.	info_intro	2
 56	6	<PB> Der Autor sagt in dem Artikel, dass am Morgen viele Schüler abgelenkt und schläfrig sind.	article_pro	2
 56	7	Zur Untermauerung seiner These, dass die Morgenstunden keinen Sinn ergeben, zitiert er ein Zitat des Schlafforschers.	article_pro	2
 56	8	Er sagt, dass die biologische Uhr vieler junger Menschen so funktioniert, dass sie spät in der Nacht müde sind und morgens mehr Schlaf brauchen.	article_pro	2
@@ -784,8 +784,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 56	16	Als junger Student musste ich morgens sehr oft aufstehen, was mich davon abhielt, genug Schlaf zu bekommen, was dazu führte, dass ich im Unterricht einschlief.	own	2
 56	17	Obwohl es nicht meine Schuld war, sondern meine biologische Uhr, bestraften mich die Lehrer trotzdem dafür.	own	2
 56	18	Ich glaube, jeder junge Mensch sollte das Recht haben zu schlafen.	own	2
-57	0	Der Artikel spricht über die möglichen Auswirkungen einer Verzögerung des Einschulungszeitpunkts.	intro_topic	2
-57	1	Konkret gibt es die Befürworter und die Gegner dieser Zeitverschiebung.	intro_topic	2
+57	0	Der Artikel spricht über die möglichen Auswirkungen einer Verzögerung des Einschulungszeitpunkts.	info_intro	2
+57	1	Konkret gibt es die Befürworter und die Gegner dieser Zeitverschiebung.	info_intro	2
 57	2	<PB> Die Pluspunkte sind erhöhte Konzentration und verbesserte Stimmung.	article_pro	2
 57	3	Im Gegenteil, es gibt jedoch Probleme mit den Schulbussen und der Organisation, um alle Kinder in den verschiedenen Gebieten abzuholen.	article_con	2
 57	4	Nicht zu unterschätzen ist auch die Tatsache, dass durch die Verschiebung des Unterrichts auch die Mittagspause verschoben wird.	article_con	2
@@ -799,9 +799,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 57	12	Ich finde es also nicht völlig falsch, zur Schule zu laufen und vor dem Eintritt in die Schule einen Muskelaufwachkurs zu machen.	own	2
 57	13	Ich habe in der Highschool fünf Jahre lang damit experimentiert und es hat mir sehr geholfen.	own	2
 57	14	Wenn ich zurückgehen könnte, würde ich mich nicht über die Schule beschweren, denn das sind die besten Jahre und die wirklichen Probleme kommen mit dem Erwachsenwerden.	off_topic	2
-58	0	"In dem Text von Cornelia Dieckmann aus dem Jahr 2019 wird die Frage gestellt, ob der ""Schulbeginn um 8 Uhr sinnvoll"" ist."	info_article_topic	2
-58	1	"Dieser Artikel ist in dem Magazin ""Ärzte Zeitung"" zu lesen."	info_article	2
-58	2	<PB> Sie greift auf Schlafforschungen zurück, um ein klareres Bild der Vor - und Nachteile zu schaffen.	intro_topic	2
+58	0	"In dem Text von Cornelia Dieckmann aus dem Jahr 2019 wird die Frage gestellt, ob der ""Schulbeginn um 8 Uhr sinnvoll"" ist."	info_intro	2
+58	1	"Dieser Artikel ist in dem Magazin ""Ärzte Zeitung"" zu lesen."	info_intro	2
+58	2	<PB> Sie greift auf Schlafforschungen zurück, um ein klareres Bild der Vor - und Nachteile zu schaffen.	info_intro	2
 58	3	<PB> Laut einer US-amerikanischen Studie werden die Leistungsfähigkeit und die Konzentration  der Schüler:innen deutlich verbessert und außerdem schlafen sie ca 30 Minuten länger, wenn der Unterricht um 8:45 beginnnt und nicht um 8:00 Uhr.	article_pro	2
 58	4	<PB> Dies bedeutet jedoch auch, dass der Schultag später endet, was Eltern und Schülern nicht gefällt.	article_con	2
 58	5	Denn im Ende geht es um die Freizeit die man am Tag noch hat.	article_con	2
@@ -811,8 +811,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 58	9	Denn wenn man eine Stunde mehr draußen,, zum Beispiel am See sein kann, dann nimmt man die frühe Stunde der Schule in Kauf.	own	2
 58	10	Die Organisation eines späteren Schulbeginns hört sich am Anfang leicht an, ist aber komplizierter als erwartet was ein Grund dafür ist, die Zeiten beizubehalten.	own	2
 58	11	Allerdings darf man die positiven Auswirkungen auf die Schüler:innen nicht igrnorieren, denn nur 30 Minuten mehr schlaf führen zu besseren Ergebnissen.	own	2
-59	0	"<PB> Der Artikel ""Schulbeginn um 8 Uhr sinnvoll?"" von [...] erschien am 19. Oktober 2019 in der ""ÄrtzeZeitung"" (online)."	info_article	2
-59	1	Darin stellt der Autor beide Seitenargumente vor, die positiven und die negativen des späten Schulbeginns.	intro_topic	2
+59	0	"<PB> Der Artikel ""Schulbeginn um 8 Uhr sinnvoll?"" von [...] erschien am 19. Oktober 2019 in der ""ÄrtzeZeitung"" (online)."	info_intro	2
+59	1	Darin stellt der Autor beide Seitenargumente vor, die positiven und die negativen des späten Schulbeginns.	info_intro	2
 59	2	<PB> Der Autor beginnt mit der Beschreibung des negativen Einflusses auf die Leistungen der Schüler während der Schulzeit.	article_pro	2
 59	3	Und dass es zwar Kinder mit einer frühen inneren Uhr gibt, diese sich aber im Jugendalter zu spät verändern kann.	article_pro	2
 59	4	<PB>  Forscher weisen darauf hin, dass der Schlafmangel die Leistungsfähigkeit der Schüler einschränken und so ihre Stimmung negativ beeinflussen kann.	article_pro	2
@@ -827,9 +827,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 59	13	<PB>  Meiner Meinung nach, obwohl für viele Schüler der späte Schulbeginn wahrscheinlich ihre Leistungen im Unterricht verbessert.	own	2
 59	14	Ich bin für einen frühen Schulbeginn, denn wenn die Stunden auf einen späteren Zeitpunkt verschoben werden, würde die Logistik hinter der Organisation der Schulen beeinträchtigt, lautet die Argumentation.	own	2
 59	15	Mir erscheint es logischer, Lösungen für Schüler zu finden, wo sie körperlich aktiv sind, z.B. mehr Sport zu treiben, damit sie früher schlafen gehen können.	own	2
-60	0	"Der Zeitungsartikel "" Schulbeginn um 8 Uhr sinnvoll"" von Cordula Dieckmann, erschienen in der ÄrzteZeitung am 09.10.2019, thematisiert die Debatte über die richtige Uhrzeit für den Schulbeginn."	info_article_topic	2
-60	1	<PB> Die Autorin beschreibt zunächst, dass für Jugendliche das frühe Aufstehen sehr schwierig sei und diese gerade am Wochenende viel Zeit im Bett verbringen würden.	intro_topic	2
-60	2	Lehrer und Schlafmediziner erklären im Text jedoch, dass diese Problematik nicht einfach zu lösen  ist.	intro_topic	2
+60	0	"Der Zeitungsartikel "" Schulbeginn um 8 Uhr sinnvoll"" von Cordula Dieckmann, erschienen in der ÄrzteZeitung am 09.10.2019, thematisiert die Debatte über die richtige Uhrzeit für den Schulbeginn."	info_intro	2
+60	1	<PB> Die Autorin beschreibt zunächst, dass für Jugendliche das frühe Aufstehen sehr schwierig sei und diese gerade am Wochenende viel Zeit im Bett verbringen würden.	info_intro	2
+60	2	Lehrer und Schlafmediziner erklären im Text jedoch, dass diese Problematik nicht einfach zu lösen  ist.	info_intro	2
 60	3	<PB> Zunächst werden im Text einige Argumente für den späteren Unterrichtsbeginn genannt.	meta	2
 60	4	Zum einen ändere sich in der Pubertät die innere Uhr zum Spättypen.	article_pro	2
 60	5	Außerdem befürworten viele Schüler:innen den späteren Unterrichtsbeginn.	article_pro	2
@@ -844,9 +844,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 60	14	Bereits bei einem Schulbeginn ab 8 Uhr ist es in der Oberstufe häufig so, dass man im dunkeln zur Schule kommt und im dunkeln wieder geht.	own	2
 60	15	Außerdem passt man den eigenen Schlafrhytmus eigentlich ziemlich gut an, nur nach den Ferien fällt es mir schwer, früher aufzustehen.	own	2
 60	16	Alles im Allen denke ich, dass man beim frühen Schulbeginn bleiben sollte.	own	2
-61	0	In dem vorliegenden Artikel mit dem Titel ,,Schulbeginn um 8 Uhr sinnvoll?	info_article	2
-61	1	’’, verfasst von Cordula Dieckmann und veröffentlicht am 09.10.2019 über die Online-Version der Ärzte-Zeitung, wird die Fragestellung behandelt, ob es besser sei, den Schulbeginn morgens zeitlich nach hinten zu verlegen.	info_article_topic	2
-61	2	<PB> Unter Heranziehung einer Studie und Expertenmeinung werden die beiden Standpunkte miteinander abgewogen, außerdem weist die Verfasserin darauf hin, dass auch die Einteilung in Sommer- und Winterzeit einen großen Einfluss auf die Leistungsfähigkeit der Teenager habe, egal, wann die Schule beginne.	intro_topic	2
+61	0	In dem vorliegenden Artikel mit dem Titel ,,Schulbeginn um 8 Uhr sinnvoll?	info_intro	2
+61	1	’’, verfasst von Cordula Dieckmann und veröffentlicht am 09.10.2019 über die Online-Version der Ärzte-Zeitung, wird die Fragestellung behandelt, ob es besser sei, den Schulbeginn morgens zeitlich nach hinten zu verlegen.	info_intro	2
+61	2	<PB> Unter Heranziehung einer Studie und Expertenmeinung werden die beiden Standpunkte miteinander abgewogen, außerdem weist die Verfasserin darauf hin, dass auch die Einteilung in Sommer- und Winterzeit einen großen Einfluss auf die Leistungsfähigkeit der Teenager habe, egal, wann die Schule beginne.	info_intro	2
 61	3	<PB> Bezüglich der Argumente, die einen späteren Schulbeginn befürworten, ist allem voran zu nennen, dass sich die innere Uhr der Schüler während der Pubertät verändert.	article_pro	2
 61	4	Sie werden zu sogenannten Spättypen, brauchen demnach morgens mehr Schlaf - wird ihnen dieser vorenthalten, sinkt unter Anderem ihre Leistungsfähigkeit.	article_pro	2
 61	5	Eine Washingtoner Studie zeigt außerdem, dass die Einführung eines späteren Schulbeginns, selbst wenn sie zeitbezogen einen geringen Unterschied mit sich bringt, zu deutlich minimierten Fehlzeiten führen kann.	article_pro	2
@@ -857,9 +857,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 61	10	Selbst Schüler, die die Verfasserin zitiert, äußern sich negativ gegenüber Unterricht in den Mittagsstunden.	article_con	2
 61	11	<PB>  Abschließend lässt sich sagen, dass eine Verschiebung des Unterrichtsbeginns durchaus organisationstechnisch einige Probleme nach sich ziehen würde.	own	2
 61	12	Ich halte sie jedoch nichtsdestotrotz für absolut notwendig, vor allem um Schlafmangel bei Jugendlichen vorzubeugen und ihnen ein fruchtbares Lernumfeld zu bieten.	own	2
-62	0	Der Zeitungsartikel „Schulbeginn um 8 Uhr sinnvoll?“	info_article	2
-62	1	von Cordula Dieckmann erschien am 09.10.2019 in der “Ärzte Zeitung” (online).	info_article	2
-62	2	Die Autorin befasst sich mit einem späteren Schulanfang und die damit verbundene Chancen und Probleme.	intro_topic	2
+62	0	Der Zeitungsartikel „Schulbeginn um 8 Uhr sinnvoll?“	info_intro	2
+62	1	von Cordula Dieckmann erschien am 09.10.2019 in der “Ärzte Zeitung” (online).	info_intro	2
+62	2	Die Autorin befasst sich mit einem späteren Schulanfang und die damit verbundene Chancen und Probleme.	info_intro	2
 62	3	<PB> Die Autorin schreibt, dass sich bei den meisten Kindern der Schlaftyp in Richtung Spättyp in der Pubertät verschiebt.	article_pro	2
 62	4	Dadurch werden die Jugendliche später müde, schlafen morgens länger und ein Schulstart um 8 Uhr führt bei vielen von ihnen zu Schlafmangel.	article_pro	2
 62	5	<PB> So können sich die Jugendlichen schlechter konzentrieren und ihre allgemeine Leistungsfähigkeit sinkt.	article_pro	2
@@ -872,9 +872,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 62	12	Sonst könne es auch helfen darauf zu achten möglichst viel natürliches Licht zu bekommen und besonders Nachmittags sich draußen zu bewegen.	other	2
 62	13	<PB> Im Großen und Ganzen ist ein späterer Schulstart sinnvoll, da den Jugendlichen der Unterricht nicht bringt, wenn sie zu Müde sind um aufmerksam zu sein.	own	2
 62	14	Allerdings ist der spätere Schulstart organisatorisch bei einzelnen Schulen schwer umzusetzen, einfacher wäre es, wenn der Schulbeginn Bundes- oder Landesweit nach hinten verschoben würde.	own	2
-63	0	"Der Artikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_article	2
-63	1	von Cordula Dickmann erschien am 09.10.2019 online in der Ärztezeitung.	info_article	2
-63	2	Der Artikel schildert die Vor- und Nachteile davon, die Schule später beginnen zu lassen, und untersucht, ob dieser spätere Anfang sinnvoll wäre.	intro_topic	2
+63	0	"Der Artikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_intro	2
+63	1	von Cordula Dickmann erschien am 09.10.2019 online in der Ärztezeitung.	info_intro	2
+63	2	Der Artikel schildert die Vor- und Nachteile davon, die Schule später beginnen zu lassen, und untersucht, ob dieser spätere Anfang sinnvoll wäre.	info_intro	2
 63	3	Auf der einen Seite berichtet die Autorin, dass der spätere Beginn im Einklang mit dem natürlichen Schlafrhythmus der Jugendlichen wäre, da dieser sich während der Pubertät nach hinten verschiebt und sie demnach morgens länger schlafen müssten, um genügend Schlaf zu bekommen.	article_pro	2
 63	4	Dieser wiederum ist mit guter Laune verbunden und fördert die Konzentration und Leistungsfähigkeit.	article_pro	2
 63	5	Außerdem hat es sich gezeigt, dass die Schüler dann weniger im Unterricht fehlen und die Leistungen verbessern.	article_pro	2
@@ -899,8 +899,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 64	9	Dadurch beeinflusst die Sonne unsere innere Uhr, ohne es zu merken.	off_topic	2
 64	10	<PB> Kurz gesagt, Schlaf ist ein sehr wichtiges Thema, wenn es um Effizienz, Produktivität und Erfolg in der Schule geht.	off_topic	2
 64	11	Ohne eine gute Pause wären junge Menschen in ihrer Arbeit nicht sehr erfolgreich.	off_topic	2
-65	0	"Der Artikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_article	2
-65	1	von Cordula Dieckmann, erschienen in der Zeit Online, handelt von der Frage ob ein späterer Schulbeginn sinnvoll ist.	info_article_topic	2
+65	0	"Der Artikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_intro	2
+65	1	von Cordula Dieckmann, erschienen in der Zeit Online, handelt von der Frage ob ein späterer Schulbeginn sinnvoll ist.	info_intro	2
 65	2	"<PB> Viele Schüler hätten Probleme mit dem frühen Schulbeginn und in der Pubertät neigen Jugendliche dazu sich zu ""Spättypen"" zu entwickeln."	article_pro	2
 65	3	Die innere Uhr von Spättypen würde dazu führen, dass Schüler morgens unausgeschlafen sind und damit weniger leistungsfähig.	article_pro	2
 65	4	In Seattle wurde der Schulbeginn aus diesem Grunde auf eine halbe Stunde später gesetzt, was zu gestiegenen Leistungen führte.	article_pro	2
@@ -910,8 +910,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 65	8	Eine Verpflegung in der Schule gab es auch in höheren Schuljahren, und damit späterem Schulende, nicht an meiner Schule.	own	2
 65	9	Der spätere Schulbeginn würde auch dazu führen, dass weniger Kinder im Dunkeln zur Schule gehen müssten.	own	2
 65	10	Gerade als Jugendlicher waren damals viele Mitschüler die ersten Stunden nicht aufnahmefähig, obwohl gerade in den letzten Schuljahren der Lehrstoff deutlich schneller vermittelt wird und man damit keinen Unterricht verpassen sollte.	own	2
-66	0	Der folgende Artikel, der am 9. Oktober 2019 in ArzteZeitung veröffentlicht wurde, befasst sich mit der Startzeit des Unterrichts.	info_article_topic	2
-66	1	Der Autor fragt sich, ob die Schule später als 8 Uhr beginnen soll und wie sich dies auf die Schüler auswirkt.	intro_topic	2
+66	0	Der folgende Artikel, der am 9. Oktober 2019 in ArzteZeitung veröffentlicht wurde, befasst sich mit der Startzeit des Unterrichts.	info_intro	2
+66	1	Der Autor fragt sich, ob die Schule später als 8 Uhr beginnen soll und wie sich dies auf die Schüler auswirkt.	info_intro	2
 66	2	<PB> Zu den Vorteilen einer solchen Lösung gehört ein längerer Schlaf, da der Körper des Kindes so arbeitet, dass es bis spät in die Nacht Energie hat, was bedeutet, dass es einige Zeit zum Schlafen und nach dem Aufwachen einige Zeit zum Starten benötigt.	article_pro	2
 66	3	Aus diesem Grund wird die biologische Uhr der Kinder nicht in die falsche Richtung verschoben, sondern nur die Aktivitäten werden daran angepasst.	article_pro	2
 66	4	Dank dessen können die Schüler effizienter arbeiten, nicht überarbeiten und besser Wissen erwerben.	article_pro	2
@@ -925,10 +925,10 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 66	12	Darüber hinaus müsste die Änderung der Schulstunden in vielen Schulen stattfinden, da sonst ein Problem mit Reisen und Mittagessen auftreten würde.	own	2
 66	13	Alles wäre aus dem Gleichgewicht geraten.	own	2
 66	14	Diese Änderung müsste von oben nach unten erfolgen.	own	2
-67	0	"Der Zeitungsartikel ""Schulbeginn um 8 Uhr sinnvoll?""von"	info_article	2
-67	1	"Von Cordula Dieckmann erschien am 09. Oktober 2019 in der ""Aerzte Zeitung"" (online)."	info_article	2
-67	2	Darin geht der Autor auf die Frage ein, ob der Unterricht in den Schulen später als 8 Uhr beginnen sollte?	intro_topic	2
-67	3	Dabei werden sowohl Vor- als auch Nachteile dieser Lösung berücksichtigt.	intro_topic	2
+67	0	"Der Zeitungsartikel ""Schulbeginn um 8 Uhr sinnvoll?""von"	info_intro	2
+67	1	"Von Cordula Dieckmann erschien am 09. Oktober 2019 in der ""Aerzte Zeitung"" (online)."	info_intro	2
+67	2	Darin geht der Autor auf die Frage ein, ob der Unterricht in den Schulen später als 8 Uhr beginnen sollte?	info_intro	2
+67	3	Dabei werden sowohl Vor- als auch Nachteile dieser Lösung berücksichtigt.	info_intro	2
 67	4	<PB> Einerseits zitiert der Autor die Meinung eines Kinderarztes, der glaubt, dass späteres Aufwachen bei Teenagern natürlicher ist, weil sie daran angepasst sind, später einzuschlafen.	article_pro	2
 67	5	Zweitens: Schüler, die ein paar Dutzend Minuten später in der Schule ankamen, schliefen besser und waren viel konzentrierter.	article_pro	2
 67	6	Außerdem hat die Stadt Seattle diese Idee umgesetzt und damit die Zahl der Schüler, die dem Unterricht fernbleiben, reduziert.	article_pro	2
@@ -938,8 +938,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 67	10	Als drittes Argument wurde angeführt, dass die von der EU beschlossene Abschaffung der Umstellung von Sommer- auf Winterzeit und umgekehrt dazu führen würde, dass der Unterricht in den Schulen zu einer Zeit verlängert wird, in der es im Winter bereits dunkel ist.	other	2
 67	11	<PB> Abschließend bin ich der Meinung, dass die Entscheidung, die Schulzeiten zu ändern, erst dann getroffen werden sollte, wenn viele Experten gesprochen haben.	own	2
 67	12	Ein Pilotprogramm könnte in einem Bundesland für ein Schuljahr eingerichtet werden, um zu sehen, wie sich die Änderung auf die Schüler auswirken würde.	own	2
-68	0	"Der Artikel ""Schulbeginn um 8 Uhr steht?"" befasst sich mit dem Problem der Zeit, in der die Schule beginnt."	info_article_topic	2
-68	1	Forschung war erforderlich, um das Problem zu lösen.	intro_topic	2
+68	0	"Der Artikel ""Schulbeginn um 8 Uhr steht?"" befasst sich mit dem Problem der Zeit, in der die Schule beginnt."	info_intro	2
+68	1	Forschung war erforderlich, um das Problem zu lösen.	info_intro	2
 68	2	Für viele junge Leute ist das frühe Aufstehen in der Schule eine Qual, kein Wunder, denn sie bleiben am Wochenende gerne bis Mittag im Bett.	article_pro	2
 68	3	Dr. Alfred Wiater von der Deutschen Gesellschaft für Schlafforschung und Schlafmedizin sagt Frühtypen	article_con	2
 68	4	wird das frühe Aufstehen eher keine Probleme machen.	article_con	2
@@ -954,8 +954,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 68	13	Weitere Tipps für Schüler, um sicherzustellen, dass der Unterricht für sie nicht anstrengend ist und die Konzentration maximiert wird, sind, das Mobiltelefon vor dem Schlafengehen nicht zu benutzen.	off_topic	2
 68	14	<PB>  Der ebenfalls künstliche Lichtzyklus hat einen großen Einfluss auf die innere Uhr.	off_topic	2
 68	15	Vermeiden Sie daher künstliche Lichtquellen vor dem Schlafengehen oder während des Schlafes.	off_topic	2
-69	0	Es stellt sich oft die Frage ob eventuell die Schulen später anfangen sollten.	intro_topic	2
-69	1	Viele Schlafforscher, Lehrer und Eltern, aber auch Schüler diskutieren oft darüber.	intro_topic	2
+69	0	Es stellt sich oft die Frage ob eventuell die Schulen später anfangen sollten.	info_intro	2
+69	1	Viele Schlafforscher, Lehrer und Eltern, aber auch Schüler diskutieren oft darüber.	info_intro	2
 69	2	<PB> Sicher ist dass wenn die Schule früher beginnt, die Schüler dann abends nicht später schlafen müssen.	own	2
 69	3	So übt sich das im Organismus ein, und ihre Innere Uhr hilft den Schülern morgens aufzustehen.	own	2
 69	4	Trotzdem scheinen die Schüler schlechte Laune, Konzentrationsstörungen und/oder Ausdauerstörungen.	article_pro	2
@@ -967,8 +967,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 69	10	Ein anderer Aspekt für den späteren Anfang der Schule ist das physikalische Aufstehen der Kinder mit dem Tageslicht, welches entscheidend für die Leistungsfähigkeit dieser ist.	article_pro	2
 69	11	<PB> In Betrachtung der zuvor genannten Argumente für und gegen den späteren Schulanfang, wird die Wichtigkeit der Diskussion gezeigt.	own	2
 69	12	Es wäre sinnvoll zu mindestens über einen 30minütigen Schulanfang zu sprechen, denn auch nur eine kurze Zeit würde wahrscheinlich bessere Leistungen bei den Schülern erweisen.	own	2
-70	0	"Der Zeitungs Artikel ""Schulbeginn um 8 Uhr sinnvoll?"" erschien am 09.10.2019 in der ""ArzteZeitung"" (online)."	info_article	2
-70	1	Darin diskutiert der Autor das Thema, ob es sinnvoll fur Jugendliche ist, dass die Schule später beginnt, sodass die Schüler mehr schlafen können.	intro_topic	2
+70	0	"Der Zeitungs Artikel ""Schulbeginn um 8 Uhr sinnvoll?"" erschien am 09.10.2019 in der ""ArzteZeitung"" (online)."	info_intro	2
+70	1	Darin diskutiert der Autor das Thema, ob es sinnvoll fur Jugendliche ist, dass die Schule später beginnt, sodass die Schüler mehr schlafen können.	info_intro	2
 70	2	<PB>  Es ist eine Tatsache, dass die Kinder und Jugendliche gern bis spät schlafen.	article_pro	2
 70	3	Das fruh Aufstehen ist sehr schwierg für die Spättypen, die eine bessere Laune hätten, wenn die Schule später beginnen würde.	article_pro	2
 70	4	Aber das Problem ist nicht leicht, wie die Lehrer und Schlafmediziner unterzeichnen.	meta	2
@@ -978,9 +978,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 70	8	Außerdem ist ein späterer Schulanfang mit der Zeitumstellung im Winter nicht notwendig.	own	2
 70	9	Allerdings müssten Schüler später die Schule beginnen, wenn es für eine perrmanente Sommerzeit entschieden würde, denn das Tageslicht ist wicthig für die Leistungsfähigkeit.	own	2
 70	10	<PB> Wie auch der Autor des Artikels denke ich, dass das natürliches Sonnelicht sehr wichtig ist und es besser wäre, wenn die Schüler zu Fuß zur Schule gehen.	off_topic	2
-71	0	"Der Zeitungs-Artikel aus der Ärztezeitung ""Schulbeginn um 8 Uhr sinnvoll?"" wurde von Cordula Dieckmann am 09/10/2019 veröffentlicht."	info_article	2
-71	1	In diesem Artikel diskutiert die Autorin, ob es den Schülern helfen würde, später mit der Schule anzufangen.	intro_topic	2
-71	2	<PB> Die Autorin erklärt das diese Frage nicht eine einfache Antwort hat, und das man Argumente und Gegenargumente vergleichen muss.	intro_topic	2
+71	0	"Der Zeitungs-Artikel aus der Ärztezeitung ""Schulbeginn um 8 Uhr sinnvoll?"" wurde von Cordula Dieckmann am 09/10/2019 veröffentlicht."	info_intro	2
+71	1	In diesem Artikel diskutiert die Autorin, ob es den Schülern helfen würde, später mit der Schule anzufangen.	info_intro	2
+71	2	<PB> Die Autorin erklärt das diese Frage nicht eine einfache Antwort hat, und das man Argumente und Gegenargumente vergleichen muss.	info_intro	2
 71	3	<PB> Aus der sicht des Autors ist es klar, das für viele Schüler es extrem schwierig ist, früh aufzustehen, vor allem wenn sie dann das ganze Wochenende um 12 aufstehen können.	article_pro	2
 71	4	Für die Autorin gibt es also ein paar eindeutige Argumente die für eine änderung der Schulbeginnsurzeit stimmen.	meta	2
 71	5	Unzwar sagt sie, das durch das später anfangen die Schüler mehr schlafen können, sich deswegen besser konzentrieren und dadurch bessere Noten haben, und weniger verspätungen.	article_pro	2
@@ -994,7 +994,7 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 71	13	Winter zeit einen Unterschied gibt zwischen Winter und Sommer, was die Interne Uhr angeht.	own	2
 71	14	Ich denke das es deswegen besser währe würde die Schule im Sommer später anfangen, da die Schüler nach der Schule dann immer noch sehr viel zeit  haben um draussen zu bleiben(im Sommer dauern die Tage länger).	own	2
 71	15	Aber im Winter, wo die Tage auf jeden fall schon kürzer  sind, sollte die Schule nicht später anfangen.	own	2
-72	0	"In dem Online Artikel ""Schulbeginn um 8 Uhr sinnvoll?"", geschrieben von Cordula Dieckmann, erschienen in der Ärzte Zeitung am 09.10.2019 geht es um die Frage, ob der Schulbeginn in Deutschland nach hinten verschoben werden sollte."	info_article_topic	2
+72	0	"In dem Online Artikel ""Schulbeginn um 8 Uhr sinnvoll?"", geschrieben von Cordula Dieckmann, erschienen in der Ärzte Zeitung am 09.10.2019 geht es um die Frage, ob der Schulbeginn in Deutschland nach hinten verschoben werden sollte."	info_intro	2
 72	1	"<PB> Man unterscheidet zwischen sog. ""Früh- und Spättypen""."	article_pro	2
 72	2	Während es den Frühtypen nichts ausmacht, früh aufzustehen und in der Schule zu sitzen,	article_con	2
 72	3	sieht es bei den Spättypen, welche sich vor allem in der Pubertät entwickeln, anders aus.	article_pro	2
@@ -1013,7 +1013,7 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 72	16	Ich persönlich bin für einen Start um 8 Uhr.	own	2
 72	17	Viele Kinder machen Sport oder andere außerschulische Aktivitäten.	own	2
 72	18	Wenn man dann erst später nach Hause kommt, würde es noch stressiger werden (hinzu kommen noch Hausaufgaben), was natürlich auch nicht hilfreich ist.	own	2
-73	0	Das heutige Thema betrifft den Unterricht in Schulen und die Unterrichtsstunden.	intro_topic	2
+73	0	Das heutige Thema betrifft den Unterricht in Schulen und die Unterrichtsstunden.	info_intro	2
 73	1	Wie in jedem Fall gibt es Argumente für die Einführung von späten Schulstunden in Schulen, aber es gibt auch Argumente gegen die Einführung späterer Schulstunden.	meta	2
 73	2	Die wichtigsten positiven Argumente sind die Tatsache, dass wenn die Schüler länger schlafen und ausgeruht sind, ihre Konzentration zunimmt und sich ihre Unterrichtsergebnisse verbessern, was wichtig ist, um neues Wissen zu erlernen.	article_pro	2
 73	3	Ein zusätzlicher Vorteil ist die Tatsache, dass die Schüler an Wochenenden, wenn sie Freizeit haben, oft lange schlafen.	article_pro	2
@@ -1025,7 +1025,7 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 73	9	<PB>  Zusammenfassend gibt es in jedem Fall sowohl positive als auch negative Argumente.	own	2
 73	10	Unterschiedliche Menschen reagieren unterschiedlich auf die Situation.	own	2
 73	11	Aus diesem Grund ist es wichtig, die Situation angemessen zu analysieren und zu bewerten, welche Option eine bessere Lösung wäre.	own	2
-74	0	Das Hauptthema ist der Schulbeginn um 8 Uhr morgens.	intro_topic	2
+74	0	Das Hauptthema ist der Schulbeginn um 8 Uhr morgens.	info_intro	2
 74	1	Ein Neustart des menschlichen Körpers um 8 Uhr morgens schafft eine Gewohnheit und dann ein positives Erwachen für uns, da wir die meisten Stunden des Tages genießen.	own	2
 74	2	Wenn es um die Schule geht, kann das Aufwachen für die Schüler ein schwieriger Prozess sein, aber die Vorteile sind nur positiv, wenn Effizienz und Konzentration zunehmen.	own	2
 74	3	Sich an die Person und ihren Körper zu gewöhnen, die zu einer bestimmten Zeit aufwachen, ist definitiv eine Gewohnheit, die hilft, da spätere Schüler zu solchen Zeiten aufwachen müssen, um zur Arbeit zu gehen.	off_topic	2
@@ -1036,9 +1036,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 74	8	Mit diesem Zeitplan, den sie für sich selbst festlegen, verschwenden sie ihre Stunden nicht mit nutzlosen Dingen und treten früh in den Prozess der Ruhe ein, damit sie zur richtigen Zeit aufwachen.	off_topic	2
 74	9	<PB> Für den Fall, dass entschieden wird, dass die Schulstunden verschoben werden können, sollte dies nicht unbedingt reduziert werden.	own	2
 74	10	Anstatt um 8 Uhr morgens zu beginnen, kann es um 9 Uhr morgens beginnen, aber es kann auch eine Stunde länger übertragen werden, dh bis 3 Uhr nachmittags, damit die Stunden nicht abnehmen und das Wissen der Kinder Empfangen nimmt nicht ab, was konstant und unverändert bleiben muss.	own	2
-75	0	"Der Zeitungsartikel ""Schulbeginn um 8 Uhr Sinnvoll?"""	info_article	2
-75	1	"von Cordula Dieckmann erschien am 09.10.2019 in der ""ÄrzteZeitung"" (online)."	info_article	2
-75	2	Darin diskutiert die Autorin ob dass sinnvoll für die Schule so früh wie um 8 Uhr Anfangen.	intro_topic	2
+75	0	"Der Zeitungsartikel ""Schulbeginn um 8 Uhr Sinnvoll?"""	info_intro	2
+75	1	"von Cordula Dieckmann erschien am 09.10.2019 in der ""ÄrzteZeitung"" (online)."	info_intro	2
+75	2	Darin diskutiert die Autorin ob dass sinnvoll für die Schule so früh wie um 8 Uhr Anfangen.	info_intro	2
 75	3	Ich glaube, dass die Angelegenheit nicht offensichtlich ist und jede Änderung umfassend diskutiert und langsam eingeführt werden müsste.	own	2
 75	4	Die Entscheidung sollte gemeinsam mit Lehrern, Ärzten, Eltern und Schulleitern getroffen werden.	own	2
 75	5	Ich glaube, dass die Angelegenheit nicht offensichtlich ist und jede Änderung umfassend diskutiert und langsam eingeführt werden müsste.	own	2
@@ -1052,10 +1052,10 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 75	13	<PB> Das einzige Argument für die Sinnvolligkeit des Schullanfangs am 8 Uhr morgen schien zu sein die Tatsache, das je Früher die Schüler die Schule beginnen, desto Früher können sie nach Hause zurückzukommen, erholen und Zeit für sich und ihre Hobbys haben.	own	2
 75	14	Meine meinung nach, ist das Schulbeginn um 8 Uhr voll Sinnloss und am mindenstend ein Uhr zu früh.	own	2
 75	15	Ich glaube, dass wenn die Schüler die Unterrichten später anfangen könnten, ihre Schulnoten und Stimmung auch viel besser wäre.	own	2
-76	0	Die Kinder haben immer ein Problem, früh aufzustehen.	intro_topic	2
-76	1	Jedes Kind mag lange im Bett bleiben.	intro_topic	2
-76	2	Vielleicht sollen die Schule darüber denken?	intro_topic	2
-76	3	Das Thema meiner Erörterung lautet: Schulbeginn um 8 Uhr sinnvoll?	intro_topic	2
+76	0	Die Kinder haben immer ein Problem, früh aufzustehen.	info_intro	2
+76	1	Jedes Kind mag lange im Bett bleiben.	info_intro	2
+76	2	Vielleicht sollen die Schule darüber denken?	info_intro	2
+76	3	Das Thema meiner Erörterung lautet: Schulbeginn um 8 Uhr sinnvoll?	info_intro	2
 76	4	Zuerst wollte ich Vor- und Nachteile nennen und dann meine Meinung ausdrücken.	meta	2
 76	5	<PB> Befürworter sagen, dass die Kinder sollen später Unterricht beginnen.	article_pro	2
 76	6	Sie haben mehr Zeit für Schlaf.	article_pro	2
@@ -1077,9 +1077,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 76	22	Wir sind alle gewohnt, dass sie Schule um 8 Uhr beginnt.	own	2
 76	23	Aber ich finde, dass es eine gute Lösung ist, wenn es um Kinder geht.	own	2
 76	24	Und wir sollen alles machen, was die Beste für die Kinder ist, denn sie unsere Zukunft sind.	own	2
-77	0	"Der Zeitungsartikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_article	2
-77	1	"von Cordula Dieckmann, der am 09.10.2019 in der ""ÄrzteZeitung"" (online) veröffentlicht wurde, diskutiert die Frage, ob ein Schulbeginn um 8 Uhr sinnvoll sei."	info_article_topic	2
-77	2	<PB> Es ist keine Seltenheit, dass die SuS in der ersten Unterrichtsstunde noch müde und träge sind, daher werden in diesem Artikel sowohl Vor- als auch Nachteile beschrieben, wenn der Schulstart nach hinten geschoben werden würde.	intro_topic	2
+77	0	"Der Zeitungsartikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_intro	2
+77	1	"von Cordula Dieckmann, der am 09.10.2019 in der ""ÄrzteZeitung"" (online) veröffentlicht wurde, diskutiert die Frage, ob ein Schulbeginn um 8 Uhr sinnvoll sei."	info_intro	2
+77	2	<PB> Es ist keine Seltenheit, dass die SuS in der ersten Unterrichtsstunde noch müde und träge sind, daher werden in diesem Artikel sowohl Vor- als auch Nachteile beschrieben, wenn der Schulstart nach hinten geschoben werden würde.	info_intro	2
 77	3	<PB> Ein Argument für den späteren Schulbeginn wäre aus Sicht der Autorin die Tatsache, dass die Kinder dann nicht mehr so müde wären und besser aus dem Bett kämen.	article_pro	2
 77	4	Außerdem verändere sich die innere Uhr bei vielen Menschen in der Pubertät in Richtung Spättyp, d.h. sie werden abends später müde, schlafen später ein und brauchen dementsprechend morgens länger Schlaf, um ihren physiologischen Schlafbedarf zu decken.	article_pro	2
 77	5	Der häufig auftretende Schlafmangel soll laut Dieckmann außerdem die Leistungsfähigkeit einschränken, zu Konzentrations- und Ausdauerstörungen führen und schlechte Laune machen.	article_pro	2
@@ -1096,10 +1096,10 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 77	16	Außerdem wird empfohlen, sich nachmittags nicht drinnen mit technischen Geräten zu beschäftigen, sondern sich auszutoben, um abends besser und schneller einschlafen zu können.	other	2
 77	17	Persönlich würde ich mich auch der Meinung der SuS anschließen:	own	2
 77	18	Ich hätte lieber einen freien Nachmittag, als morgens länger schlafen zu können.	own	2
-78	0	"Im Artikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_article	2
-78	1	von der ÄrtzteZeitung geht es darum, ob die Schule nicht später beginnen sollte.	info_article_topic	2
-78	2	Viele Experten wie Forscher und Schlafmediziner streiten sich um dieses Thema, ob der Schulbeginn verschoben werden sollte.	intro_topic	2
-78	3	Darin werden beide Seiten vertreten, die für den späteren Beginn sprechen und dagegen, was Thema um einiges mehr komplizierter macht.	intro_topic	2
+78	0	"Im Artikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_intro	2
+78	1	von der ÄrtzteZeitung geht es darum, ob die Schule nicht später beginnen sollte.	info_intro	2
+78	2	Viele Experten wie Forscher und Schlafmediziner streiten sich um dieses Thema, ob der Schulbeginn verschoben werden sollte.	info_intro	2
+78	3	Darin werden beide Seiten vertreten, die für den späteren Beginn sprechen und dagegen, was Thema um einiges mehr komplizierter macht.	info_intro	2
 78	4	Dies führt zu nun zur meiner Argumentation.	meta	2
 78	5	<PB> Zum Beginn des Textes schreibt der Autor, dass die Leistung sich deutlich verbessert.	article_pro	2
 78	6	Das wird dadurch begründet, dass Schüler durch den späteren Unterricht in der Regel 45 Minuten mehr Schlafen können.	article_pro	2
@@ -1115,7 +1115,7 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 78	16	Man sieht, dass der Busfahrer sich ziemlich den Kopf zerbrechen muss, um die Route perfekt zu planen.	own	2
 78	17	<PB> Es lässt sich feststellen, dass es ziemlich schwierig ist, wann genau die Schule anfangen sollte, weil vielleicht dafür und dagegen spricht.	own	2
 78	18	Meiner Meinung nach sollte man eine Schülerumfrage starten das sich auf dieses Thema spezifiziert starten, denn die Bildung ist eines der ziemlich wichtigen Aspekte des Lebens.	own	2
-79	0	Der Artikel zeigt, dass der frühe Schuleintritt heute ein großes Problem für junge Menschen darstellt.	intro_topic	2
+79	0	Der Artikel zeigt, dass der frühe Schuleintritt heute ein großes Problem für junge Menschen darstellt.	info_intro	2
 79	1	<PB> Für heranwachsende junge Erwachsene ist es sehr wichtig, genügend Schlaf und Ruhe zu bekommen, um in der Schule aufmerksam sein zu können.	article_pro	2
 79	2	Ein späterer Schulbeginn würde bedeuten, den morgendlichen Transport, den Einsatz von Schulbussen oder auch andere Formen von speziellen Schülerrabatten zu überdenken.	article_con	2
 79	3	Es gibt auch das Problem, dass alle Schulen ein Mittagessen für die Schüler anbieten, die Pause nach dem Mittagessen als Teil der Schulzeit zählen und den Schülern erlauben, die Schule später zu beenden.	article_con	2
@@ -1127,8 +1127,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 79	9	Persönlich wäre es eine einfachere Lösung, wenn die Schule später beginnen und später enden würde, aber das würde bedeuten, dass die Schule eine Mittagspause und ein Mittagessen für die Schüler anbieten müsste, (spezielle kostenlose oder preisreduzierte Mahlzeiten für bedürftige Schüler) sowie eine Pause nach dem Mittagessen.	own	2
 79	10	Und die Nachmittage sollten der Erholung dienen.	own	2
 79	11	Ein späterer Schulbeginn würde also bedeuten, dass die obligatorischen Hausaufgaben und die zusätzlichen Arbeiten, die die Schüler nachmittags und abends erledigen müssen, abgeschafft würden.	own	2
-80	0	"Im Artikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_article	2
-80	1	veröffentlich am 19.10.2019 in der Ärztezeitung werden die Vor- und Nachteile eines Schulstarts nach 8 Uhr diskutiert.	info_article_topic	2
+80	0	"Im Artikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_intro	2
+80	1	veröffentlich am 19.10.2019 in der Ärztezeitung werden die Vor- und Nachteile eines Schulstarts nach 8 Uhr diskutiert.	info_intro	2
 80	2	<PB> Der Autor leitet das Thema ein, indem er betont, dass es viele Schüler gibt, welche Probleme mit dem frühen Aufstehen haben.	article_pro	2
 80	3	Dennoch betont ein im Artikel zitierter Schlafforscher, dass nicht jedes Kind damit Probleme hat und vor allem die Frühtypen kein Problem mit dem Aufstehen haben,	article_con	2
 80	4	während es bei den anderen zu Problemen wegen dem Schlafmangel kommen könnte.	article_pro	2
@@ -1138,7 +1138,7 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 80	8	Zum Schluss betont der Autor nochmal, dass es nicht nur um die Uhrzeit an sich geht, sondern um das Tageslicht, denn es ist nicht die Uhrzeit die die innere Uhr beeinflusst, sondern die Sonnenzeit.	article_con	2
 80	9	<PB> Ich finde, dass ein späterer Schulbeginn definitiv sinnvoll wäre.	own	2
 80	10	"Alleine anhand des Textes kann man schon herauslesen, dass die Minuspunkte Probleme der Kategorie ""wo ein Wille, da ein Weg"" sind, denn wir leben in einem sehr reichem Land, welches sich eine Investition, die sich erwiesenermaßen mehrmals auszahlt, definitiv leisten kann und sollte."	own	2
-81	0	Das Thema des Textes ist die Schlafdauer von Kindern und welchen Einfluss diese auf ihre schulischen Leistungen und Fehlzeiten hat.	intro_topic	2
+81	0	Das Thema des Textes ist die Schlafdauer von Kindern und welchen Einfluss diese auf ihre schulischen Leistungen und Fehlzeiten hat.	info_intro	2
 81	1	<PB> Das Wichtigste, was Sie beachten sollten, ist, dass Kinder mehr Stunden Schlaf benötigen als Erwachsene, da sich ihr Gehirn noch in der Entwicklung befindet und mehr Ruhe braucht.	own	2
 81	2	<PB> Kinder sind morgens nicht so leistungsfähig wie am Vormittag, da sie nicht voll aktiv sind.	own	2
 81	3	<PB> Schließlich ist natürliches Licht sehr wichtig für die Konzentration und Leistungsfähigkeit.	other	2
@@ -1150,11 +1150,11 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 81	9	<PB> als schlussfolgerung müssen wir die schlafzyklen der Kinder berücksichtigen, um ihnen auch zu helfen, Konzepte besser zu lernen und zu assimilieren.	own	2
 81	10	wir müssen versuchen, die erziehung mehr auf das Wohl der Kinder auszurichten und weniger auf den Versuch, Konzepte auswendig zu lernen, die für Kinder in ihrem täglichen Leben oft keinen Sinn ergeben.	off_topic	2
 81	11	wir müssen versuchen, dass sich die erziehung um die Kinder dreht und von und für sie sein wird, denn sie sind unsere Zukunft.	off_topic	2
-82	0	"Der Zeitungsartikel ,,Schulbeginn um 8 Uhr sinnvoll?"""	info_article	2
-82	1	"von Corduli Dieckmann ershien am 9.10.2019 in der ,,ÄrzteZeitung"" (online)."	info_article	2
-82	2	Darin diskutiert der Autor das Thema, sollte der Schulunterricht später beginnen.	intro_topic	2
-82	3	<PB> Nach Angaben des Autors und verschiedener an diesem Thema beteiligter Personen ist die Angelegenheit nicht eindeutig.	intro_topic	2
-82	4	Es hat sowohl Vor- als auch Nachteile, die Zeit zu ändern, in der Ihre Kinder in die Schule gehen sollen.	intro_topic	2
+82	0	"Der Zeitungsartikel ,,Schulbeginn um 8 Uhr sinnvoll?"""	info_intro	2
+82	1	"von Corduli Dieckmann ershien am 9.10.2019 in der ,,ÄrzteZeitung"" (online)."	info_intro	2
+82	2	Darin diskutiert der Autor das Thema, sollte der Schulunterricht später beginnen.	info_intro	2
+82	3	<PB> Nach Angaben des Autors und verschiedener an diesem Thema beteiligter Personen ist die Angelegenheit nicht eindeutig.	info_intro	2
+82	4	Es hat sowohl Vor- als auch Nachteile, die Zeit zu ändern, in der Ihre Kinder in die Schule gehen sollen.	info_intro	2
 82	5	<PB> Laut Forschern der University of Washington wirkt sich ein längerer Schlaf positiv auf die Konzentration der Studenten aus.	article_pro	2
 82	6	Nach Ihren Untersuchungen Schüler, wie länger schliefen, in der Schule besser ab, und auch die allgemeine Anwesenheit verbesserte sich.	article_pro	2
 82	7	<PB> Das Ändern der Klassenstartzeit würde sich auch auf die Endzeit auswirken.	article_con	2
@@ -1169,9 +1169,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 82	16	Zum Beispiel, blieben die Schüler bis in die späten Stunden in der Schule und ließen am Nachmittag weniger Zeit.	article_con	2
 82	17	Meiner Meinung nach sollte der Unterricht immer noch um 8 Uhr beginnen.	own	2
 82	18	Ich denke schon, weil es Ihnen erlaubt, sich an den Nachmittagen auszuruhen, die frei sind.	own	2
-83	0	Die meisten Schulen beginnen um 8 Uhr.	intro_topic	2
-83	1	Ist dies jedoch eine gute Lösung?	intro_topic	2
-83	2	Viele Forscher begannen, das Thema eingehender zu analysieren.	intro_topic	2
+83	0	Die meisten Schulen beginnen um 8 Uhr.	info_intro	2
+83	1	Ist dies jedoch eine gute Lösung?	info_intro	2
+83	2	Viele Forscher begannen, das Thema eingehender zu analysieren.	info_intro	2
 83	3	<PB> Es gibt mehrere Argumente, um Klassen später zu starten.	meta	2
 83	4	<PB> Erstens wird die biologische Uhr junger Menschen auf die späteren Stunden eingestellt.	article_pro	2
 83	5	Dies bedeutet, dass sie am frühen Morgen weniger effizient sind.	article_pro	2
@@ -1190,11 +1190,11 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 83	18	Meiner Meinung nach ist jedoch der freie Nachmittag wichtiger, die Möglichkeit, mit der Familie zu Hause zu Abend zu essen.	own	2
 83	19	Es lohnt sich, über körperliche Aktivität am Morgen nachzudenken.	own	2
 83	20	Ein Spaziergang zur Schule wird sicherlich jeden faulen Schüler wecken.	own	2
-84	0	"Der Artikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_article	2
-84	1	"von Cordula Dieckmann in der ""ÄrtzteZeitung"" online veröffentlicht am 09.10.2019."	info_article	2
-84	2	Der Text umgeht das Thema, ob Schüler sich besser in der Schule konzentrieren können, wenn die Schule morgens erst später anfangen würde.	intro_topic	2
-84	3	<PB> Jedes Kind ist anders, viele sind schon sehr früh am Morgen wach und munter, andere mögen lieber die Stille der Nacht, somit brauchen sie morgens eher länger Schlaf.	intro_topic	2
-84	4	Da sich das Schlaftyp auch verändern kann, ist die Frage eher komplex.	intro_topic	2
+84	0	"Der Artikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_intro	2
+84	1	"von Cordula Dieckmann in der ""ÄrtzteZeitung"" online veröffentlicht am 09.10.2019."	info_intro	2
+84	2	Der Text umgeht das Thema, ob Schüler sich besser in der Schule konzentrieren können, wenn die Schule morgens erst später anfangen würde.	info_intro	2
+84	3	<PB> Jedes Kind ist anders, viele sind schon sehr früh am Morgen wach und munter, andere mögen lieber die Stille der Nacht, somit brauchen sie morgens eher länger Schlaf.	info_intro	2
+84	4	Da sich das Schlaftyp auch verändern kann, ist die Frage eher komplex.	info_intro	2
 84	5	<PB> In Seattle (USA) hat man sich so viel über dieses Thema ausgestauscht, dass sie kurzerhand den Unterrichtsbeginn auf 8.45 verschoben und diesen Versuch in einer Studie verfolgten.	article_pro	2
 84	6	Es kam herraus, dass Kinder ausgeschlafener waren und sich so besser konzentrieren konnten, womit auch ihre Leistungen sich verbesserten.	article_pro	2
 84	7	Dies ist sehr wohl ein Argument für eine Umstellung.	article_pro	2
@@ -1204,19 +1204,19 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 84	11	<PB>  Nicht sehr viele Argumente wurden im Text für eine Zeitumstellung genannt.	other	2
 84	12	Meines erachtens müssten dann auch Arbeitsplätze später anfangen, denn viele Eltern bringen ihre Kinder selber zur Schule.	own	2
 84	13	Es ist auch viel besser, wenn man am Nachmittag frei hat, denn so kann man auch Hobbies nachgehen, was sehr gut für die Entwicklung der Persönlichkeit ist.	own	2
-85	0	Sollten die Schüler früh aufstehen?	intro_topic	2
-85	1	<PB> Die Antwort auf diese Frage ist so einfach, weil wir sehr gut wissen, dass es sich um viele Variablen handelt.	intro_topic	2
-85	2	Nicht jeder arbeitet gleich und jeder wacht zu einer anderen Zeit auf.	intro_topic	2
+85	0	Sollten die Schüler früh aufstehen?	info_intro	2
+85	1	<PB> Die Antwort auf diese Frage ist so einfach, weil wir sehr gut wissen, dass es sich um viele Variablen handelt.	info_intro	2
+85	2	Nicht jeder arbeitet gleich und jeder wacht zu einer anderen Zeit auf.	info_intro	2
 85	3	<PB> Ein Argument gegen frühes Aufstehen ist sicherlich eine schlechtere Konzentration und das Verschlafen der Schüler während des ersten Unterrichts, bei denen man sagen kann, dass sie fast abwesend sind, denn was bringt es, im Unterricht zu sitzen, wenn keiner von ihnen positiv ist?	article_pro	2
 85	4	Dieses Verhalten kann dazu führen, dass Schüler spät schlafen gehen, was durch ein schnelleres Einschlafen ausgeglichen werden kann.	article_pro	2
 85	5	<PB> Ein Argument gegen einen späteren Schulbesuch ist, dass die Schule bis zu sehr niedrigen Stunden dauern würde, sogar bis 16 bis 17 Uhr,	article_con	2
 85	6	und dies würde einen Großteil des Tages in Anspruch nehmen, was für die Kinder nicht gesund ist und fast im Dunkeln nach Hause gehen würde und sie hätten keine Zeit, etwas zu tun, nachdem sie ihre Hausaufgaben gemacht haben, denn wenn der Unterricht um 8 Uhr beginnt, dauert er durchschnittlich bis 13 bis 14 Uhr, und es bleibt noch viel Tag übrig.	own	2
 85	7	<PB> Ein weiteres Argument dagegen ist, dass die Zügel zur Mittagszeit reichen und die Schule den Schülern Mittagessen mit zusätzlichen Kosten anbieten müsste und der Unterricht nach der Mittagspause wieder aufgenommen werden müsste und dies nicht allgemein akzeptiert würde.	article_con	2
 85	8	<PB>  Zusammenfassend sehe ich mehr Argumente gegen diese Lösung, aber es ist sicherlich kein reines Null-Eins-Problem	own	2
-86	0	"Der Zeitungsartikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_article	2
-86	1	"von Cordula Bieckmann erschien am 09.10.2019 in der ""ÄrtzeZeitung""."	info_article	2
-86	2	In diesem Artikel diskutiert der Autor ob es sinnvoll sei den Schulanfang auf eine spätere Zeit zu verlegen.	intro_topic	2
-86	3	<PB> Die Autorin erklärt, dass obwohl dieser spätere Anfang ganz verlocken klingt er seine eigenen Probleme bringe.	intro_topic	2
+86	0	"Der Zeitungsartikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_intro	2
+86	1	"von Cordula Bieckmann erschien am 09.10.2019 in der ""ÄrtzeZeitung""."	info_intro	2
+86	2	In diesem Artikel diskutiert der Autor ob es sinnvoll sei den Schulanfang auf eine spätere Zeit zu verlegen.	info_intro	2
+86	3	<PB> Die Autorin erklärt, dass obwohl dieser spätere Anfang ganz verlocken klingt er seine eigenen Probleme bringe.	info_intro	2
 86	4	<PB> Ein erster Punkt sei, dass Pubertäre Schüler später schlafen und deswegen später aufwachen.	article_pro	2
 86	5	Dies liegt an ihre innere Uhr, die während der Pubertät sich ändere.	article_pro	2
 86	6	Für solche Schüler ist ein späterer Start in den Tag ideal.	article_pro	2
@@ -1251,9 +1251,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 87	15	Ich denke, es ist eine gute Idee für Kinder, später zur Schule zu kommen, wenn Sie ihre besseren Lernnoten angeben.	own	2
 87	16	<PB> Eine längere Freizeit mag für Kinder ein gutes Argument sein, aber sie wählen ihre Position, indem sie sich ansehen, was ihnen jetzt wichtig ist.	own	2
 87	17	Er sieht nicht aus der gleichen Perspektive wie erwachsene Menschen, die sich um ihr Wohlergehen kümmern.	own	2
-88	0	"Der Zeitungsartikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_article	2
-88	1	von Cordula Dieckmann aus der ÄrzteZeitung Online (09.10.2019) diskutiert die Legitimität, die Unterrichtszeit so zu ändern, dass Kinder später aufstehen.	info_article_topic	2
-88	2	Die Authorin steht der Idee skeptisch gesehen, aber auch sie zeigt, dass die Ergebnisse es rechtfertigen.	intro_topic	2
+88	0	"Der Zeitungsartikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_intro	2
+88	1	von Cordula Dieckmann aus der ÄrzteZeitung Online (09.10.2019) diskutiert die Legitimität, die Unterrichtszeit so zu ändern, dass Kinder später aufstehen.	info_intro	2
+88	2	Die Authorin steht der Idee skeptisch gesehen, aber auch sie zeigt, dass die Ergebnisse es rechtfertigen.	info_intro	2
 88	3	<PB>  Est ist zitiert Forschungen aus den USA, bei denen die Kinder welche länger schlafen, bessere Ergebnisse haben und weniger Fehlzeiten erzielten.	article_pro	2
 88	4	Dem Artikel zufolge ist es jedoch auch wichtig zu berücksichtigen, dass Kinder nachmittags lieber mehr Freizeit zu haben.	article_con	2
 88	5	Darüber hinaus besteht das Problem, die Ankunftszeiten von Bussen aus kleineren Städten anzupassen.	article_con	2
@@ -1269,9 +1269,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 88	15	An dieser Stelle sprechen wir nur über die zusätzliche Stunde.	own	2
 88	16	Wie oft setzen wir das, was für unsere Kinder gut ist, dem vor, was sie bevorzugen würden.	own	2
 88	17	Zusammenfassend halte ich späteren Unterricht für eine gute Idee, um die meisten Schüler zu konzentrieren, die lieber später ins Bett gehen.	own	2
-89	0	"Der Tageszeitungsartikel „Schulbeginn um 8 Uhr sinnvoll?"""	info_article	2
-89	1	von Cordula Dieckmann erschien am 09 Oktober 2019 in der ÄrzteZeitung (online).	info_article	2
-89	2	Darin spricht der Schöpfer über die Frage, ob die Schüler später am Morgen zur Schule gehen sollen, als es bereits ist.	intro_topic	2
+89	0	"Der Tageszeitungsartikel „Schulbeginn um 8 Uhr sinnvoll?"""	info_intro	2
+89	1	von Cordula Dieckmann erschien am 09 Oktober 2019 in der ÄrzteZeitung (online).	info_intro	2
+89	2	Darin spricht der Schöpfer über die Frage, ob die Schüler später am Morgen zur Schule gehen sollen, als es bereits ist.	info_intro	2
 89	3	<PB> In Seattle,USA, hatten sie diese Diskurse satt und verzögerten den Unterricht an einigen Schulen um eine halbe Stunde auf 8:45 Uhr.	article_pro	2
 89	4	Die Analysten stellten fest, dass die Zweitstudien eine normale Pause von 34 Minuten länger einlegten und ihre Ausführung fortschritt und das Nichterscheinen geringer war.	article_pro	2
 89	5	Darüber hinaus wird zum Ausdruck gebracht, dass sich die innere Uhr bei zahlreichen Personen im Jugendalter ändert - in Richtung des späten Typs.	article_pro	2
@@ -1286,9 +1286,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 89	14	<PB> Wie auch der Autor des Artikels denke ich, dass die Schüler sollten früh aufstehen und um 8:00 Uhr zur Schule gehen.	own	2
 89	15	Ein Tipp, um dies zu vereinfachen, ist, zur Schule zu gehen.	other	2
 89	16	Das reicht aus, um unsere interne Uhr zu synchronisieren und unserem Organismus ein klares Startsignal für den Tag zu geben.	other	2
-90	0	Der Zeitungsartikel “Schulbeginn um 8 Uhr sinnvoll?”	info_article	2
-90	1	von Cordula Dieckmann‎ erschien am 09.10.2019 in der “Ärzte Zeitung”.	info_article	2
-90	2	Die Autorin diskutiert, ob die Schule später als 8 Uhr beginnen soll oder nicht, da dies die Leistung der Schüler verbessern könnte.	intro_topic	2
+90	0	Der Zeitungsartikel “Schulbeginn um 8 Uhr sinnvoll?”	info_intro	2
+90	1	von Cordula Dieckmann‎ erschien am 09.10.2019 in der “Ärzte Zeitung”.	info_intro	2
+90	2	Die Autorin diskutiert, ob die Schule später als 8 Uhr beginnen soll oder nicht, da dies die Leistung der Schüler verbessern könnte.	info_intro	2
 90	3	<PB> Die Autorin erklärt, dass viele Schüler gerne später anfangen würden, da ein so frühes Aufwachen für viele eine Qual ist.	article_pro	2
 90	4	Experten zufolge könnte es jedoch einige Vorteile haben, den Schulbeginn nicht zu verschieben.	article_con	2
 90	5	<PB> Die Autorin zeigt, dass laut einer Studie ein späterer Schulbeginn die Leistung der Schüler verbessert und die Fehlzeiten bei den Schülern verringert.	article_pro	2
@@ -1298,9 +1298,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 90	9	Für viele Schüler ist es schlimmer, später abzuschließen, als früher zu beginnen.	article_con	2
 90	10	<PB> Alles in allem kann ich völlig verstehen, warum ein späterer Schulbeginn für viele Schüler verlockend ist.	own	2
 90	11	Meiner Meinung nach ist es jedoch die perfekte Balance zwischen zu früh und zu spät, wenn man mit 8 beginnt, und eine zu starke Verlagerung kann den Schülern schaden und logistisch schwer implementiert werden, da, mit 8 zu beginnen, seit jeher der Standard war.	own	2
-91	0	Der Zeitungsartikel “Schulbeginn um 8 Uhr sinnvoll?”	info_article	2
-91	1	von Cordula Dieckmann erschien am  09.10.2019 in der “Ärzte Zeitung” (online).	info_article	2
-91	2	Darin diskutiert die Autorin  das Thema, ob es sinnvoll für Jugendliche ist, das Unterricht zu einer späteren Uhrzeit zu beginnen.	intro_topic	2
+91	0	Der Zeitungsartikel “Schulbeginn um 8 Uhr sinnvoll?”	info_intro	2
+91	1	von Cordula Dieckmann erschien am  09.10.2019 in der “Ärzte Zeitung” (online).	info_intro	2
+91	2	Darin diskutiert die Autorin  das Thema, ob es sinnvoll für Jugendliche ist, das Unterricht zu einer späteren Uhrzeit zu beginnen.	info_intro	2
 91	3	<PB> Die Autorin meint dass, das frühe Aufstehen für viele Schüler eine Qual seie und ein späterer Unterrichtsbeginn positive Wirkungen hätte.	article_pro	2
 91	4	<PB> Auf der einen Seite laut Dr. Alfred Wiater, würde mehr Schlaf die Leistungsfähigkeit und die Laune der Schüler erhöhen.	article_pro	2
 91	5	In der Pubertät würde sich die innere Uhr bei vielen Menschen in Richtung Spättyp verändern.	article_pro	2
@@ -1318,10 +1318,10 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 91	17	Einen freien Nachmittag ist ihnen wichtiger als ein später Schulanfang.	article_con	2
 91	18	<PB>  Meiner Meinung nach, würde ein späterer Schulanfang, kurzfristig, positive Auswirkungen auf den Schülern haben aber langfristig würden sich diese Auswirkungen verringern.	own	2
 91	19	Eine bessere Unterrichtsstruktur würde vielleicht sinnvoller sein.	own	2
-92	0	Der Zeitungsartikel “Schulbeginn um 8 Uhr sinnvoll?	info_article	2
-92	1	” von  Cordula Dieckmann erschien am 09.10.2019 in der “Ärzte Zeitung” (online).	info_article	2
-92	2	Darin diskutiert der Autor das Thema, ob es sinnvoll für Jugendliche ist, mehr Schlafzeit zu haben, un so später der Schulanfang zu beginnen.	intro_topic	2
-92	3	<PB> Der Autor schildert, dass es sich bei der Situation um eine wichtige Entscheidung für junge Menschen handelt, die wohlüberlegt sein muss, und bei der jeder seine eigenen Gesundheit und Ziele in Betracht ziehen muss.	intro_topic	2
+92	0	Der Zeitungsartikel “Schulbeginn um 8 Uhr sinnvoll?	info_intro	2
+92	1	” von  Cordula Dieckmann erschien am 09.10.2019 in der “Ärzte Zeitung” (online).	info_intro	2
+92	2	Darin diskutiert der Autor das Thema, ob es sinnvoll für Jugendliche ist, mehr Schlafzeit zu haben, un so später der Schulanfang zu beginnen.	info_intro	2
+92	3	<PB> Der Autor schildert, dass es sich bei der Situation um eine wichtige Entscheidung für junge Menschen handelt, die wohlüberlegt sein muss, und bei der jeder seine eigenen Gesundheit und Ziele in Betracht ziehen muss.	info_intro	2
 92	4	<PB> Aus der Sicht des Autors spricht für die Schulbusse, vor allem auf dem Land, die Schüler in einem großen Umkreis einsammeln und oft mehrere Schulen anfahren und das ist problematisch, weil alle zu unterschiedlichen Zeit beginnen und bedeute dann ein späterer Schulbeginn auch, dass man in die Mittagszeit hineinkomme.	article_con	2
 92	5	<PB> Auf der anderen Seite merkt der Autor an, dass laut Expertenmeinungen das Tageslicht eine entscheidende Rolle für die Leistung spielt.	other	2
 92	6	Es ist nicht die Zeit, die die innere Uhr beeinflusst, sondern die Zeit, die man dem Sonnenlicht ausgesetzt ist.	other	2
@@ -1329,9 +1329,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 92	8	Daher wurde er so implementiert, dass die Sommerzeit verlassen wird, anstatt sie auf die Winterzeit umzustellen.	other	2
 92	9	<PB>  Wie auch der Autor des Artikels denke ich, dass der Schlafzeit sehr wichtig ist, um eine gute Laune zu haben, weniger Konzentrationstörung zu haben und auch mehr Leistungsfähigkeit zu haben. Jedoch;	own	2
 92	10	Ich bin der Meinung, dass es neue Studienpläne und Verbesserungen in den Unterrichtszeiten und Pausen geben sollte, damit junge Leute ihren Nachmittag genießen können	own	2
-93	0	Der Zeitungsartikel “Schulbeginn um 8 Uhr sinnvoll?”	info_article	2
-93	1	von Cordula Dieckmann erschien am 09.10.2019 in der “Ärzte Zeitung”.	info_article	2
-93	2	Darin diskutiert der Autor das Thema, ob es sinnvoll der Schulbeginn um 8 Uhr ist.	intro_topic	2
+93	0	Der Zeitungsartikel “Schulbeginn um 8 Uhr sinnvoll?”	info_intro	2
+93	1	von Cordula Dieckmann erschien am 09.10.2019 in der “Ärzte Zeitung”.	info_intro	2
+93	2	Darin diskutiert der Autor das Thema, ob es sinnvoll der Schulbeginn um 8 Uhr ist.	info_intro	2
 93	3	<PB> Der Kinder- und Jugendarzt Dr. Alfred Wiater von der Deutschen Gesellschaft für Schlafforschung und Schlafmedizin (DGSM) erklärt, dass viele Jungendliche werden abends erst später müde und brauchen morgens länger Schlaf, um Schlafmangel zu vermeiden und ihren physiologischen Schlafbedarf zu decken.	article_pro	2
 93	4	<PB> Der Autor schildert, dass der Unterricht an mehren Schulen in Seattle auf 8.45 Uhr verschoben wurde un die Konzentration von Schülern verbessert ist.	article_pro	2
 93	5	<PB> Auf der anderen Seite merkt der Vorsitzende des Deutschen Lehrerverbandes, Heinz-Peter Meidinger, dass später afangen viele Probleme verursachen würde.	article_con	2
@@ -1343,9 +1343,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 93	11	Joachim Ficker erklärt, dass viel natürliches Licht auf die Netzhaut treffen wacher und leistungsfähig macht.	other	2
 93	12	Er sagt auch, dass zu Fuß zur Schule gehen hilft, um unserem Organismus ein klares Startsignal zu geben.	other	2
 93	13	<PB> Ich denke dass wenn die Schule später beeneden wurde, wäre es schlechter, weil der Nachmittag sehr wichtig ist für Shülern, und ich finde die Tipps von Joachim Ficker sehr hilfreich um eines gesundes Leben zu haben.	own	2
-94	0	Der Zeitungsartikel “Schulbeginn um 8 Uhr sinnvoll?”	info_article	2
-94	1	von Cordula Dieckmann erschien am 09.10.2019 in der “ÄrzteZeitung” (online).	info_article	2
-94	2	In diesem Artikel wird diskutiert, ob es für Jugendliche sinnvoll ist, dass der Schulbeginn bereits um 8 Uhr ist, oder ob ein späterer Start in die Schule doch besser wäre.	intro_topic	2
+94	0	Der Zeitungsartikel “Schulbeginn um 8 Uhr sinnvoll?”	info_intro	2
+94	1	von Cordula Dieckmann erschien am 09.10.2019 in der “ÄrzteZeitung” (online).	info_intro	2
+94	2	In diesem Artikel wird diskutiert, ob es für Jugendliche sinnvoll ist, dass der Schulbeginn bereits um 8 Uhr ist, oder ob ein späterer Start in die Schule doch besser wäre.	info_intro	2
 94	3	<PB> Am Anfang des Artikels wird von Dr. Alfred Wiater erklärt, dass bei vielen Jugendlichen sich die innere Uhr während der Pubertät ändert.	article_pro	2
 94	4	Dies führt dazu, dass Jugendliche erst später müde werden und einschlafen, und dementsprechend am Morgen länger ausschlafen sollten.	article_pro	2
 94	5	Ist ein Schüler am Morgen ausgeschlafen, so verbessert sich nicht nur seine Laune, sondern auch seine Konzentration und dementsprechend auch seine schulische Leistung.	article_pro	2
@@ -1361,10 +1361,10 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 94	15	Auch wenn die Idee morgens länger zu schlafen sehr verlockend klingt, so sind viele nicht mit dem Nachteil, dass die Schule auch erst später enden würde, nicht einverstanden, da sie den freien Nachmittag sehr schätzen.	article_con	2
 94	16	<PB> Durch die angegebenen Argumente erkennt man, dass dieses Thema relativ kompliziert ist.	own	2
 94	17	Meiner Meinung nach wäre ein leicht späterer Schulbeginn vorteilhaft und möglich, jedoch nur wenn die Schulen dies unter sich besprechen würden und somit einige Probleme, die bei den Gegenargumenten genannt wurden, zu beseitigen.	own	2
-95	0	"Der Zeitungsartikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_article	2
-95	1	von Cordula Dieckmann wurde am 9.10.2019 in der Ärzte Zeitung veröffentlicht.	info_article	2
-95	2	Es geht um die Diskussion über die Schulanfangszeit.	intro_topic	2
-95	3	Die Autorin erklärt die Argumente für einen späteren Schulanfang und die Argumente gegen einen späteren Schulanfang.	intro_topic	2
+95	0	"Der Zeitungsartikel ""Schulbeginn um 8 Uhr sinnvoll?"""	info_intro	2
+95	1	von Cordula Dieckmann wurde am 9.10.2019 in der Ärzte Zeitung veröffentlicht.	info_intro	2
+95	2	Es geht um die Diskussion über die Schulanfangszeit.	info_intro	2
+95	3	Die Autorin erklärt die Argumente für einen späteren Schulanfang und die Argumente gegen einen späteren Schulanfang.	info_intro	2
 95	4	<PB> Viele Schüler würden natürlich gerne später zur Schule gehen.	article_pro	2
 95	5	Für viele Jugendliche ist das frühe Aufstehen zur Schulzeit eine Qual.	article_pro	2
 95	6	Außerdem verändert sich in der Pubertät die innere Uhr und es wird immer wieder schwieriger, bald aufzustehen.	article_pro	2
@@ -1378,9 +1378,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 95	14	Die Familien würden sich nicht freuen, wenn ihre Kinder immer in der Schule und nie zu Hause am Mittag wären.	own	2
 95	15	Die Kinder lieben auch einen freien Nachmittag.	own	2
 95	16	Deshalb glaube ich, dass ein späterer Schulanfang nur für Universitätsstudenten besser ist.	own	2
-96	0	Schulbeginn um später Uhr sinnvoll ?	intro_topic	2
-96	1	<PB>  Ich müchte über Thema die Schule sollte um später Uhr begginen sprechen.	intro_topic	2
-96	2	Es gibt vielen Meinungen pro und kontra diese Idee.	intro_topic	2
+96	0	Schulbeginn um später Uhr sinnvoll ?	info_intro	2
+96	1	<PB>  Ich müchte über Thema die Schule sollte um später Uhr begginen sprechen.	info_intro	2
+96	2	Es gibt vielen Meinungen pro und kontra diese Idee.	info_intro	2
 96	3	<PB>  Ich betrachte dass die Schulern sollten später fur die Schule gehen, weil Sie würde bessere Konzentration haben, weil Sie bessere und länger Schlafen hatten.	article_pro	2
 96	4	Ich denke dass das ist the Hauptargument.	own	2
 96	5	Ich finde, dass Schule soll später ab un zu  beginnen, weil die Schulern können nicht täglich um frühe Stunden 100 Prozent Ihren Energie haben dadurch dass effizient arbeiten.	own	2
@@ -1393,8 +1393,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 96	12	Sie haben auch ihre Privateleben und Ich zweifle darauf, ob sie bis 17 Uhr arbeiten möchten und um 18 Uhr zu Hause zu sein.	own	2
 96	13	<PB>  Zusammenfassend	own	2
 96	14	Ich denke, dass die Menschen sollen  über späterer Uhr der Schule denken aber nur für die ältere Schulern und nur wann Sie einen wichtigen Schulfachen haben.	own	2
-97	0	"Der Zeitungsartikel Schulbeginn um 8 Uhr sinnvoll?"" aus der Online-Ausgabe der ""ÄrzteZeitung"" vom 09.10.2019 diskutiert die Vor- und Nachteile eines späteren Starts des Schultages."	info_article_topic	2
-97	1	Die Autorin Cordula Dieckmann greift hierbei die Problematik vieler Jugendlicher auf, die insbesondere mit dem frühen Aufstehen ein Problem haben.	intro_topic	2
+97	0	"Der Zeitungsartikel Schulbeginn um 8 Uhr sinnvoll?"" aus der Online-Ausgabe der ""ÄrzteZeitung"" vom 09.10.2019 diskutiert die Vor- und Nachteile eines späteren Starts des Schultages."	info_intro	2
+97	1	Die Autorin Cordula Dieckmann greift hierbei die Problematik vieler Jugendlicher auf, die insbesondere mit dem frühen Aufstehen ein Problem haben.	info_intro	2
 97	2	<PB> Aus Sicht der von der Autorin befragten Experten spricht für eine Verschiebung des Schulbeginns insbesondere die Veränderung des Schlafverhaltens von Jugendlichen.	article_pro	2
 97	3	Diese würden sich tendenziell in Richtung eines Spättypens während der Pubertät entwickeln und profitieren somit von einem späteren Schulbeginns.	article_pro	2
 97	4	Ein Schlafmangel aufgrund eines zu frühen Aufstehens könnte sonst folglich Konzentrationsprobleme oder erhöhte Fehlzeiten hervorrufen.	article_pro	2
@@ -1406,14 +1406,14 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 97	10	Schlussendlich hätten Schüler auch weniger Freizeit am Nachmittag, da das Schulende immer später werden würde.	article_con	2
 97	11	<PB>  Persönlich denke ich, dass ein späterer Schulbeginn tendenziell mehr Nach- als Vorteile mit sich bringt.	own	2
 97	12	Vermutlich ist es daher sinnvoll, den Schulbeginn so zu lassen, wie er aktuell ist und ggf. durch mehr Flexibilität in der Stundenplan-Planung zu ergänzen.	own	2
-98	0	Der Zeitungsartikel “Schulbeginn im 8 Uhr sinnvoll?	info_article	2
-98	1	” von  Cordula Dieckmann erschien am 09.10.2019 in der.	info_article	2
-98	2	<PB> “Ärzte Zeitung” (online).	info_article	2
-98	3	Darin diskutiert die Autorin das Thema, ob es sinnvoll für Alle ist, den Schulbeginn auf 8 Uhr zu vorlegen.	intro_topic	2
+98	0	Der Zeitungsartikel “Schulbeginn im 8 Uhr sinnvoll?	info_intro	2
+98	1	” von  Cordula Dieckmann erschien am 09.10.2019 in der.	info_intro	2
+98	2	<PB> “Ärzte Zeitung” (online).	info_intro	2
+98	3	Darin diskutiert die Autorin das Thema, ob es sinnvoll für Alle ist, den Schulbeginn auf 8 Uhr zu vorlegen.	info_intro	2
 98	4	<PB> Der Autor erläutert zu Beginn, die Qual aller Schüler und Schülerinnen jeden morgen vor dem Unterrichtsbeginn.	article_pro	2
 98	5	Jeder Mensch hat eine innere Uhr, die bei jedem unterschiedlich ist.	article_pro	2
 98	6	Manche Leute schlafen später ein und müssen deshalb länger schlafen um Ihren Schlafbedarf zu decken.	article_pro	2
-98	7	Nun wird diskutiert, ob ein späterer Schulstart sinnvoll ist oder doch nicht.	intro_topic	2
+98	7	Nun wird diskutiert, ob ein späterer Schulstart sinnvoll ist oder doch nicht.	info_intro	2
 98	8	<PB> Ein Beispiel aus der USA zeigt, dass ein späterer Schulstart, die Schüler und Schülerinnen ca. 34 Minuten länger schlafen können, natürlich abhängig wann sie schlafen gegangen sind.	article_pro	2
 98	9	Außerdem verbessert sich die Leistungen der Schüler/innen und die Fehlzeiten sind geringer geworden.	article_pro	2
 98	10	<PB> Doch leider ist die Umsetzung schwieriger als gedacht.	article_con	2
@@ -1429,11 +1429,11 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 98	20	Zur Diskussion kommt auch die Winter- und Sommerzeit.	other	2
 98	21	Die Sommerzeitumstellung wird kritisiert, da die Sommerzeit, wo man die Uhr um eine Stunde nach vorne dreht, die Schüler dann auch länger im Dunkeln Unterricht haben.	other	2
 98	22	Dies beeinflusst die Leistungsfähigkeit der Schüler.	other	2
-99	0	Der Zeitungsartikel “Schulbeginn um 8 Uhr sinnvoll?”	info_article	2
-99	1	von Cordula Dieckmann erschien am 09.10.2019 in der “Ärzte Zeitung” (online).	info_article	2
-99	2	Darin fragt sich die Autorin, ob es sinnvoll ist, den Unterricht später in der Schule zu beginnen.	intro_topic	2
-99	3	<PB> Einige Menschen finden es schwieriger als andere, je nach Typ früh aufzustehen.	intro_topic	2
-99	4	Aus diesem Grund fragen sich viele, ob der Morgenunterricht später beginnen sollte.	intro_topic	2
+99	0	Der Zeitungsartikel “Schulbeginn um 8 Uhr sinnvoll?”	info_intro	2
+99	1	von Cordula Dieckmann erschien am 09.10.2019 in der “Ärzte Zeitung” (online).	info_intro	2
+99	2	Darin fragt sich die Autorin, ob es sinnvoll ist, den Unterricht später in der Schule zu beginnen.	info_intro	2
+99	3	<PB> Einige Menschen finden es schwieriger als andere, je nach Typ früh aufzustehen.	info_intro	2
+99	4	Aus diesem Grund fragen sich viele, ob der Morgenunterricht später beginnen sollte.	info_intro	2
 99	5	Wenn Sie später mit dem Unterricht beginnen, können Menschen, die Schwierigkeiten haben, früh aufzustehen, länger schlafen, bessere Noten erhalten und mehr am Unterricht teilnehmen.	article_pro	2
 99	6	Wenn sie den Unterricht später beginnen, können sie die Konzentration und Produktivität verbessern.	article_pro	2
 99	7	Wenn Sie nachmittags Sport treiben oder andere Aktivitäten ausführen, können Sie junge Menschen einbeziehen, damit Sie abends leichter einschlafen können.	other	2
@@ -1459,10 +1459,10 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 100	14	Wie wir alle wissen, wird jeder von uns mit Interessen geboren und entwickelt seine Leidenschaften;	own	3
 100	15	Wir tendieren eher dazu, Kurse und Lektionen zu belegen, die wir mögen.	own	3
 100	16	Deshalb denke ich, dass es besonders wichtig ist, denjenigen, die Lust dazu haben, zusätzliche Möglichkeiten zu geben.	own	3
-101	0	"Der Zeitungsartikel ""Klimawandel  Nicht noch ein neues Schulfach"" wurde von Parvin Sadigh verfasst und in der Online Ausgabe der ""Zeit"" am 23."	info_article	3
-101	1	Januar 2020 veröffentlicht.	info_article	3
-101	2	In dem Kommentar legt die Autorin ihren Standpunkt zur Thematik dar, welche sich mit der Unterrichtung des Klimawandels befasst und sich auf den Konkurrenzkampf verschiedener Fächer wie z.B.	intro_topic	3
-101	3	Wirtschaft, Politik, Geschichte und Erdkunde bezieht.	intro_topic	3
+101	0	"Der Zeitungsartikel ""Klimawandel  Nicht noch ein neues Schulfach"" wurde von Parvin Sadigh verfasst und in der Online Ausgabe der ""Zeit"" am 23."	info_intro	3
+101	1	Januar 2020 veröffentlicht.	info_intro	3
+101	2	In dem Kommentar legt die Autorin ihren Standpunkt zur Thematik dar, welche sich mit der Unterrichtung des Klimawandels befasst und sich auf den Konkurrenzkampf verschiedener Fächer wie z.B.	info_intro	3
+101	3	Wirtschaft, Politik, Geschichte und Erdkunde bezieht.	info_intro	3
 101	4	<PB>  Parvin Sadigh weist am Anfang ihres Kommentars darauf hin, dass der Klimawandel in anderen Ländern bereits eine viel größere Rolle in der Schule einnimmt als in Deutschland.	article_con	3
 101	5	In Neuseeland wurden landesweit ein Curriculum zu dem Thema geschrieben und in Italien nimmt er gar die Rolle eines neuen Schulfachs ein.	article_con	3
 101	6	Die Autorin hält es für wichtig den Klimawandel stärker in den Unterricht zu integrieren und fordert Fächerübergreifende Lernprojekte anstatt einer Art Konkurrenzkampf der verschiedenen Fächer, welcher aus einer neuen Stundenaufteilung resultieren würde, wenn man den Klimawandel auf das Fach Erdkunde beschränkt und dem Fachbereich mehr Stunden auf dem Stundenplan der Kinder zuschreibt.	article_pro	3
@@ -1473,10 +1473,10 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 101	11	Vorallem beim Klimawandel halte ich das für eine vielversprechende Strategie, da so der volle Umfang des Themas leicht und verständlich unterrichtet werden kann.	own	3
 101	12	Eine Herausforderung sehe ich darin, die einzelnen Fächer so abzustimmen, dass die Schüler/innen weiterhin viele Kreativaufgaben erhalten, anstatt dass sich die Fachbereiche durch die dazugewonnene Zeit auf viel zu komplexe Aufgaben fokussieren (z.B. nur noch Analyse von den neusten Forschungsberichten).	own	3
 101	13	Wichtig ist ein ausgewogenes Bild zwischen Komplexität und Kreativität der Aufgaben zu erschaffen und die beiden Bereiche bestmöglich zu kombinieren, was beim Klimawandel eigentlich keine Schwierigkiet darstellen sollte sofern dass Bildungs-/Schulsystem mitspielt.	own	3
-102	0	"Der Artikel ,,Nicht noch ein neues Schulfach"" erschien am 23."	info_article	3
-102	1	"Januar 2020 um 10:40 Uhr in der ,,Zeit online""."	info_article	3
-102	2	Die Autorin Parvin Sadigh kommentiert darin die Einführung des Klimawandels als Unterrichtsfach an deutschen Schulen als langfristig nicht zielführend.	intro_topic	3
-102	3	Trotz der Notwendigkeit zur Aufklärung über gesellschaftpolitische Themen und Missstände, argumentiert sie für Alternativen.	intro_topic	3
+102	0	"Der Artikel ,,Nicht noch ein neues Schulfach"" erschien am 23."	info_intro	3
+102	1	"Januar 2020 um 10:40 Uhr in der ,,Zeit online""."	info_intro	3
+102	2	Die Autorin Parvin Sadigh kommentiert darin die Einführung des Klimawandels als Unterrichtsfach an deutschen Schulen als langfristig nicht zielführend.	info_intro	3
+102	3	Trotz der Notwendigkeit zur Aufklärung über gesellschaftpolitische Themen und Missstände, argumentiert sie für Alternativen.	info_intro	3
 102	4	<PB> Im Zuge dessen befürwortet die Verfasserin des Artikels fächerübergreifenden Unterricht, da dieser den Schülern die Zusammenhänge zwischen Klimawandel, sowie ähnlicher Problematiken und anderen Bereichen des Alltags näher bringe, als ein isoliertes Fach es täte.	article_pro	3
 102	5	Zudem bliebe so insgesamt mehr Zeit für jedes einzelne Fach.	article_pro	3
 102	6	Diese Vorraussetzungen seien bereits innerhalb des Erdkundeunterrichtes gewährleistet.	article_pro	3
@@ -1491,9 +1491,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 102	15	Diese Haltung beführworte ich im Großen und Ganzen, da ich persönlich positive Erfahrungen mit fächerübergreifendem Unterricht gemacht habe und auf diese Weise das Verständnis und Interesse  bei den Schülern hervorgerufen wird, ohne sie zusätzlich zeitlich  zu belasten.	own	3
 102	16	Außerdem bin ich der Meinung, dass zusätzliche Fächer zu einem spezifischen Thema häufig als Pflicht angesehen werden und somit den Spaß am Lernen nehmen.	own	3
 102	17	Ein Schüler, der sich bereits für Themen, wie den Klimawandel interessiert, wird sich darüber auch anderweitig informieren und Denkanstöße und Informationen sollten im Zusammenhang präsentiert und weitergegeben werden.	own	3
-103	0	Im Zeit-Online-Artikel „Nicht noch ein neues Schulfach“ vom 23.	info_article	3
-103	1	Januar 2020 widmet sich der Autor Parvin Sadigh der Problematik des Klimawandels und diskutiert die Frage, ob dieser als eigenes Schulfach eingeführt werden sollte.	info_article_topic	3
-103	2	<PB> Zu Beginn macht Sadigh deutlich, dass Schulfächer, Lehrpläne und Unterrichtsinhalte immer von aktuellen gesellschaftlichen und politischen Entwicklungen beeinflusst werden und auf diese auch Bezug nehmen sollten.	intro_topic	3
+103	0	Im Zeit-Online-Artikel „Nicht noch ein neues Schulfach“ vom 23.	info_intro	3
+103	1	Januar 2020 widmet sich der Autor Parvin Sadigh der Problematik des Klimawandels und diskutiert die Frage, ob dieser als eigenes Schulfach eingeführt werden sollte.	info_intro	3
+103	2	<PB> Zu Beginn macht Sadigh deutlich, dass Schulfächer, Lehrpläne und Unterrichtsinhalte immer von aktuellen gesellschaftlichen und politischen Entwicklungen beeinflusst werden und auf diese auch Bezug nehmen sollten.	info_intro	3
 103	3	Daher ergäbe es Sinn, dass auch die Klimakatastrophe als momentan größtes Problem der Menschheit einen höheren Stellenwert im Schulunterricht erlangt und die Schüler*innen die Möglichkeit haben, sich intensiv mit den Folgen, Auswirkungen und möglichen Lösungsursachen auseinanderzusetzen.	other	3
 103	4	Dem würde ich definitiv zustimmen, da wir eine schnelle und umfassende gesellschaftliche Antwort auf die immer weiter fortschreitende Klimakatastrophe benötigen und es dafür in allen gesellschaftlichen Teilbereichen – sei es Wissenschaft, Verkehr, Bildung, Städteplanung oder Konsum – ein radikales Umdenken benötigt.	own	3
 103	5	<PB> Im weiteren Verlauf des Textes macht Sadigh allerdings deutlich, dass die Lösung seiner Meinung nach nicht im bloßen Erschaffen eines neuen Schulfachs liegt, da es zeit- und kapazitätentechnisch weder sinnvoll noch möglich ist, alle aufkommenden gesellschaftlichen Herausforderungen (sei es die Klimakatastrophe, eine Finanzkrise oder gesundheitliche Auswirkungen der Leistungsgesellschaft) in neue Schulfächer zu integrieren.	article_pro	3
@@ -1517,7 +1517,7 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 104	11	Meiner Meinung nach gehört es vielleicht zu den wichtigsten Themen, es hilft uns, unsere Vorfahren besser zu verstehen, es hilft uns, über die Gründe nachzudenken, warum die Welt so ist, wie wir sie heute sehen, aber vor allem fordert es uns auf, nicht dasselbe zu machen Fehler, die wir in der Vergangenheit gemacht haben.	off_topic	3
 104	12	In letzter Zeit scheinen junge Menschen vergessen zu haben, was die Vergangenheit war, und haben begonnen, Dingen wie Rassismus freien Lauf zu lassen.	off_topic	3
 104	13	Zusammenfassend bin ich der Meinung, dass Themen, die so wichtig sind wie Geschichte, Politik, Geographie und Wirtschaft, die für das Wachstum eines jungen Menschen und für das Wohlergehen der Welt von grundlegender Bedeutung sind, zu wenig Raum eingeräumt wird.	off_topic	3
-105	0	"In der Zeitungartikel ""Nicht noch eines neues Schulfach"" auf die Frage über den Klimawandel und darüber, ob für diesen Gegenstand in der Schule."	info_article_topic	3
+105	0	"In der Zeitungartikel ""Nicht noch eines neues Schulfach"" auf die Frage über den Klimawandel und darüber, ob für diesen Gegenstand in der Schule."	info_intro	3
 105	1	Auf der einen Seite ist es ein wichtiges Thema, und wir müssen es studieren und nicht ignorieren.	own	3
 105	2	Auf der anderen Seite haben Kinder und so viele Fächer in der Schule, sie verbringen viel Zeit dort.	own	3
 105	3	Dafür gibt es nicht genug Lehrer.	own	3
@@ -1552,7 +1552,7 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 106	18	Alles ist miteinander verbunden, und das Ergebnis ist nicht das Resultat einer einzigen Aktion in der Geschichte.	off_topic	3
 106	19	Nur wenn wir modernisieren, Stunden aus dem Rahmen nehmen und den Stundenplan flexibler gestalten, können wir die jüngeren Schüler auf die Zukunft vorbereiten, die für sie am besten ist.	off_topic	3
 106	20	Vergeuden wir sie nicht, die Zeit lässt sich leider nicht mehr zurückdrehen. Noch nicht.	off_topic	3
-107	0	"In dem Artikel ""Nicht noch ein neues Schulfach"" von Parvin Sadigh, erschienen auf Zeit Online, argumentiert die Autori dafür, Klimawandel in der Schule zu behandeln, aber nicht als eigenes Fach neu zu schaffen."	info_article_topic	3
+107	0	"In dem Artikel ""Nicht noch ein neues Schulfach"" von Parvin Sadigh, erschienen auf Zeit Online, argumentiert die Autori dafür, Klimawandel in der Schule zu behandeln, aber nicht als eigenes Fach neu zu schaffen."	info_intro	3
 107	1	Zunächst stellt die Autorin dar, dass Wissenschaftler fordern, den Klimawandel stärker in der Schule zu behandeln und andere Länder wie Neuseeland und Italien das auch schon beschlossen haben.	article_con	3
 107	2	Grundsätzlich ist die Autorin auch dafür, den Klimawandel auch in Deutschland stärker im Schulunterricht vorkommen zu lassen.	article_pro	3
 107	3	Sie sagt, dass dies den SchülerInnen fundierte Informationen verschaffen kann und sie vor Falschinformationen warnen.	article_pro	3
@@ -1571,10 +1571,10 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 107	16	Deshalb würde ich es auch für sinnvoller halten, die Lehrpläne anzupassen wenn es neue wichtige Themen gibt, und dann eben in bestehenden Fächern neue Themen zu behandeln.	own	3
 107	17	Außerdem müssen die Schulen auch genug Geld haben, damit genug Lehrer da sind um die Fächer in kleinen Gruppen zu unterrichten.	own	3
 107	18	Dann haben die SchülerInnen auch genug Zeit und Ruhe, um sich mit wichtigen Themen auseinandersetzen zu können.	own	3
-108	0	"Der Zeitungsartikel ""Klimawandel: Nicht noch ein neues Schulfach"" von Parvin Sadigh erschien am 23."	info_article	3
-108	1	Januar 2020 in der ZEIT online.	info_article	3
-108	2	Darin beschreibt die Autorin die damals aktuelle Debatte ob der Klimawandel als ein neues Schulfach eingeführt werden sollte oder nicht und bezieht dazu Stellung.	intro_topic	3
-108	3	Ferner geht sie auf das Konkurrenzverhalten der Fächer ein.	intro_topic	3
+108	0	"Der Zeitungsartikel ""Klimawandel: Nicht noch ein neues Schulfach"" von Parvin Sadigh erschien am 23."	info_intro	3
+108	1	Januar 2020 in der ZEIT online.	info_intro	3
+108	2	Darin beschreibt die Autorin die damals aktuelle Debatte ob der Klimawandel als ein neues Schulfach eingeführt werden sollte oder nicht und bezieht dazu Stellung.	info_intro	3
+108	3	Ferner geht sie auf das Konkurrenzverhalten der Fächer ein.	info_intro	3
 108	4	<PB> Nach einer Einführung, in welcher die Autorin bemängelt, dass ein neues Schulfach immer als Ausgleich für ein Unwissen der bereits die Schule absolviert habenden Generationen herhalten muss und einer Beschreibung, inwiefern das Thema Klimawandel bereits im Curriculum verankert ist,	article_pro	3
 108	5	beschreibt sie am Beispiel Sachsen, dass es keine einheitliche Vermittlung des Themas gibt.	article_con	3
 108	6	Ausserdem verlöre das Fach Erdkunde in vielen Bundesländern an Bedeutung und würde oft von fachfremden Lehrern unterrichtet.	article_con	3
@@ -1586,8 +1586,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 108	12	Meiner Meinung nach gibt es heutzutage bereits viele fächerübergreifende Projekte und es sollte auch ein Ziel sein, den Schüler*Innen den großen Zusammenhang zwischen den Themen zu vermitteln.	own	3
 108	13	"Einige Schulen haben bereits sogenannte ""Epochen"" in welchen ein Thema in allen Fächern aufgenommen wird."	own	3
 108	14	In meiner eigenen Schulzeit wurde das Thema noch als Teil des Faches Erdkunde unterrichtet, doch je mehr Fächerübergreifend es wird desto besser kann auch die Dringlichkeit des Themas vermittelt werden. 254 Wörter	own	3
-109	0	"Der Zeitungsartikel ""Nicht noch ein neues Schulfach"" von Parvin Sadigh erschien am 12.01.2020 in der ""Zeit"" (online)."	info_article	3
-109	1	Angesichts der gesellschaftlichen Bedeutung des Klimawandels behandelt der Autor die Frage, ob diesem Thema ein neues Schulfach gewidmet werden sollte und kommt zu dem bereits in der Überschrift verlauteten Schluss, dass dies nicht der richtige Weg wäre.	intro_topic	3
+109	0	"Der Zeitungsartikel ""Nicht noch ein neues Schulfach"" von Parvin Sadigh erschien am 12.01.2020 in der ""Zeit"" (online)."	info_intro	3
+109	1	Angesichts der gesellschaftlichen Bedeutung des Klimawandels behandelt der Autor die Frage, ob diesem Thema ein neues Schulfach gewidmet werden sollte und kommt zu dem bereits in der Überschrift verlauteten Schluss, dass dies nicht der richtige Weg wäre.	info_intro	3
 109	2	<PB> Sadigh weist darauf hin, dass andere Länder zunehmenden gesellschaftlichen Bedeutung des Klimawandels bereits durch eine Anpassung der Lehrpläne oder die Einführung eines neuen Schulfaches Rechnung getragen haben.	article_con	3
 109	3	Er erkennt die Notwendigkeit	other	3
 109	4	Lehrpläne gesellschaftlichen Herausforderungen und wissenschaftlichen Erkenntnissen anzupassen, da das Verhalten der jungen Generation die maßgeblich zur Lösung wichtiger Probleme, wie der Eindämmung des Klimawandels, beiträgt.	other	3
@@ -1605,7 +1605,7 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 109	16	Ich sehe ebenfalls die herausgehobene Bedeutung des Klimawandels als Unterrichtsthema.	own	3
 109	17	Junge Menschen sollten ein fundiertes Wissen mitbringen, um auch mit veralteten Ansätzen und Vorstellungen brechen zu können und alte, durch Konsum und Wachstum geprägte Denkmuster hinterfragen zu können.	own	3
 109	18	Meiner Meinung nach hätte die existenzielle Bedeutung des Klimawandels als das prägende Thema der Zukunft noch mehr unterstreichen können.	own	3
-110	0	"Der Artikel ""Nicht noch ein neues Schulfach"", von Parvin Sadigh aus dem Jahr 2020 beschäftigt sich mit der Integration von Klimawandel in den Lehrplan."	info_article_topic	3
+110	0	"Der Artikel ""Nicht noch ein neues Schulfach"", von Parvin Sadigh aus dem Jahr 2020 beschäftigt sich mit der Integration von Klimawandel in den Lehrplan."	info_intro	3
 110	1	Folgend werde ich die im Artikel vorhandenen Argumente zusammenfassen, nd mit den meinen ergänzen.	meta	3
 110	2	<PB> Die Autorin hebt hervor, dass entgegen der Aktualität der gesellschaftlichen Probleme, es die Schüler nur weiterhin überfordern würde, ein neues Schulfach einzuführen.	article_pro	3
 110	3	Außerdem lässt sich sagen, dass es nicht alleine die Aufgabe der jungen Generationen ist, diese Probleme zu beheben, obwohl sie auch Teil haben können, um effektiv vorzugehen.	article_pro	3
@@ -1618,8 +1618,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 110	10	Meiner Meinung nach ist es nicht notwendig, siehe oben genannte Argumente.	own	3
 110	11	Eine Alternativlösung, sowie Kompromiss könnte ein Fach darstellen, dass moderne gesellschaftlich relevante Fragen zusammenfassend, jahresübergreifend behandeln würde.	own	3
 110	12	So wäre der Stoff nie langweilig, die Schüler wären über jegliche Themen informiert und alle würden zufrieden sein, denn man müsste weder Fächer weglassen, weder irgendjemanden überfordern.	own	3
-111	0	Der Zeitungsartikel „Nicht noch ein neues Schulfach” von Parvin Sadigh erschien am 23.	info_article	3
-111	1	Januar 2020 in der “Zeit” (online).	info_article	3
+111	0	Der Zeitungsartikel „Nicht noch ein neues Schulfach” von Parvin Sadigh erschien am 23.	info_intro	3
+111	1	Januar 2020 in der “Zeit” (online).	info_intro	3
 111	2	Die Autorin befasst sich mit dem, was sie heute als schlecht angepasste Schulfächer wahrnimmt, und kritisiert, dass die Schulen zu wenig tun, um dies zu ändern.	other	3
 111	3	<PB> Die Autorin weist darauf hin, dass Schulen Probleme mit der Anpassung von Schulfächern haben, aber nichts dagegen tun wollen oder können.	other	3
 111	4	Ein Beispiel hierfür ist der Klimawandel, der entweder nicht in der Schule studiert wird oder ein freiwilliges Fach ist, damit neue Generationen die gleichen Fehler machen wie wir.	other	3
@@ -1633,8 +1633,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 111	12	Ich sehe jedoch auch ein Problem, das im System selbst und seiner Unfähigkeit liegt, sich an die heutigen Realitäten anzupassen.	off_topic	3
 111	13	Solange nicht an einer wirklich positiven Veränderung in der Bildung gearbeitet wird, damit das, was im Leben wirklich wichtig ist, in das Unterstützungsprogramm aufgenommen wird, ist es unmöglich darüber nachzudenken, was zu spät ist und was falsch gemacht wird.	off_topic	3
 111	14	Ich denke, dass der Beginn einer guten Veränderung eine Diskussion darüber ist, was im Leben wichtig ist.	off_topic	3
-112	0	"Die Autorin Parvin Sardigh setzt sich in ihrem Artikel ""Nicht noch ein neues Schulfach"", welcher am 23."	info_article_topic	3
-112	1	Januar 2020 auf Zeit Online erschienen ist, mit der Frage auseinander, wie das Thema des Klimawandels in den Schulunterricht integriert werden kann.	info_article_topic	3
+112	0	"Die Autorin Parvin Sardigh setzt sich in ihrem Artikel ""Nicht noch ein neues Schulfach"", welcher am 23."	info_intro	3
+112	1	Januar 2020 auf Zeit Online erschienen ist, mit der Frage auseinander, wie das Thema des Klimawandels in den Schulunterricht integriert werden kann.	info_intro	3
 112	2	Statt eines eigenständigen, neuen Fachs plädiert sie dafür, dass der Klimawandel im Rahmen bereits etablierter Fächer bearbeitet werden soll.	article_pro	3
 112	3	Hierfür bietet sich z.B. das Fach Geografie bzw. Erdkunde an.	article_pro	3
 112	4	In diesem Fach steht der Klimawandel teilweise schon auf dem Lehrplan, wie in Sachsen.	article_pro	3
@@ -1653,10 +1653,10 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 112	17	Nach Inputs durch die Lehrenden können die Schülerinnen und Schüler gemeinsam an einzelnen Fragestellungen aus verschiedenen Themengebieten arbeiten.	own	3
 112	18	Dabei lernen sie selbständiges Arbeiten im Team.	own	3
 112	19	Fächerübergreifende Projektarbeit gerade zum Thema das Klimawandels kann als ein Vorbild für zukünftige Unterrichtsmethoden sein.	own	3
-113	0	"Der Zeitungsartikel ,,Nicht noch ein neues Schulfach"" von Parvin Sadigh erschien am 23.01.2021 in der ""Zeit"" (Online)."	info_article	3
-113	1	Der Autor behandelt in diesem Zeitungsartikel eines der topaktuellsten Themen unserer Zeit - den Klimawandel.	intro_topic	3
-113	2	Es geht genauer um die Einführung eines neuen Schulfaches in Deutschland, in Bezug auf den Klimawandel und seine Probleme.	intro_topic	3
-113	3	Es geht darum, ob solch eine Einführung wichtig ist und überhaupt Sinn macht.	intro_topic	3
+113	0	"Der Zeitungsartikel ,,Nicht noch ein neues Schulfach"" von Parvin Sadigh erschien am 23.01.2021 in der ""Zeit"" (Online)."	info_intro	3
+113	1	Der Autor behandelt in diesem Zeitungsartikel eines der topaktuellsten Themen unserer Zeit - den Klimawandel.	info_intro	3
+113	2	Es geht genauer um die Einführung eines neuen Schulfaches in Deutschland, in Bezug auf den Klimawandel und seine Probleme.	info_intro	3
+113	3	Es geht darum, ob solch eine Einführung wichtig ist und überhaupt Sinn macht.	info_intro	3
 113	4	<PB> Der Autor weist direkt zu Anfang darauf hin, dass es bereits zu jedem aktuellen Thema die Diskussion über die Einführung zu einem neuen Schulfach gibt.	article_pro	3
 113	5	Ob es nun um die Finanzkrise geht, oder um den Klimawandel, jedes Mal wird genau über diese Einführung reichlich diskutiert.	article_pro	3
 113	6	Unteranderem erwähnt der Autor, dass eine Zusammenführung durch mehrere bereits bestehende Schulfächer eine Alternative wäre, anstatt direkt ein neues Fach einzuführen.	article_pro	3
@@ -1669,9 +1669,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 113	13	Allerdings bin Ich der Meinung, dass man aktuelle Probleme vielleicht nicht unbedingt verwerfen sollte, aber auch nicht als Schulfach einführen sollte.	own	3
 113	14	Ein Mittelmaß für dieses Problem wäre eher angebracht.	own	3
 113	15	Man könnte die Probleme im Unterricht kurz anschneiden, möglicherweise für 1 Schulstunde, aber nicht komplett verwerfen.	own	3
-114	0	"Der Artikel ""Nicht noch ein neues Schulfach"" von Parvin Sadigh, erschienen in der Zeit Online am 23.01.2020 behandelt die Frage, ob gesellschaftliche Probleme mit Hilfe von neuen Schulfächern gelöst werden sollten."	info_article_topic	3
+114	0	"Der Artikel ""Nicht noch ein neues Schulfach"" von Parvin Sadigh, erschienen in der Zeit Online am 23.01.2020 behandelt die Frage, ob gesellschaftliche Probleme mit Hilfe von neuen Schulfächern gelöst werden sollten."	info_intro	3
 114	1	<PB> Die Autorin weist darauf hin, dass bei fast allen populären gesellschaftlichen Problemen neue Schulfächer gefordert werden und die Gesellschaft es sich damit zu einfach macht, diese Probleme zu behandeln.	article_pro	3
-114	2	"Die Problematik für die Schulen hinter der Forderung neuer Fächer zeigt die Autorin an Hand des Themas ""Klimawandels"" auf."	intro_topic	3
+114	2	"Die Problematik für die Schulen hinter der Forderung neuer Fächer zeigt die Autorin an Hand des Themas ""Klimawandels"" auf."	info_intro	3
 114	3	<PB> Aus der Sicht der Autorin würden für fast jedes populäre gesellschaftliche Problem eigene Schulfächer gefordert werden.	article_pro	3
 114	4	So sind Schulfächer für die Themen Ernährung, Erste Hilfe, Wirtschaft, Klimawandel und Benehmen im Gespräch.	article_pro	3
 114	5	<PB> Das Fordern immer weiterer Schulfächer sei ihrer Meinung nach nicht notwendig, da viele Themen, wie auch der Klimawandel, bereits in verschiedenen Schulfächern behandelt werden.	article_pro	3
@@ -1683,9 +1683,9 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 114	11	<PB> Meiner Meinung nach sollten aktuelle gesellschaftliche Probleme Platz im Lehrplan der Schulen finden, da nicht sichergestellt ist, dass die Eltern ihren Kindern fachkundiges Wissen in diesen übermitteln.	own	3
 114	12	Die Problematik, wie dieses Wissen zu übermitteln ist, ist meiner Meinung nach nicht mit neuen Schulfächern, so wie es diese bereits gibt, zu lösen.	own	3
 114	13	Ich teile die Meinung der Autorin, dass es fachübergreifende Schulprojekte für aktuelle Themen geben sollte, da auch die Komplexität dieser gesellschaftlichen Probleme oft der eines Schulfaches übersteigt.	own	3
-115	0	Der Artikel erzählt uns, wie wichtig es ist, den Klimawandel in den Lehrplan der Schulen aufzunehmen.	intro_topic	3
-115	1	Dies ist jedoch ein kontroverses Thema, da viele Menschen unterschiedliche Meinungen darüber haben, wie wichtig es ist, neue Fächer in den Schullehrplan aufzunehmen.	intro_topic	3
-115	2	Und selbst für diejenigen, die mit der Idee einverstanden sind, ein neues Schulfach zu schaffen, gibt es eine Menge Wettbewerb darüber, welches das beste ist, um es hinzuzufügen.	intro_topic	3
+115	0	Der Artikel erzählt uns, wie wichtig es ist, den Klimawandel in den Lehrplan der Schulen aufzunehmen.	info_intro	3
+115	1	Dies ist jedoch ein kontroverses Thema, da viele Menschen unterschiedliche Meinungen darüber haben, wie wichtig es ist, neue Fächer in den Schullehrplan aufzunehmen.	info_intro	3
+115	2	Und selbst für diejenigen, die mit der Idee einverstanden sind, ein neues Schulfach zu schaffen, gibt es eine Menge Wettbewerb darüber, welches das beste ist, um es hinzuzufügen.	info_intro	3
 115	3	<PB> Für den Autor des Artikels, ist der Klimawandel sehr wichtig.	article_pro	3
 115	4	Aber, der Autor betrachtet es wäre jeweils klug, all diese Aspekte zusammen zu erörtern, statt ständig neue Fächer zu fordern.	article_pro	3
 115	5	Der Autor ist der Meinung, dass die richtig organisierte Vereinigung von Schulfächern viele Vorteile hat.	article_pro	3
@@ -1700,8 +1700,8 @@ essay_id	sent_id	sent_text	sent_label	essay_topic_id
 115	14	Es ist wichtig, bestimmte Disziplinen zu schaffen, zu aktualisieren oder sogar zusammenzuführen, solange es zum Wohl und Nutzen der Schüler beiträgt.	own	3
 115	15	Es ist wichtig, mehr auf Ihre Praxis zu achten, als zu analytisch zu sein und alles zu trennen.	own	3
 115	16	Schließlich sind Politik, Wirtschaft, Wissenschaft, Kunst alles Themen, die zusammenlaufen.	own	3
-116	0	"In dem Artikel ""Nicht noch ein neues Schulfach"" von Parvin Sadigh vom 23."	info_article	3
-116	1	Januar 2020 beschäftigt sich die Autorin mit dem Thema, ob Klimawandel als eigenes Schulfach an deutschen Schulen angeboten werden sollte, ähnlich wie in anderen Ländern bereits zum Teil vorhanden.	info_article_topic	3
+116	0	"In dem Artikel ""Nicht noch ein neues Schulfach"" von Parvin Sadigh vom 23."	info_intro	3
+116	1	Januar 2020 beschäftigt sich die Autorin mit dem Thema, ob Klimawandel als eigenes Schulfach an deutschen Schulen angeboten werden sollte, ähnlich wie in anderen Ländern bereits zum Teil vorhanden.	info_intro	3
 116	2	<PB> Sadigh unterstützt zwar, dass Klimawandel ein sehr wichtiges Thema ist, kritisiert jedoch, dass für jedes wichtige neue Thema ein eigenes Schulfach eingerichtet werden soll.	article_pro	3
 116	3	Vielmehr liege die Verantwortung bei der Gesellschaft insgesamt und nicht nur bei der jüngeren Generation.	article_pro	3
 116	4	<PB> Außerdem argumentiert sie, dass es mit Geographie bereits ein Fach gibt, in dem das Thema Klimawandel gut behandelt werden könnte - und bereits individuell nach Lehrkraft und Schule behandelt würde.	article_pro	3
