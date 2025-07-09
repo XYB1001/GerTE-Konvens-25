@@ -1,6 +1,5 @@
 # GerArgSimilarity
 
-[![DOI](https://zenodo.org/badge/486148603.svg)](https://zenodo.org/badge/latestdoi/486148603)
 
 This is the repo for the dataset of the German argument similarity prediction (GerArgSimilarity) experiment, to be presented at LREC 2022. The accompanying paper, titled *Argument Similarity Assessment in German for Intelligent Tutoring: Crowdsourced Dataset and First Experiments* will be published as part of the Proceedings of LREC 2022.
 
