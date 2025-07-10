@@ -1,5 +1,5 @@
 """
-Helper functions
+Helper functions to support LLM-based classification
 """
 import re
 
@@ -32,7 +32,6 @@ def process_demo_essay(essay_data):
     Returns:
         demo_essay: str Essay as a single string to be incorporated into prompt
         demo_out: str Desired LLM out values as a single string to be incorporated into prompt
-
     """
     # process example sentences for one-shot-learning
     labs2llm = {
@@ -59,6 +58,11 @@ def process_demo_essay(essay_data):
 
 
 def extract_lab_from_llm_out(llm_out):
+    """
+    Extract content zone labels from the LLM output text
+    :param llm_out:str LLM output text for a given essay
+    :return: list() extracted list of labels
+    """
     llm2labs = {
         "_einleitung": "info_intro",
         "_pro_aus_lesetext": "article_pro",
@@ -82,3 +86,9 @@ def extract_lab_from_llm_out(llm_out):
                 print('Invalid label in LLM output:', lab)
             labs.append(lab)
     return labs
+
+
+if __name__ == '__main__':
+    tid2articles = read_source_articles()
+    for i, text in tid2articles.items():
+        print(i + '\n' + text)

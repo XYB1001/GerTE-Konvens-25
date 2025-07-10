@@ -1,5 +1,5 @@
 """
-Helper scripts related to eval
+Helper functions related to eval
 """
 
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
@@ -11,7 +11,7 @@ def evaluate_classification(Ypred, Ygold, average='macro'):
     Classification eval on test set
     Ypred, Ygold must be list of the same length
     if averaged: only return accuracy and macro prec/rec/f1/support across all classes
-    else: return accuracy and more detailed prec/rec etc. for each class + conf_mat
+    else: return accuracy and more detailed prec/rec etc. for each class
     """
     acc = accuracy_score(y_true=Ygold, y_pred=Ypred)
     if average is not None:
@@ -24,8 +24,8 @@ def evaluate_classification(Ypred, Ygold, average='macro'):
 def print_avg_prfs(prfs_list):
     """
     print average prec, rec, f1 across k folds
-    prfs_list = list(tuple) where each tuple is the prfs output for one fold
-    return: [precs, recs, f1s]
+    :param prfs_list: list(tuple) where each tuple is the prfs output for one fold
+    :return [precs, recs, f1s]
     """
     prfs = np.array(prfs_list)
     assert prfs.shape == (len(prfs_list), 4)

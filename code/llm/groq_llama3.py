@@ -1,3 +1,8 @@
+"""
+Classification experiments using Llama 3.1 8B (or 70B) Instruct
+Access to model through Groq API
+"""
+
 import sys
 import os
 import random
@@ -30,7 +35,9 @@ print()
 
 
 def load_data(data_path, random_sample_size=None):
-    """ Load data """
+    """ Load pickled file with all labelled essays, optionally use a randomly selected subset
+    (e.g. for code testing)"""
+
     fi = open(data_path, 'rb')
     data = pickle.load(fi)
     fi.close()
@@ -42,7 +49,12 @@ def load_data(data_path, random_sample_size=None):
 
 def process_essays(list_essays):
     """
-    Process essay
+    Process list of labelled essays
+    :param list_essays: list(sentence, cz_tag, topic_id))
+    :return essay_texts: list of sentence-segmented essay texts where each text is a single,
+    multi-line string of the form [sentence_id]:[sentence_text]\n
+        labels: index-aligned list of labels of the form list(list(labels))
+        tids: index-aligned list of topic ids: list(topic_ids). Topic ids apply on the essay level
     """
     essay_texts, labels, tids = [], [], []
     for essay in list_essays:
@@ -66,6 +78,8 @@ def process_essays(list_essays):
 def gen_prompt_zero(target_essay_processed, article=None):
     """
     Generate prompt to feed to LLM in a zero-shot prompt scenario
+    :param target_essay_processed: essay text of the target essay as a single multi-line string
+    :param article: if applicable, processed text of the source article
     """
     # System prompt
     if article is None:
@@ -84,6 +98,9 @@ def gen_prompt_zero(target_essay_processed, article=None):
 def gen_prompt_one(target_essay_processed, demo_essay_processed):
     """
     Generate prompt to feed to LLM in one-shot scenario
+    Args:
+        target_essay_processed: str essay text of the target essay as a single multi-line string
+        demo_essay_processed: str example essay text to use as demo for in-context learning
     Return:
         system_prompt:str System prompt for the whole chat turn
         user_prompt:str User prompt including the TARGET essay
@@ -105,8 +122,14 @@ def gen_prompt_one(target_essay_processed, demo_essay_processed):
 
 def get_llm_completion_zero(groq_client, model_name, user_prompt, system_prompt="", temperature=1, max_out_tokens=512):
     """
-    Call to Groq API to get model out in zero_setting
-    Args
+    Call to Groq API to get model completion in zero-shot prompt setting
+    Args:
+        groq_client: Groq client object (Groq())
+        model_name: name of a chosen LLM model supported by Groq, e.g. "llama-3.1-8b-instant"
+        user_prompt: str User prompt: task instruction including TARGET essay
+        system_prompt: str (optional) System prompt: description of LLM-role and context
+    Return:
+        out_text: str LLM output text
     """
     completion = groq_client.chat.completions.create(
         model=model_name,
@@ -133,10 +156,16 @@ def get_llm_completion_zero(groq_client, model_name, user_prompt, system_prompt=
 def get_llm_completion_one(groq_client, model_name, user_prompt, user_prompt_demo, assistant_demo_output,
                            system_prompt="", temperature=1, max_out_tokens=512):
     """
-    Call to Groq API to get model out in zero_setting
+     Call to Groq API to get model completion in one-shot prompt setting
     Args:
-        user_prompt:str General task instruction + TARGET essay
-        user_prompt_demo:str task instruction + DEMO essay
+        groq_client: Groq client object (Groq())
+        model_name: name of a chosen LLM model supported by Groq, e.g. "llama-3.1-8b-instant"
+        user_prompt: str User prompt: task instruction including TARGET essay
+        user_prompt_demo: str User prompt including the DEMO essay
+        assistant_demo_output: str Formatted, desired LLM-output text for the demo essay
+        system_prompt: str (optional) System prompt: description of LLM-role and context
+    Return:
+        out_text: str LLM output text
     """
     completion = groq_client.chat.completions.create(
         model=model_name,

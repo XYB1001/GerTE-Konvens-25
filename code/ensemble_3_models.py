@@ -45,11 +45,11 @@ print('Using DEVICE:', device)
 BERT_MODEL_NAME = 'bert-base-german-cased'
 BERT_MODEL_DIM = 768
 SBERT_MODEL_NAME = 'sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2'
-# SAVE_MODELS_DIR = os.path.join(ROOT, 'Experiments/RTA_task2/sandbox_deploy/ensemble_au')
 SAVE_MODELS_DIR = None
 if SAVE_MODELS_DIR is not None:
     print('Saving trained models to directory', SAVE_MODELS_DIR)
 REMOVE_PUNC = False
+
 
 def get_bert_embeddings_for_x(x, model, tokenizer, device, model_dim):
     """

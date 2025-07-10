@@ -1,9 +1,12 @@
+"""
+Helper functions related to eval of LLM-based models
+"""
+
 import pickle
-import helper
 import sys
-import pprint
 import numpy as np
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support
+import groq_helper
 
 
 class_5_mapping = {
@@ -29,7 +32,11 @@ def map_gold_to_5cl(label, mapping):
 
 
 def read_pred_gold(llm_out_file, gold_data_file):
-    """ Read in pickled files of LLM output and index aligned gold data file """
+    """
+    Read in pickled files of LLM output and index aligned gold data file
+    :param llm_out_file pickled file containing list of LLM output texts
+    :param gold_data_file original data file containing all labelled essays
+    """
     fi = open(llm_out_file, 'rb')
     llm_out = pickle.load(fi)
     fi.close()
@@ -41,13 +48,17 @@ def read_pred_gold(llm_out_file, gold_data_file):
 
 
 def show_text_pred_gold(llm_out_file, gold_data_file):
-    """ Side-by-side display of text input with gold and llm-predicted labels """
+    """
+    Side-by-side display of text input with gold and llm-predicted labels
+    :param llm_out_file pickled file containing list of LLM output texts
+    :param gold_data_file original data file containing all labelled essays
+    """
     llm_out, gold_data = read_pred_gold(llm_out_file, gold_data_file)
 
     assert len(gold_data) == len(llm_out), "Unequal num of total essay samples!"
 
     for i in range(len(gold_data)):
-        essay_data, pred_labels = gold_data[i], helper.extract_lab_from_llm_out(llm_out[i])
+        essay_data, pred_labels = gold_data[i], groq_helper.extract_lab_from_llm_out(llm_out[i])
         try:
             assert len(essay_data) == len(pred_labels)
         except AssertionError:
@@ -57,7 +68,7 @@ def show_text_pred_gold(llm_out_file, gold_data_file):
         for idx in range(len(essay_data)):
             # map gold label to 5 classes
             gold_lab = map_gold_to_5cl(essay_data[idx][1], class_5_mapping)
-            # llm_output has already been mapped to 5cl through helper.extract_lab_from_llm_out
+            # llm_output has already been mapped to 5cl through groq_helper.extract_lab_from_llm_out
             print('\t'.join([essay_data[idx][0], gold_lab, pred_labels[idx]]))
         print('_' * 50 + '\n')
     return
@@ -66,6 +77,8 @@ def show_text_pred_gold(llm_out_file, gold_data_file):
 def evaluate_pred_gold(llm_out_file, gold_data_file, average="weighted"):
     """
     Classification evaluation of LLM output
+    :param llm_out_file pickled file containing list of LLM output texts
+    :param gold_data_file original data file containing all labelled essays
     """
     llm_out, gold_data = read_pred_gold(llm_out_file, gold_data_file)
     assert len(gold_data) == len(llm_out), "Unequal num of total essay samples!"
@@ -74,7 +87,7 @@ def evaluate_pred_gold(llm_out_file, gold_data_file, average="weighted"):
     golds = []
     num_bad_output = 0
     for i in range(len(gold_data)):
-        essay_data, pred_labels = gold_data[i], helper.extract_lab_from_llm_out(llm_out[i])
+        essay_data, pred_labels = gold_data[i], groq_helper.extract_lab_from_llm_out(llm_out[i])
         # if unequal num of labels in essay, i.e. llm-output is bad, skip
         try:
             assert len(essay_data) == len(pred_labels)

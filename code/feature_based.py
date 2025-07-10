@@ -1,5 +1,5 @@
 """
-Using traditional feature-based models
+Basic ML models using traditional/hand-crafted features
 """
 import pickle, sys
 import statistics
@@ -127,17 +127,3 @@ if __name__ == '__main__':
     print(eval.print_avg_prfs(prfs_s))
     print('--- By class ---')
     print(eval.print_avg_prfs_by_class(prfs_s_byclass, num_folds=NUM_FOLDS, num_classes=5))
-    # labels = [v for v in index2lab.values()]
-    # print(labels)
-    # confmat = confusion_matrix(ytest, ypreds)
-    # print(confmat)
-    # # print()
-    # # eval.print_errors(xtest, ypreds, ytest, index2lab)
-
-
-
-
-
-
-
-

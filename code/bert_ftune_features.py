@@ -1,5 +1,6 @@
 """
-Using BERT embeddings in addition to traditional feature-based models
+Using BERT-based neural net with BERT-embeddings concatenated with position features
+BERT is fine-tuned in the process
 """
 import sys, pickle
 import numpy as np
@@ -48,7 +49,7 @@ class TaskDataset(Dataset):
         return len(self.labels)
 
 
-# Define Regression Model
+# Define Classification Model
 class BERTContextModel(nn.Module):
     """
     BERT pooler output as sentence representation, concatenated with context feats
@@ -172,7 +173,6 @@ def inference_step(dataloader, model):
     return all_preds, all_targets
 
 
-
 if __name__ == '__main__':
     # label mapping with only the labels: article_pro, article_con, own, info_article_topic, other
     class_5_mapping = {
@@ -201,8 +201,6 @@ if __name__ == '__main__':
     index2lab = {v: k for k, v in lab2index.items()}
 
     # Hyperparams
-    # CONTEXT_WINDOW_SIZE = 2
-    # CONTEXT_SIZE = CONTEXT_WINDOW_SIZE * 2
     CONTEXT_SIZE = 4
     BERT_OUT_SIZE = 768
     LEARNING_RATE = 1e-5
@@ -215,7 +213,6 @@ if __name__ == '__main__':
     print('Epochs:', NUM_EPOCHS)
     print('Batch size:', BATCH_SIZE)
     print('Learning rate', LEARNING_RATE)
-    # print('Hidden layer size', HIDDEN_SIZE_PREULT_LAYER)
     # print('Using pre-trained model', BERT_MODEL_NAME)
 
     data = utils.getall_pickled_data('.../data/full_cz_data.p')

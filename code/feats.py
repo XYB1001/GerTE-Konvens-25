@@ -2,7 +2,7 @@
 Functions related to the extraction of manual features
 """
 
-import spacy
+# import spacy
 
 import numpy as np
 from nltk.corpus import stopwords
@@ -49,28 +49,33 @@ def get_sent_position_in_text(data, option=1):
     return positions
 
 
-def spacy_process(X, lemma=False, exclude_stopwords=True):
-    nlp_de = spacy.load("de_core_news_sm", disable=["tagger", "attribute_ruler", "parser", "ner"])
-    stop_words = stopwords.words('german')
-    processed = []
-    for sample in X:
-        mod_tokens = []
-        for tok in nlp_de(sample.lower()):
-            if exclude_stopwords:
-                if tok.text in stop_words:
-                    continue
-            tok_mod = tok.lemma_ if lemma else tok.text
-            mod_tokens.append(tok_mod)
-        processed.append(' '.join(mod_tokens))
-    return processed
+# def spacy_process(essay, lemma=False, exclude_stopwords=True):
+#     """
+#     Using Spacy to process an essay
+#     (deprecated...)
+#     """
+#     nlp_de = spacy.load("de_core_news_sm", disable=["tagger", "attribute_ruler", "parser", "ner"])
+#     stop_words = stopwords.words('german')
+#     processed = []
+#     for sample in essay:
+#         mod_tokens = []
+#         for tok in nlp_de(sample.lower()):
+#             if exclude_stopwords:
+#                 if tok.text in stop_words:
+#                     continue
+#             tok_mod = tok.lemma_ if lemma else tok.text
+#             mod_tokens.append(tok_mod)
+#         processed.append(' '.join(mod_tokens))
+#     return processed
 
 
 ####### Concerning source articles #############
 
 def read_source_article(filepath, split_by='para', lower=False, remove_punc=False):
     """
-    Read in each soure article as sequence of docs
-    :param split_by options 'para' for paragraph or 'sent' for sentences
+    Read in each soure article and turn it into a sequence of paragraphs/ sentences
+    :param split_by options 'para' for paragraph or 'sent' for sentences or 'no_split' for leaving article
+    as a single string
     """
     with open(filepath, 'r') as fi:
         # skip the first 5 lines which are meta info

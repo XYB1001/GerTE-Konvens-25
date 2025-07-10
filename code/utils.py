@@ -1,29 +1,14 @@
+"""
+Some helper functions
+"""
+
 import os
 import pickle
 import random
 import re
-from pathlib import Path
 from collections import Counter
 
 random.seed(42)
-
-
-def read_cz_file(filename):
-    with open(filename, 'r') as fi:
-        data = []
-        text = []
-        for line in fi:
-            # if empty line, then end of text reached
-            if line.strip() == "":
-                data.append(text)
-                text = []
-            else:
-                content = line.strip().split('\t')
-                tag = content[1] if len(content) > 1 else ""
-                text.append((content[0], tag))
-        # Store the last text
-        data.append(text)
-    return data
 
 
 def remove_punctuation(sample, lower=True):
@@ -42,7 +27,8 @@ def map_label(label, mapping_dict):
 
 def map_labels(data, mapping_dict, topic_id=False):
     """
-    :param data: list(list(sentence, cz_tag))
+    Map all cz labels in the labelled data according to the given mapping dict
+    :param data: list(list(sentence, cz_tag) or list(sentence, cz_tag, topid_id)))
     """
     mapped = []
     for text in data:
@@ -60,34 +46,26 @@ def map_labels(data, mapping_dict, topic_id=False):
 
 
 def read_pickled_data(datafile):
+    """ Read in pickled data with essays for a single topic """
     data = pickle.load(open(datafile, 'rb'))
     train, val, test = data[0], data[1], data[2]
     return train, val, test
 
 
 def getall_pickled_data(pickle_datafile):
+    """ Read in the pickled data file containing all labelled essays """
     f = open(pickle_datafile, 'rb')
     data = pickle.load(f)
     f.close()
     return data
 
 
-def add_topic_id(dataset, topic_id):
-    """
-    :param dataset: list(list(sent, cz_tag))
-    """
-    new_data = []
-    for text in dataset:
-        new_text = []
-        for sent, lab in text:
-            new_text.append((sent, lab, topic_id))
-        new_data.append(new_text)
-    return new_data
-
-
 def separate_x_y(data, lab2index=None, lowercase_x=False, topic_id=False):
     """
-    :param data: list(list(sentence, cz_tag))
+    Separating the list of labelled essays into separate, index-aligned lists of input-text, gold-labels and
+    (optionally) topic ids.
+    :param data: list(list(sentence, cz_tag) or list(sentence, cz_tag, topic_id))
+    :param topic_id: whether or not data contains topic id for each sentence
     :param lab2index: dict item manually mapping labels to index numbers, optional
     """
     if not topic_id:
