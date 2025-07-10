@@ -17,6 +17,8 @@ The sentence-segmented and content-zone labelled essays are provided in `data/ge
 | `sent_label`| Content zone label for the sentence |
 | `topic_id` | ID of the topic that the essay deals with |
 
+The data are also available as a pickled Python object `data/full_cz_data.p`, which contains the essays as a list object. The Python scripts in this repo use this pickled data file, but the data are the same as in the `.tsv` file.
+
 The three topics and their IDs are as follows. The respective news articles that served as source text are linked from the discussion topcis:
 
 | Topic ID | Discussion Topic | 
