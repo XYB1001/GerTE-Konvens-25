@@ -1,63 +1,57 @@
-# GerArgSimilarity
+# GerTE (KONVENS 2025)
 
 
-This is the repo for the dataset of the German argument similarity prediction (GerArgSimilarity) experiment, to be presented at LREC 2022. The accompanying paper, titled *Argument Similarity Assessment in German for Intelligent Tutoring: Crowdsourced Dataset and First Experiments* will be published as part of the Proceedings of LREC 2022.
+This is the repo for the code and dataset of the content zone prediction experiment on German source-dependent essays (<ins>T</ins>extgebundene <ins>E</ins>rörterung) (GerTE) experiment, to be presented at KONVENS 2025. The accompanying paper, titled *Predicting Functional Content Zones in German Source-Dependent Argumentative Essays: Experiments on a Novel Dataset* will be published as part of the Proceedings of KONVENS 2025.
 
 ## About
 
-The dataset consists of 2940 argumentative pairs of text snippets in German which are annotated for argument similarity on a scale from 0  (*no similarity*) to 4 (*high similarity*). The snippets are written based on three openly available news articles, which cover three discussion topics. Please refer to our paper for details. The first snippet in each pair is the candidate snippet, the second the reference snippet.
+The dataset consists of 117 short argumentative essays written in response to 3 different news articles. The essays are therefore source-dependent, and each essay deals with the discussion topic of one article. Each essay has been segmented into sentences, and each sentence is labelled with exactly 1 out of 7 possible content zone labels. Details on the data collection and annotation process are provided in the paper.
 
-Each text pair sample has been independently annotated by two annotators using the scores [0,1,2,3,4]. A third annotation which is the average between the two annotations is also provided and is the annotation that has been used in our experiments. The header line refers to the following:
+The sentence-segmented and content-zone labelled essays are provided in `data/gerte_full.tsv`. It is a tab-separated file with the following header lines:
 
 |Item | Description |
 | ------------- | ------------- |
-| `topic_id`  |  ID of the topic / news article |
-| `ref_id` | ID of the reference snippet in the pair |
-| `s1`| candidate text snippet |
-| `s2`| reference text snippet |
-| `anno_1` | first annotation |
-| `anno_2` | second annotation |
-| `anno_average` | averaged annotation, which ranges from 0 to 4 in steps of 0.5 instead of 1 |
+| `essay_id`  |  ID of the essay |
+| `sent_id` | ID of the sentence within the essay |
+| `sent_text`| Sentence text |
+| `sent_label`| Content zone label for the sentence |
+| `topic_id` | ID of the topic that the essay deals with |
 
+The three topics and their IDs are as follows. The respective news articles that served as source text are linked from the discussion topcis:
+
+| Topic ID | Discussion Topic | 
+| ------------- | ------------- |
+| 1 | [Should social media like Twitter/X be integrated into schools for learning?](https://www.zeit.de/digital/internet/2011-06/twitter-unterricht/komplettansicht) |
+| 2 | [Should school start later in the morning than 8 am?](https://www.aerztezeitung.de/Panorama/Ist-es-vernuenftig-die-Schule-um-8-zu-beginnen-402238.html) |
+| 3 | [Should climate change be taught in a school subject of its own?](https://www.zeit.de/gesellschaft/schule/2020-01/klimawandel-schulfach-bildung-unterricht-konkurrenz) |
 
 ## Some Dataset Statistics
 
 ### Topic Distribution
 
-| Topic | Number of pairs |
+| Topic | Number of Essays |
 | ------------- | ------------- |
-| 1 | 1164 |
-| 2 | 1165 |
-| 3 | 611 |
+| 1 | 50 |
+| 2 | 50 |
+| 3 | 17 |
 
-### Similarity score distribution based on `anno_average`
+### Content zone distribution based on 7 classes
 
-| Score | Number of pairs |
+| Label | Number of sentence instances |
 | ------------- | ------------- |
-| 0.0 | 1839 |
-| 0.5 | 255 |
-| 1.0 | 169 |
-| 1.5 | 141 |
-| 2.0 | 249 |
-| 2.5 | 133 |
-| 3.0 | 87 |
-| 3.5 | 29 |
-| 4.0 | 38 |
+| own | 551 |
+| article_pro | 460 |
+| info_intro | 281 |
+| article_con | 243 |
+| off_topic | 77 |
+| other | 71 |
+| meta | 30 |
 
 
 ## License
 
-CC-BY-SA-4.0
+TBD
 
 ## Reference
 
-If you use this dataset please cite the following:
-<pre>
-@inproceedings{bai2022argument,
-  title={Argument Similarity Assessment in German for Intelligent Tutoring: Crowdsourced Dataset and First Experiments},
-  author={Bai, Xiaoyu and Stede, Manfred},
-  booktitle={Proceedings of the Thirteenth Language Resources and Evaluation Conference},
-  pages={2177--2187},
-  year={2022}
-}
-</pre>
+TBD
