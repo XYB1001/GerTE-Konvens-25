@@ -1,0 +1,7 @@
+numpy~=2.2.5
+scikit-learn~=1.6.1
+python-dotenv~=1.1.1
+groq~=0.29.0
+nltk~=3.9.1
+scipy~=1.15.2
+transformers~=4.51.3
